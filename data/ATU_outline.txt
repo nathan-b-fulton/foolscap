@@ -1,0 +1,71 @@
+ANIMAL TALES
+  Wild Animals 1-99
+    The Clever Fox (Other Animal) 1-69
+    Other Wild Animals 70-99
+  Wild Animals and Domestic Animals 100-149
+  Wild Animals and Humans 150-199
+  Domestic Animals 200-219
+  Other Animals and Objects 220-299
+TALES OF MAGIC
+  Supernatural Adversaries 300-399
+  Supernatural or Enchanted Wife (Husband) or Other Relative 400-459
+    Wife 400-424
+    Husband 425-449
+    Brother or Sister 450-459
+  Supernatural Tasks 460-499
+  Supernatural Helpers 500-559
+  Magic Objects 560-649
+  Supernatural Power or Knowledge 650-699
+  Other Tales of the Supernatural 700-749
+RELIGIOUS TALES
+  God Rewards and Punishes 750-779
+  The Truth Comes to Light 780-799
+  Heaven 800-809
+  The Devil 810-826
+  Other Religious Tales 827-849
+REALISTIC TALES (NOVELLE)
+  The Man Marries the Princess 850-869
+  The Woman Marries the Prince 870-879
+  Proofs of Fidelity and Innocence 880-899
+  The Obstinate Wife Learns to Obey 900-909
+  Good Precepts 910-919
+  Clever Acts and Words 920-929
+  Tales of Fate 930-949
+  Robbers and Murderers 950-969
+  Other Realistic Tales 970-999
+TALES OF THE STUPID OGRE (GIANT, DEVIL)
+  Labor Contract 1000-1029
+  Partnership between Man and Ogre 1030-1059
+  Contest between Man and Ogre 1060-1114
+  Man Kills (Injures) Ogre 1115-1144
+  Ogre Frightened by Man 1145-1154
+  Man Outwits the Devil 1155-1169
+  Souls Saved from the Devil 1170-1199
+ANECDOTES AND JOKES
+  Stories about a Fool 1200-1349
+  Stories about Married Couples 1350-1439
+    The Foolish Wife and Her Husband 1380-1404
+    The Foolish Husband and His Wife 1405-1429
+    The Foolish Couple 1430-1439
+  Stories about a Woman 1440-1524
+    Looking for a Wife 1450-1474
+    Jokes about Old Maids 1475-1499
+    Other Stories about Women 1500-1524
+  Stories about a Man 1525-1724
+    The Clever Man 1525-1639
+    Lucky Accidents 1640-1674
+    The Stupid Man 1675-1724
+  Jokes about Clergymen and Religious Figures 1725-1849
+    The Clergyman is Tricked 1725-1774
+    Clergyman and Sexton 1775-1799
+    Other Jokes about Religious Figures 1800-1849
+  Anecdotes about Other Groups of People 1850-1874
+  Tall Tales 1875-1999
+FORMULA TALES
+  Cumulative Tales 2000-2100
+    Chains Based on Numbers, Objects, Animals, or Names 2000-2020
+    Chains Involving Death 2021-2024
+    Chains Involving Eating 2025-2028
+    Chains Involving Other Events 2029-2075
+  Catch Tales 2200-2299
+  Other Formula Tales 2300-2399
