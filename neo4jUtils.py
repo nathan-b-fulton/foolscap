@@ -1,7 +1,8 @@
 from neo4j import GraphDatabase, Driver, Result
 from streamlit import secrets
-from json import load
+from json import load, dump
 from log import f_logger
+from uuid import uuid4 as getUUID
 
 
 label_dicts = {
@@ -147,4 +148,113 @@ def creatRelSet(source_label:str, relation: str)->Result:
     logger.success("{} relationships so far.".format(rel_count))
     return missed_targets
 
-print(creatRelSet("atu", "motifs"))
+
+def createATUClass(atuClass, superclass):
+    """ """
+    graph = openGraph()
+    with graph.session(database="neo4j") as session:
+        _, summary, _ = session.run("""
+                        CREATE (n:class)
+                        SET n = $node
+                        WITH n
+                        MATCH (s:class { uuid:$super })
+                        CREATE (n)-[:superclass {relationGloss: "subclass of", inverseGloss:"superclass of"}]->(s)
+                        """, node=atuClass, super=superclass
+                            ).to_eager_result()
+    graph.close()
+    return summary
+
+
+def classifyATUs(atu_dict:dict):
+    """ """
+    classified:int = 0
+    graph = openGraph()
+    for k, v in atu_dict.items():
+        with graph.session(database="neo4j") as session:
+            _, summary, _ = session.run("""
+                            WITH $atus AS atus
+                            UNWIND atus AS atu
+                            MATCH (a:atu { atu:atu }), (c:class { title:$cls })
+                            CREATE (a)-[:class {relationGloss: "member of", inverseGloss:"includes"}]->(c)
+                            """, atus=v, cls=k
+                                ).to_eager_result()
+            classified += summary.counters.relationships_created
+    graph.close()
+    return classified
+
+
+def classifyRetiredATUs():
+    """ """
+    cuuid = str(getUUID())
+    graph = openGraph()
+    with graph.session(database="neo4j") as session:
+        _, summary, _ = session.run("""
+                        CREATE (u:class { title:"Discontinued ATU", uuid: $cuuid } )
+                        WITH u
+                        MATCH (s:class { title:"ATU" })
+                        CREATE (u)-[:superclass {relationGloss: "subclass of", inverseGloss:"superclass of"}]->(s)
+                        WITH u
+                        MATCH (a:atu { description: "Combined with another type as per title." })
+                        CREATE (a)-[:class {relationGloss: "member of", inverseGloss:"includes"}]->(u)
+                        """, cuuid=cuuid).to_eager_result()
+        classified:int = summary.counters.relationships_created
+    graph.close()
+    return classified
+
+
+def getRetiredATUs(graph):
+    """ """
+    with graph.session(database="neo4j") as session:
+        results, _, _ = session.run("""
+                        MATCH (n:class { title:"Discontinued ATU" })<--(a:atu)
+                        RETURN a.atu AS discontinued, a.title AS title
+                        """).to_eager_result()
+    return results
+
+
+def cleanRetiredATUs(atu_results:list):
+    troublemakers:dict = {}
+    links:dict = {}
+    graph = openGraph()
+    for result in atu_results:
+        atu:str = result.get('discontinued')
+        title:str = result.get('title')
+        spl:list[str] = title.split(".")
+        if  spl[1] != "":
+            troublemakers[atu] = title
+        if spl[0].find("See Type") != -1:
+            clean_spl = spl[0].replace("See Type", "")
+            if clean_spl[0:2] == "s ":
+                spl_spl = clean_spl.replace("s", "").split(",")
+                for s in spl_spl:
+                    if s != "":
+                        links[atu] = s.strip(". ")
+            elif atu.find("–") != -1:
+                troublemakers[atu] = title
+            else:
+                links[atu] = clean_spl.strip(". ")
+    file_name:str = "data/disc_atu_troublemakers.json"
+    with open(file_name, 'w', encoding="utf-8") as f:
+        dump(troublemakers, f, indent=1, ensure_ascii=False)
+    graph.close()
+    return links
+
+
+def linkRetiredATUs():
+    """ """
+    graph = openGraph()
+    links = cleanRetiredATUs(getRetiredATUs(graph))
+    with graph.session(database="neo4j") as session:
+        _, summary, _ = session.run("""
+                        WITH $links as links, keys($links) as ks 
+                        UNWIND ks AS k
+                        MATCH (d:atu { atu:k }), (a:atu { atu:links[k] })
+                        CREATE (d)-[:discontinued {relationGloss: "merged into", inverseGloss:"absorbed"}]->(a)
+                        """, links=links
+                            ).to_eager_result()
+        merged:int = summary.counters.relationships_created
+    graph.close()
+    return merged
+
+
+print(linkRetiredATUs())

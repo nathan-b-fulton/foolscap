@@ -1,8 +1,10 @@
 from pypdf import PdfReader, PageObject
-from json import dump
+from json import dump, load
 from re import match, Match
 from datetime import datetime as time
 from alive_progress import alive_bar
+from uuid import uuid4 as getUUID
+from neo4jUtils import createATUClass, classifyATUs
 
 
 rubrics:list[str] = ["Combinations", "Remarks", "Literature/Variants"]
@@ -294,3 +296,116 @@ def sourcesParser()->str:
     with open(file_name, 'w', encoding="utf-8") as f:
         dump(citations, f, indent=1, ensure_ascii=False)
     return file_name
+
+
+def parseATUClass(raw:str, level:int)->dict:
+    """ """
+    atuClass:dict = {'uuid': str(getUUID()), 'subclasses': []}
+    working:str = raw.strip("*")
+    if level > 1:
+        spl:list[str] = working.split()
+        bounds:list = spl[-1].split("-")
+        working = " ".join(spl[:-1])
+        atuClass['lower'] = bounds[0]
+        atuClass['upper'] = bounds[1]
+    atuClass['title'] = working
+    return atuClass
+
+
+def buildATUTree()->dict:
+    """ """
+    atu:dict = {'title': "ATU", 'uuid': str(getUUID()), 'subclasses': [], 'nodeLabel': "atu"}
+    currentL1:dict = {}
+    currentL2:dict = {}
+    with open("data/ATU_outline.txt", 'r', encoding="utf-8") as f:
+        for c in f:
+            level:int = c.count("*")
+            currentClass:dict = parseATUClass(c, level)
+            parent:dict = None
+            match level:
+                case 1:
+                    parent = atu
+                    currentL1 = currentClass
+                case 2:
+                    parent = currentL1
+                    currentL2 = currentClass
+                case 3:
+                    parent = currentL2
+            parent['subclasses'].append(currentClass)
+    return atu
+
+
+def recurseATUTree(tree:dict, superclass:str)->int:
+    """ """
+    atuClass:dict = { k : v for k, v in tree.items() if k != "subclasses"}
+    summary = createATUClass(atuClass, superclass)
+    message = "For {}, created {} and linked {}.".format(atuClass['title'], 
+                                                         summary.counters.nodes_created,
+                                                         summary.counters.relationships_created)
+    print(message)
+    for c in tree['subclasses']:
+        recurseATUTree(c, atuClass['uuid'])
+    return atuClass
+
+
+def parseATUClassLight(raw:str)->dict:
+    """ """
+    atuClass:dict = {}
+    spl:list[str] = raw.strip("*").split()
+    bounds:list = spl[-1].split("-")
+    atuClass['lower'] = bounds[0]
+    atuClass['upper'] = bounds[1]
+    atuClass['title'] = " ".join(spl[:-1])
+    return atuClass
+
+
+def getLeafClasses()->dict:
+    """ """
+    with open("data/ATU_outline.txt", 'r', encoding="utf-8") as f:
+        leaf_classes:list[dict] = []
+        prev_line:str = ""
+        prev_level:int = 0
+        for c in f:
+            level:int = c.count("*")
+            match level:
+                case 3:
+                    leaf_classes.append(parseATUClassLight(c))
+                case _:
+                    if prev_level == 2:
+                        leaf_classes.append(parseATUClassLight(prev_line))
+            prev_line = c
+            prev_level = level
+        leaf_classes.append(parseATUClassLight(prev_line))
+    return leaf_classes
+
+
+def attachATUs2Classes()->dict:
+    """ """
+    leaves = getLeafClasses()
+    atu_int:int = 0
+    atu = ""
+    rels = {}
+    with open('data/atu.json',"r",encoding='utf-8') as f:
+        atus = iter(load(f))
+        for leaf in leaves:
+            u:int = int(leaf['upper'])
+            cls:str = leaf['title']
+            cls_atus:list = []
+            while atu_int <= u:
+                if atu != "":
+                    cls_atus.append(atu)
+                atu_dict = next(atus, None)
+                if atu_dict is None:
+                    atu_int = 2500
+                elif atu_dict["description"] == "Combined with another type as per title.":
+                    atu = "" 
+                else:
+                    atu = atu_dict['atu']
+                    g:Match = match(r"([0-9]+)([A-Z\*\–]*)", atu)
+                    atu_int = int(g.group(1))
+            rels[cls] = cls_atus
+    return rels
+
+
+cls_dict:dict = attachATUs2Classes()
+classifyATUs(cls_dict)
