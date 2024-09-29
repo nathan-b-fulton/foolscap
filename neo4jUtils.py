@@ -202,7 +202,7 @@ def classifyRetiredATUs():
     return classified
 
 
-def getRetiredATUs(graph):
+def getRetiredATUs(graph:Driver):
     """ """
     with graph.session(database="neo4j") as session:
         results, _, _ = session.run("""
@@ -215,7 +215,6 @@ def getRetiredATUs(graph):
 def cleanRetiredATUs(atu_results:list):
     troublemakers:dict = {}
     links:dict = {}
-    graph = openGraph()
     for result in atu_results:
         atu:str = result.get('discontinued')
         title:str = result.get('title')
@@ -236,7 +235,6 @@ def cleanRetiredATUs(atu_results:list):
     file_name:str = "data/disc_atu_troublemakers.json"
     with open(file_name, 'w', encoding="utf-8") as f:
         dump(troublemakers, f, indent=1, ensure_ascii=False)
-    graph.close()
     return links
 
 
@@ -257,4 +255,56 @@ def linkRetiredATUs():
     return merged
 
 
-print(linkRetiredATUs())
+def getMotifs(graph:Driver):
+    """ """
+    with graph.session(database="neo4j") as session:
+        results, _, _ = session.run("""
+                        MATCH (m:motif)
+                        RETURN m.motif AS motif
+                        """).to_eager_result()
+    return results
+
+
+def getMotifLinks(motif_results:list):
+    links:dict = {}
+    current_tl:str = ""
+    for result in motif_results:
+        motif:str = result.get('motif')
+        spl:list[str] = motif.split(".")
+        if motif[1] == "0" and len(spl) == 1:
+            current_tl = motif[0]
+            links[current_tl] = {}
+        else:
+            parent:str = ""
+            if len(spl) == 1:
+                parent = spl[0][0] + "0"
+            else:
+                end = -2 if spl[-2] == "0" else -1
+                parent = ".".join(spl[:end])
+            links[current_tl][motif] = parent
+    return links
+
+
+def linkMotifs():
+    """ """
+    graph = openGraph()
+    all_links:dict = getMotifLinks(getMotifs(graph))
+    print(all_links.keys())
+    all_linked:int = 0
+    for links in all_links.values():
+        with graph.session(database="neo4j") as session:
+            _, summary, _ = session.run("""
+                            WITH $links as links, keys($links) as ks 
+                            UNWIND ks AS k
+                            MATCH (v:motif { motif:k }), (g:motif { motif:links[k] })
+                            CREATE (v)-[:parent {relationGloss: "variant of", inverseGloss:"has variant"}]->(g)
+                            """, links=links
+                                ).to_eager_result()
+            linked:int = summary.counters.relationships_created
+            print(linked)
+            all_linked += linked
+    graph.close()
+    return all_linked
+
+
+print(linkMotifs())
