@@ -289,7 +289,6 @@ def linkMotifs():
     """ """
     graph = openGraph()
     all_links:dict = getMotifLinks(getMotifs(graph))
-    print(all_links.keys())
     all_linked:int = 0
     for links in all_links.values():
         with graph.session(database="neo4j") as session:
@@ -301,10 +300,27 @@ def linkMotifs():
                             """, links=links
                                 ).to_eager_result()
             linked:int = summary.counters.relationships_created
-            print(linked)
             all_linked += linked
     graph.close()
     return all_linked
 
 
-print(linkMotifs())
+def classifyTraditions(class_title, traditions)->int:
+    """ """
+    cuuid = str(getUUID())
+    graph = openGraph()
+    with graph.session(database="neo4j") as session:
+        _, summary, _ = session.run("""
+                        CREATE (c:class { title:$class_title, uuid: $cuuid } )
+                        WITH c
+                        MATCH (s:class {title:"Tradition", uuid:"58e1b5dc-4010-431e-bcf7-d84b62e69d0c"})
+                        CREATE (c)-[:superclass {relationGloss: "subclass of", inverseGloss:"superclass of"}]->(s)
+                        WITH c, $traditions as ts
+                        UNWIND ts AS trad
+                        CREATE (t:tradition {title:trad})
+                        CREATE (t)-[:class {relationGloss: "member of", inverseGloss:"includes"}]->(c)
+                        """, cuuid=cuuid, class_title=class_title, traditions=traditions
+                        ).to_eager_result()
+        classified:int = summary.counters.relationships_created
+    graph.close()
+    return classified

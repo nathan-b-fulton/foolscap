@@ -4,7 +4,7 @@ from re import match, Match
 from datetime import datetime as time
 from alive_progress import alive_bar
 from uuid import uuid4 as getUUID
-from neo4jUtils import createATUClass, classifyATUs
+from neo4jUtils import createATUClass, classifyTraditions
 
 
 rubrics:list[str] = ["Combinations", "Remarks", "Literature/Variants"]
@@ -407,5 +407,54 @@ def attachATUs2Classes()->dict:
     return rels
 
 
-cls_dict:dict = attachATUs2Classes()
-classifyATUs(cls_dict)
+def createTraditions():
+    """ """
+    total = 0
+    with open('data/traditions.json',"r",encoding='utf-8') as f:
+        data = iter(load(f))
+        for d in data:
+            continent = d['continent']
+            trads = d['traditions']
+            suffix = "an" if continent == "Europe" else "n"
+            title = continent + suffix + " Tradition"
+            count = classifyTraditions(title, trads)
+            total += count
+    return total
+
+
+def cleanRefs(laundry:str)->list:
+    """ """
+    clean_refs = []
+    refs:list[str] = laundry.split(",")
+    for r in refs:
+        c:dict = {'raw': laundry}
+        r = r.strip()
+        m = match(r"[A-Z]{2,}|([\w\D/-]+ )([(]forthcoming[)]|\d{4}f*.{0,1})", r)
+        if m:
+            clean_refs.append(m.group(0).strip())
+        else:
+            print("Could not match {}".format(r))
+    return {'raw': laundry, 'citations': clean_refs}
+
+
+def attachATUs2Citations()->dict:
+    """ """
+    with open('data/atu.json',"r",encoding='utf-8') as f:
+        atus = iter(load(f))
+        a = next(atus)
+        atu:str = a['atu']
+        ref_trads:dict = a['literature']
+        atu_refs:dict[list] = {}
+        for t, r in ref_trads.items():
+            trads:list[str] = t.split(",")
+            for tr in trads:
+                if tr == "cf":
+                    cf_refs:list[dict] = []
+                    for c in r:
+                        cf_refs.append(cleanRefs(c))
+                    atu_refs['cf'] = cf_refs 
+                else:
+                    atu_refs[tr] = cleanRefs(r)
+    return atu, atu_refs
+
+print(attachATUs2Citations())
