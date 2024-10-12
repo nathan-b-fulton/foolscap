@@ -4,7 +4,8 @@ from re import match, Match
 from datetime import datetime as time
 from alive_progress import alive_bar
 from uuid import uuid4 as getUUID
-from neo4jUtils import createATUClass, classifyTraditions
+from neo4jUtils import createATUClass, classifyTraditions, createCitations, fixCitations
+from log import f_logger
 
 
 rubrics:list[str] = ["Combinations", "Remarks", "Literature/Variants"]
@@ -422,39 +423,87 @@ def createTraditions():
     return total
 
 
-def cleanRefs(laundry:str)->list:
+specs:list[str] = ['AaTh', 'Afghanistan Journal', 'Am Urquell', 'Angeljček', 'Anthropophyteia', 
+                   'Archiv für Litteraturgeschichte', 'Archiv für slavische Philologie',  
+                   'Béaloideas',  'Bll. f. Pomm. Vk.', 'Børnenes Blad', 'Celske slovenske novine', 
+                   'Eigen Volk', 'Fabula', 'Germania', 'Gesta Romanorum', 'Groningen', 
+                   'Jacques de Vitry', 'Jacques de Vitry/Frenken', 'Johannes Gobi Junior', 'Kres', 
+                   'Kryptádia', 'Laográphia', 'Ljubljanski zvon', 'Mensa philosophica', 'Mir', 'Mot.', 
+                   'Naš dom', 'Neerlands Volksleven', 'Notes and Queries', 'Philippe le Picard', 
+                   'Philogelos', 'Poggio', 'Roman de Renart', 'Senones, M.', 'Skattegraveren', 
+                   'Slovenski gospodar', 'Soča', 'Thrakika', 'Trinkov koledar', 'Vedež', 
+                   'Verfasserlexikon', 'Volkskunde', 'Volkskundig Bulletin', 'Vrtec', 'West Virginia Folklore', 'ZfVk.']
+
+
+def cleanRefs(laundry:str, l)->list:
     """ """
-    clean_refs = []
+    clean_refs:list[dict] = []
     refs:list[str] = laundry.split(",")
     for r in refs:
-        c:dict = {'raw': laundry}
         r = r.strip()
-        m = match(r"[A-Z]{2,}|([\w\D/-]+ )([(]forthcoming[)]|\d{4}f*.{0,1})", r)
-        if m:
-            clean_refs.append(m.group(0).strip())
+        citation:str = ""
+        for spec in specs:
+            if spec in r:
+                citation = spec
+        if citation == "":
+            m = match(r"[A-Z]{2,}|([\w\D/-]+ \d{0,2}[ (]*)([(]forthcoming[)]|\d{4}f*.{0,1})", r)
+            if m:
+                citation = m.group(0).strip().replace("cf. ", "").replace("Cf. ", "")
+        if citation == "":
+            l.info("Cleaning {} from reference".format(r))
         else:
-            print("Could not match {}".format(r))
-    return {'raw': laundry, 'citations': clean_refs}
+            clean_refs.append({'raw': laundry, 'citation': citation})
+    return clean_refs
 
 
 def attachATUs2Citations()->dict:
     """ """
+    logger = f_logger()
     with open('data/atu.json',"r",encoding='utf-8') as f:
         atus = iter(load(f))
-        a = next(atus)
-        atu:str = a['atu']
-        ref_trads:dict = a['literature']
-        atu_refs:dict[list] = {}
-        for t, r in ref_trads.items():
-            trads:list[str] = t.split(",")
-            for tr in trads:
-                if tr == "cf":
-                    cf_refs:list[dict] = []
-                    for c in r:
-                        cf_refs.append(cleanRefs(c))
-                    atu_refs['cf'] = cf_refs 
+        for i in range(1,6): # atus:
+            a:dict[str] = next(atus)
+            ref_trads:dict = a.get('literature')
+            if ref_trads is not None:
+                atu_refs:dict[list] = {}
+                count:int = 0
+                for t, r in ref_trads.items():
+                    trads:list[str] = t.split(",")
+                    for tr in trads:
+                        if tr == "cf":
+                            cf_refs:list[dict] = []
+                            for c in r:
+                                cf_refs += cleanRefs(c, logger)
+                            atu_refs['cf'] = cf_refs
+                            count += len(cf_refs)
+                        else:
+                            atu_refs[tr] = cleanRefs(r, logger)
+                            count += len(atu_refs[tr])
+                atu = a['atu']
+                citations = createCitations(atu, atu_refs)
+                if count == citations:
+                    logger.success("The numbers line up for ATU {}, nice!".format(atu))
                 else:
-                    atu_refs[tr] = cleanRefs(r)
-    return atu, atu_refs
+                    logger.warning("{} citations expected, {} created for ATU {}. Refs:{}".format(count, citations, atu, atu_refs))
+    return logger.success("Completed all ATUS.")
+
+def auditCitations()->list:
+    """ """
+    bad:list[str] = []
+    with open('data/citations.json',"r",encoding='utf-8') as f:
+        refs = iter(load(f))
+        for o in refs:
+            r = o['ref']
+            m = match(r"[A-Z]{2,}|([\w\D/-]+ \d{0,2}[ (]*)([(]forthcoming[)]|\d{4}f*.{0,1})", r)
+            if not m:
+                bad.append(r)
+    return bad
+
+
+def repairCitations():
+    """ """
+    broken:dict = {'Anderson1963': 'Anderson 1963', 'Bäckström1845': 'Bäckström 1845', 'Barag1995': 'Barag 1995', 'BinGorion1990': 'Bin Gorion 1990', 'Bolte1892': 'Bolte 1892', 'Brockpähler1980': 'Brockpähler 1980', 'Christiansen1949': 'Christiansen 1949', 'Fielhauer1968': 'Fielhauer 1968', 'Galley1977': 'Galley 1977', 'Gašparíková1981a': 'Gašparíková 1981a', 'Gašparíková1991f.': 'Gašparíková 1991f.', 'Ginsburg1971': 'Ginsburg 1971', 'Hertel1953': 'Hertel 1953', 'Köhler/Bolte1898ff.': 'Köhler/Bolte 1898ff.', 'Kretzenbacher1959': 'Kretzenbacher 1959', 'Legros1964': 'Legros 1964', 'Lescot1940f.': 'Lescot 1940f.', 'Levinsen/Bødker1958': 'Levinsen/Bødker 1958', 'Loewe1918': 'Loewe 1918', 'Lorentz1924': 'Lorentz 1924', 'Macdonald1910': 'Macdonald 1910', 'Maierbrugger1978': 'Maierbrugger 1978', 'Mamiya1999': 'Mamiya 1999', 'Meraklis1963f.': 'Meraklis 1963f.', 'Meyer/Sinninghe1973': 'Meyer/Sinninghe 1973', 'Meyer/Sinninghe1976': 'Meyer/Sinninghe 1976', 'Reinartz1970': 'Reinartz 1970', 'Roberts1966': 'Roberts 1966', 'Rubow1984': 'Rubow 1984', 'Sasaki/Morioka1984': 'Sasaki/Morioka 1984', 'Schenda/Tomkowiak1993': 'Schenda/Tomkowiak 1993', 'Schmid1955': 'Schmid 1955', 'Schwarzbaum1982': 'Schwarzbaum 1982', 'Schwickert1931': 'Schwickert 1931', 'Neumann1968c': 'Neumann 1968c', 'Ortmann/Ragotzky1988': 'Ortmann/Ragotzky 1988', 'Spies1967': 'Spies 1967', 'Stroescu1969': 'Stroescu 1969', 'Vėlius1990': 'Vėlius 1990', 'Weinreich1921': 'Weinreich 1921', 'Wienker-Piepho1992': 'Wienker-Piepho 1992', 'Wossidlo1897ff.': 'Wossidlo 1897ff.', 'Zipes1982': 'Zipes 1982'}
+    fixed = fixCitations(broken)
+    return fixed
 
 print(attachATUs2Citations())

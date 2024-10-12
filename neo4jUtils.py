@@ -324,3 +324,56 @@ def classifyTraditions(class_title, traditions)->int:
         classified:int = summary.counters.relationships_created
     graph.close()
     return classified
+
+
+def createCitations(atu:str, atu_refs:dict):
+    """ """
+    graph = openGraph()
+    with graph.session(database="neo4j") as session:
+        _, summary, _ = session.run("""
+                        MATCH (a:atu { atu:$atu } )
+                        WITH a, $refs as refs
+                        UNWIND keys(refs) AS trad
+                        OPTIONAL MATCH (t:tradition { title: trad })
+                        WITH a, t, refs[trad] AS refs
+                        UNWIND refs as ref
+                        MATCH (r:ref {ref: ref.citation} )
+                        WITH a, t, r, ref
+                        CREATE (a)-[:literature {relationGloss: "has relevant literature", inverseGloss:"concerns or features"}]->
+                                    (c:citation {from: ref.raw})-[:reference {relationGloss: "full citation", inverseGloss:"cited as"}]->(r)
+                        WITH c, t
+                        FOREACH (i in CASE WHEN t IS NOT NULL THEN [1] ELSE [] END |
+                                    CREATE (c)-[:tradition {relationGloss: "documents or analyzes", inverseGloss:"is featured in"}]->(t))
+                        """, atu=atu, refs=atu_refs
+                        ).to_eager_result()
+    graph.close()
+    return summary.counters.nodes_created
+
+
+def removeCitations():
+    """ """
+    graph = openGraph()
+    with graph.session(database="neo4j") as session:
+        _, summary, _ = session.run("""
+                                    MATCH (ts:tradition)
+                                    UNWIND ts as t
+                                    MATCH (c:citation)-->(t) DETACH DELETE c
+                                    MATCH (uc:citation) DETACH DELETE uc
+                                    """).to_eager_result()
+    graph.close()
+    return summary.counters.nodes_deleted
+
+
+def fixCitations(fixes):
+    """ """
+    graph = openGraph()
+    with graph.session(database="neo4j") as session:
+        _, summary, _ = session.run("""
+                                    WITH $fixes as fixes
+                                    UNWIND keys(fixes) AS fix
+                                    MATCH (r:ref { ref:fix })
+                                    SET r.ref = fixes[fix]
+                                    """, fixes=fixes).to_eager_result()
+    graph.close()
+    return summary.counters.properties_set
+
