@@ -425,14 +425,15 @@ def createTraditions():
 
 specs:list[str] = ['AaTh', 'Afghanistan Journal', 'Am Urquell', 'Angeljček', 'Anthropophyteia', 
                    'Archiv für Litteraturgeschichte', 'Archiv für slavische Philologie',  
-                   'Béaloideas',  'Bll. f. Pomm. Vk.', 'Børnenes Blad', 'Celske slovenske novine', 
-                   'Eigen Volk', 'Fabula', 'Germania', 'Gesta Romanorum', 'Groningen', 
-                   'Jacques de Vitry', 'Jacques de Vitry/Frenken', 'Johannes Gobi Junior', 'Kres', 
-                   'Kryptádia', 'Laográphia', 'Ljubljanski zvon', 'Mensa philosophica', 'Mir', 'Mot.', 
-                   'Naš dom', 'Neerlands Volksleven', 'Notes and Queries', 'Philippe le Picard', 
-                   'Philogelos', 'Poggio', 'Roman de Renart', 'Senones, M.', 'Skattegraveren', 
-                   'Slovenski gospodar', 'Soča', 'Thrakika', 'Trinkov koledar', 'Vedež', 
-                   'Verfasserlexikon', 'Volkskunde', 'Volkskundig Bulletin', 'Vrtec', 'West Virginia Folklore', 'ZfVk.']
+                   'Béaloideas',  'Bechstein/Uther 1997 I', 'Bechstein/Uther 1997 II', 
+                   'Bll. f. Pomm. Vk.', 'Børnenes Blad', 'Celske slovenske novine', 'EM archive', 
+                   'Eigen Volk', 'Fabula', 'Germania', 'Gesta Romanorum', 'Groningen', 'Jacques de Vitry', 
+                   'Jacques de Vitry/Frenken', 'Johannes Gobi Junior', 'Kres', 'Kryptádia', 
+                   'Laográphia', 'Ljubljanski zvon', 'Mensa philosophica', 'Mir', 'Mot.', 'Naš dom', 
+                   'Neerlands Volksleven', 'Notes and Queries', 'Philippe le Picard', 'Philogelos', 
+                   'Poggio', 'Roman de Renart', 'Senones, M.', 'Skattegraveren', 'Slovenski gospodar', 
+                   'Soča', 'Thrakika', 'Trinkov koledar', 'Vedež', 'Verfasserlexikon', 'Volkskunde', 
+                   'Volkskundig Bulletin', 'Vrtec', 'West Virginia Folklore', 'ZfVk.']
 
 
 def cleanRefs(laundry:str, l)->list:
@@ -440,7 +441,7 @@ def cleanRefs(laundry:str, l)->list:
     clean_refs:list[dict] = []
     refs:list[str] = laundry.split(",")
     for r in refs:
-        r = r.strip()
+        r = r.strip().replace("cf. ", "").replace("Cf. ", "")
         citation:str = ""
         for spec in specs:
             if spec in r:
@@ -448,7 +449,11 @@ def cleanRefs(laundry:str, l)->list:
         if citation == "":
             m = match(r"[A-Z]{2,}|([\w\D/-]+ \d{0,2}[ (]*)([(]forthcoming[)]|\d{4}f*.{0,1})", r)
             if m:
-                citation = m.group(0).strip().replace("cf. ", "").replace("Cf. ", "")
+                citation = m.group(0).strip()
+            if "f." in citation:
+                citation = citation.split("f.")[0] + "f."
+            else:
+                citation = citation.strip(".")
         if citation == "":
             l.info("Cleaning {} from reference".format(r))
         else:
@@ -461,30 +466,37 @@ def attachATUs2Citations()->dict:
     logger = f_logger()
     with open('data/atu.json',"r",encoding='utf-8') as f:
         atus = iter(load(f))
-        for i in range(1,6): # atus:
+        for i in range(1,1000): # atus:
             a:dict[str] = next(atus)
             ref_trads:dict = a.get('literature')
             if ref_trads is not None:
                 atu_refs:dict[list] = {}
-                count:int = 0
                 for t, r in ref_trads.items():
                     trads:list[str] = t.split(",")
                     for tr in trads:
-                        if tr == "cf":
+                        trad = tr.strip()
+                        if trad == "cf":
                             cf_refs:list[dict] = []
                             for c in r:
                                 cf_refs += cleanRefs(c, logger)
                             atu_refs['cf'] = cf_refs
-                            count += len(cf_refs)
                         else:
-                            atu_refs[tr] = cleanRefs(r, logger)
-                            count += len(atu_refs[tr])
+                            atu_refs[trad] = cleanRefs(r, logger)
                 atu = a['atu']
-                citations = createCitations(atu, atu_refs)
-                if count == citations:
-                    logger.success("The numbers line up for ATU {}, nice!".format(atu))
-                else:
-                    logger.warning("{} citations expected, {} created for ATU {}. Refs:{}".format(count, citations, atu, atu_refs))
+                citations:dict[list] = createCitations(atu, atu_refs)
+                for k, v in atu_refs.items():
+                    base = set([i['citation'] for i in v])
+                    trad = citations.get(k)
+                    if trad is None:
+                        logger.warning("For ATU {}, there appear to be no citations for {}. Expected: {}".format(atu, k, base))
+                    else:
+                        comp = set(trad)
+                        if not base ^ comp:
+                            logger.info("Exactly correct entries for {} in ATU {}, nice!".format(k, atu))
+                        elif base - comp:
+                            logger.warning("Expected citation(s) {} to be created for ATU {}, but they are not returned.".format(base - comp, atu))
+                        elif comp - base:
+                            logger.warning("Unexpected citation(s) {} were returned for {} in ATU {}.".format(comp - base, k, atu))
     return logger.success("Completed all ATUS.")
 
 def auditCitations()->list:

@@ -330,7 +330,7 @@ def createCitations(atu:str, atu_refs:dict):
     """ """
     graph = openGraph()
     with graph.session(database="neo4j") as session:
-        _, summary, _ = session.run("""
+        hits, _, _ = session.run("""
                         MATCH (a:atu { atu:$atu } )
                         WITH a, $refs as refs
                         UNWIND keys(refs) AS trad
@@ -341,13 +341,23 @@ def createCitations(atu:str, atu_refs:dict):
                         WITH a, t, r, ref
                         CREATE (a)-[:literature {relationGloss: "has relevant literature", inverseGloss:"concerns or features"}]->
                                     (c:citation {from: ref.raw})-[:reference {relationGloss: "full citation", inverseGloss:"cited as"}]->(r)
-                        WITH c, t
+                        WITH c, r, t
                         FOREACH (i in CASE WHEN t IS NOT NULL THEN [1] ELSE [] END |
                                     CREATE (c)-[:tradition {relationGloss: "documents or analyzes", inverseGloss:"is featured in"}]->(t))
+                        RETURN r.ref AS ref, t.title AS trad
                         """, atu=atu, refs=atu_refs
                         ).to_eager_result()
     graph.close()
-    return summary.counters.nodes_created
+    parsed:dict = {}
+    for hit in hits:
+        ref = hit.get('ref')
+        trad = hit.get('trad')
+        k = trad if trad is not None else 'cf'
+        if parsed.get(k) is None:
+            parsed[k] = [ref]
+        else:
+            parsed[k].append(ref)
+    return parsed
 
 
 def removeCitations():
