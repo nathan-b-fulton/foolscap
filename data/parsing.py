@@ -425,7 +425,7 @@ def createTraditions():
 
 specs:list[str] = ['AaTh', 'Afghanistan Journal', 'Am Urquell', 'Angeljček', 'Anthropophyteia', 
                    'Archiv für Litteraturgeschichte', 'Archiv für slavische Philologie',  
-                   'Béaloideas',  'Bechstein/Uther 1997 I', 'Bechstein/Uther 1997 II', 
+                   'Béaloideas',  'Bechstein/Uther 1997 I', 'Bechstein/Uther 1997 II', 'Børnenes Blad',
                    'Bll. f. Pomm. Vk.', 'Børnenes Blad', 'Celske slovenske novine', 'EM archive', 
                    'Eigen Volk', 'Fabula', 'Germania', 'Gesta Romanorum', 'Groningen', 'Jacques de Vitry', 
                    'Jacques de Vitry/Frenken', 'Johannes Gobi Junior', 'Kres', 'Kryptádia', 
@@ -441,7 +441,7 @@ def cleanRefs(laundry:str, l)->list:
     clean_refs:list[dict] = []
     refs:list[str] = laundry.split(",")
     for r in refs:
-        r = r.strip().replace("cf. ", "").replace("Cf. ", "")
+        r = r.strip().replace("cf. ", "").replace("Cf. ", "").replace("e.g. ", "")
         citation:str = ""
         for spec in specs:
             if spec in r:
@@ -466,7 +466,7 @@ def attachATUs2Citations()->dict:
     logger = f_logger()
     with open('data/atu.json',"r",encoding='utf-8') as f:
         atus = iter(load(f))
-        for i in range(1,1000): # atus:
+        for i in range(1000): # atus:
             a:dict[str] = next(atus)
             ref_trads:dict = a.get('literature')
             if ref_trads is not None:
