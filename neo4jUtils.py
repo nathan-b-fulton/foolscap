@@ -340,7 +340,7 @@ def createCitations(atu:str, atu_refs:dict):
                         MATCH (r:ref {ref: ref.citation} )
                         WITH a, t, r, ref
                         CREATE (a)-[:literature {relationGloss: "has relevant literature", inverseGloss:"concerns or features"}]->
-                                    (c:citation {from: ref.raw})-[:reference {relationGloss: "full citation", inverseGloss:"cited as"}]->(r)
+                                    (c:citation:EXP {from: ref.raw})-[:reference {relationGloss: "full citation", inverseGloss:"cited as"}]->(r)
                         WITH c, r, t
                         FOREACH (i in CASE WHEN t IS NOT NULL THEN [1] ELSE [] END |
                                     CREATE (c)-[:tradition {relationGloss: "documents or analyzes", inverseGloss:"is featured in"}]->(t))

@@ -424,14 +424,14 @@ def createTraditions():
 
 
 specs:list[str] = ['AaTh', 'Afghanistan Journal', 'Am Urquell', 'Angeljček', 'Anthropophyteia', 
-                   'Archiv für Litteraturgeschichte', 'Archiv für slavische Philologie',  
-                   'Béaloideas',  'Bechstein/Uther 1997 I', 'Bechstein/Uther 1997 II', 'Børnenes Blad',
-                   'Bll. f. Pomm. Vk.', 'Børnenes Blad', 'Celske slovenske novine', 'EM archive', 
-                   'Eigen Volk', 'Fabula', 'Germania', 'Gesta Romanorum', 'Groningen', 'Jacques de Vitry', 
-                   'Jacques de Vitry/Frenken', 'Johannes Gobi Junior', 'Kres', 'Kryptádia', 
-                   'Laográphia', 'Ljubljanski zvon', 'Mensa philosophica', 'Mir', 'Mot.', 'Naš dom', 
+                   'Archiv für Litteraturgeschichte', 'Archiv für slavische Philologie', 
+                   'Béaloideas',  'Bechstein/Uther 1997 I', 'Bechstein/Uther 1997 II', 'Bolte 1920–22', 
+                   'Børnenes Blad', 'Bll. f. Pomm. Vk.', 'Børnenes Blad', 'Celske slovenske novine', 'DVldr', 
+                   'EM archive', 'Eigen Volk', 'Fabula', 'Germania', 'Gesta Romanorum', 'Groningen', 
+                   'Jacques de Vitry', 'Jacques de Vitry/Frenken', 'Johannes Gobi Junior', 'Kres', 'Kryptádia', 
+                   'Laográphia', 'Ljubljanski zvon', 'Mélusine', 'Mensa philosophica', 'Mir', 'Mot.', 'Naš dom', 
                    'Neerlands Volksleven', 'Notes and Queries', 'Philippe le Picard', 'Philogelos', 
-                   'Poggio', 'Roman de Renart', 'Senones, M.', 'Skattegraveren', 'Slovenski gospodar', 
+                   'Poggio', 'Roman de Renart', 'SAVk.', 'Senones, M.', 'Skattegraveren', 'Slovenski gospodar', 
                    'Soča', 'Thrakika', 'Trinkov koledar', 'Vedež', 'Verfasserlexikon', 'Volkskunde', 
                    'Volkskundig Bulletin', 'Vrtec', 'West Virginia Folklore', 'ZfVk.']
 
@@ -466,8 +466,10 @@ def attachATUs2Citations()->dict:
     logger = f_logger()
     with open('data/atu.json',"r",encoding='utf-8') as f:
         atus = iter(load(f))
-        for i in range(1000): # atus:
+        for i in range(2000): # atus:
             a:dict[str] = next(atus)
+            if i < 1000:
+                continue
             ref_trads:dict = a.get('literature')
             if ref_trads is not None:
                 atu_refs:dict[list] = {}
@@ -494,7 +496,7 @@ def attachATUs2Citations()->dict:
                         if not base ^ comp:
                             logger.info("Exactly correct entries for {} in ATU {}, nice!".format(k, atu))
                         elif base - comp:
-                            logger.warning("Expected citation(s) {} to be created for ATU {}, but they are not returned.".format(base - comp, atu))
+                            logger.warning("Expected citation(s) {} to be created for ATU {} in {}, but they are not returned.".format(base - comp, atu, k))
                         elif comp - base:
                             logger.warning("Unexpected citation(s) {} were returned for {} in ATU {}.".format(comp - base, k, atu))
     return logger.success("Completed all ATUS.")
