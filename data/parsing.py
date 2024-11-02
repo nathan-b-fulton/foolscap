@@ -466,9 +466,11 @@ def attachATUs2Citations()->dict:
     logger = f_logger()
     with open('data/atu.json',"r",encoding='utf-8') as f:
         atus = iter(load(f))
-        for i in range(2000): # atus:
-            a:dict[str] = next(atus)
-            if i < 1000:
+        i:int = -1
+        for a in atus:
+            # a:dict[str] = next(atus)
+            i += 1
+            if i < 2000:
                 continue
             ref_trads:dict = a.get('literature')
             if ref_trads is not None:
