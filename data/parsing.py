@@ -522,4 +522,53 @@ def repairCitations():
     fixed = fixCitations(broken)
     return fixed
 
-print(attachATUs2Citations())
+
+def tidySubjectColLine(l:str):
+    """ """
+    spl = l.split()
+    slimmed = " ".join([s.strip() for s in spl])
+    return slimmed + "\n"
+
+
+
+def parseSubjectLine(l:str):
+    """ """
+    c1:str = ""
+    c2:str = ""
+    if l[76] == ' ' and l[77] != ' ':
+        c1 = l[:76]
+        c2 = l[76:]
+    elif '\t' in l:
+        c1 = ""
+        c2 = l.strip("\t")
+    else:
+        spl = l.split("            ")
+        if len(spl) == 2:
+            c1 = spl[0]
+            c2 = spl[1]
+        else:
+            for i in range(len(l) - 1):
+                if i > 75 and l[i] != ' ' and l[i + 1] == ' ':
+                    c1 = l[:i+1]
+                    c2 = l[i+1:]
+                    break
+    return tidySubjectColLine(c1), tidySubjectColLine(c2)
+    
+
+def subjectsSample()->list[str]:
+    """Strip text out of a page with some minimal cleaning and structuring."""
+    reader = PdfReader('data/ATU3.pdf')
+    pages = reader.pages
+    page:PageObject = pages[136]
+    col1:str = ""
+    col2:str = ""
+    raw:str = page.extract_text(extraction_mode="layout")
+    tl:list[str] = raw.split("\n")[3:]
+    for l in tl:
+        c1, c2 = parseSubjectLine(l)
+        col1 = col1 + c1
+        col2 = col2 + c2
+    txt:str = col1 + col2
+    return txt
+
+print(subjectsSample())
