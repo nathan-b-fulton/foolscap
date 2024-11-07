@@ -1,11 +1,13 @@
 from pypdf import PdfReader, PageObject
 from json import dump, load
-from re import match, Match
+from csv import reader, writer
+from re import match, findall, Match
 from datetime import datetime as time
 from alive_progress import alive_bar
 from uuid import uuid4 as getUUID
 from neo4jUtils import createATUClass, classifyTraditions, createCitations, fixCitations
 from log import f_logger
+from supporting import widths
 
 
 rubrics:list[str] = ["Combinations", "Remarks", "Literature/Variants"]
@@ -523,52 +525,160 @@ def repairCitations():
     return fixed
 
 
+def assignColWidth(p:int)->int:
+    """ """
+    width = widths.get(p)
+    if width is None:
+        width = 68
+#        width = 77 if p%2 == 0 else 70
+    return width
+
 def tidySubjectColLine(l:str):
     """ """
     spl = l.split()
-    slimmed = " ".join([s.strip() for s in spl])
-    return slimmed + "\n"
+    slimmed = " ".join([s.strip() for s in spl]).strip()
+    return slimmed
 
 
-
-def parseSubjectLine(l:str):
+def parseSubjectLine(l:str, width, p):
     """ """
-    c1:str = ""
-    c2:str = ""
-    if l[76] == ' ' and l[77] != ' ':
-        c1 = l[:76]
-        c2 = l[76:]
-    elif '\t' in l:
-        c1 = ""
-        c2 = l.strip("\t")
-    else:
-        spl = l.split("            ")
-        if len(spl) == 2:
-            c1 = spl[0]
-            c2 = spl[1]
+    cols:list[str] = []
+    if '\t' in l:
+        # print("Tabbed line: {}".format(l))
+        cols = ["", tidySubjectColLine(l.strip("\t"))]
+    elif len(l) > width:
+        if l[width - 1] == ' ' and l[width] != ' ':
+            # print("  Tidy line: {}".format(l))
+            cols = [tidySubjectColLine(l[:width]), tidySubjectColLine(l[width:])]
         else:
+            # print(l)
             for i in range(len(l) - 1):
-                if i > 75 and l[i] != ' ' and l[i + 1] == ' ':
-                    c1 = l[:i+1]
-                    c2 = l[i+1:]
+                if i >= width and l[i] != ' ' and l[i - 1] == ' ':
+                    cols = ["REVIEW {}:{}".format(p, i), tidySubjectColLine(l[:i]), tidySubjectColLine(l[i:])]
                     break
-    return tidySubjectColLine(c1), tidySubjectColLine(c2)
-    
+    # dl1 = c1.find(".")
+    # if len(c1) - 1 > dl1 > -1 and c1[dl1 + 1] != ' ':      
+    # if c2.find('.') == 0:
+    return cols
 
-def subjectsSample()->list[str]:
-    """Strip text out of a page with some minimal cleaning and structuring."""
-    reader = PdfReader('data/ATU3.pdf')
-    pages = reader.pages
-    page:PageObject = pages[136]
+
+def cleanSubject(dirty:str)->str:
+    """ """
+    return ' '.join(dirty.strip().replace(" - ", "").replace("- ", "").split())
+
+
+def parseEntries(key:str, raw:list[str]):
+    """ """
+    entries:list[dict] = []
+    sub_key:str = key.lower()
+    working_sub:str = sub_key
+    pending_sub:str = ""
+    sub_atus:list[str] = []
+    sub_var = " {}. ".format(sub_key[0])
+    for r in raw:
+        atus = findall(r"[0-9]{1,4}[A-Z\*]*", r)
+        match len(atus):
+            case 0:
+                pending_sub = pending_sub + ' ' + r
+            case 1:
+                atu = atus[0]
+                remainder = r.strip().replace(atu, '')
+                if remainder == '':
+                    sub_atus.append(atu)
+                else:
+                    if sub_atus:
+                        entries.append({cleanSubject(working_sub): sub_atus})
+                    sub_atus = atus
+                    working_sub = pending_sub + remainder
+                    if working_sub.find(sub_var) == -1:
+                        working_sub = sub_key + ' ' + remainder
+                    else:
+                        working_sub = remainder.replace(sub_var, " {} ".format(sub_key))
+            case 2:
+                sub_atus.append(atus[0])
+                atu = atus[1]
+                remainder = r.strip().replace(atu, '').replace(atus[0], '')
+                if remainder == '':
+                    sub_atus.append(atu)
+                else:
+                    if sub_atus:
+                        entries.append({cleanSubject(working_sub): sub_atus})
+                    sub_atus = [atu]
+                    working_sub = pending_sub + remainder
+                    if working_sub.find(sub_var) == -1:
+                        working_sub = sub_key + ' ' + remainder
+                    else:
+                        working_sub = remainder.replace(sub_var, " {} ".format(sub_key))
+    if sub_atus:
+        entries.append({cleanSubject(working_sub): sub_atus})
+    return entries
+                
+
+def parseSubject(sub:str):
+    """ """
+    val:dict = {}
+    L1:list[str] = sub.split(". –")
+    L2_A = L1[0].replace('\n', ' ').split(',')
+    vanguard = L2_A[0].split()
+    key:str = vanguard[0].strip('.')
+    L2_B = [' '.join(vanguard[1:])] + L2_A[1:]
+    for i in L1[1:]:
+        L2_C = i.replace('\n', ' ').split(',')
+        if L2_C[0][1:9] == "See also":
+            cfs = [L2_C[0][10:]] + L2_C[1:]
+            val['cfs'] = [cf.replace("and", '').strip() for cf in cfs]
+        else:
+            L2_B.extend(L2_C)
+    val['entries'] = parseEntries(key, L2_B)
+    return key, val
+
+
+def parseSubjects2tsv():
+    """ """
+    pdf_reader = PdfReader('data/ATU3.pdf')
+    with open('data/subjects.tsv', 'w', encoding="utf-8") as tsvfile:
+        subj_writer = writer(tsvfile, delimiter='\t')
+        for p in range(214, 239): # 136 288
+            text_page = p - 2
+            page:PageObject = pdf_reader.pages[p]
+            raw:str = page.extract_text(extraction_mode="layout")
+            tl:list[str] = raw.split("\n")[3:]
+            for l in tl:
+                subj_writer.writerow(parseSubjectLine(l, assignColWidth(text_page), text_page))
+            subj_writer.writerow(["END_PAGE", text_page])
+
+def parseSubjects2json():
+    """ """
+    subjects:dict = {}
+    prev:str = ""
     col1:str = ""
     col2:str = ""
-    raw:str = page.extract_text(extraction_mode="layout")
-    tl:list[str] = raw.split("\n")[3:]
-    for l in tl:
-        c1, c2 = parseSubjectLine(l)
-        col1 = col1 + c1
-        col2 = col2 + c2
-    txt:str = col1 + col2
-    return txt
+    with open('data/subjects.tsv', 'r', encoding="utf-8") as tsvfile:
+        subj_reader = reader(tsvfile, delimiter='\t')
+        for row in subj_reader:
+            if len(row) == 2:
+                c1 = row[0]
+                c2 = row[1]
+                if c1 == "END_PAGE":
+                    txt:str = col1 + ".\n" + col2
+                    protos = txt.split(".\n")
+                    for p in protos:
+                        proto = p.lstrip(".").lstrip()
+                        if len(proto) != 0:
+                            if proto[0].isupper():
+                                if prev != "":
+                                    key, val = parseSubject(prev)
+                                    subjects[key] = val
+                                prev = proto
+                            else:
+                                prev = prev + ' ' + proto
+                else:
+                    col1 = col1 + c1 + '\n'
+                    col2 = col2 + c2 + '\n'
+    file_name:str = "data/subjects.json"
+    with open(file_name, 'w', encoding="utf-8") as f:
+        dump(subjects, f, indent=1, ensure_ascii=False)
+    return file_name
 
-print(subjectsSample())
+parseSubjects2tsv()
+# parseSubjects2json()
