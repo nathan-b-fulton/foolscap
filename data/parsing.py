@@ -529,7 +529,7 @@ def assignColWidth(p:int)->int:
     """ """
     width = widths.get(p)
     if width is None:
-        width = 68
+        width = 64
 #        width = 77 if p%2 == 0 else 70
     return width
 
@@ -555,6 +555,9 @@ def parseSubjectLine(l:str, width, p):
             for i in range(len(l) - 1):
                 if i >= width and l[i] != ' ' and l[i - 1] == ' ':
                     cols = ["REVIEW {}:{}".format(p, i), tidySubjectColLine(l[:i]), tidySubjectColLine(l[i:])]
+                    break
+                elif i == len(l) - 2:
+                    cols = ["REVIEW {}:{}".format(p, "EOL"), tidySubjectColLine(l), ""]
                     break
     # dl1 = c1.find(".")
     # if len(c1) - 1 > dl1 > -1 and c1[dl1 + 1] != ' ':      
@@ -638,7 +641,7 @@ def parseSubjects2tsv():
     pdf_reader = PdfReader('data/ATU3.pdf')
     with open('data/subjects.tsv', 'w', encoding="utf-8") as tsvfile:
         subj_writer = writer(tsvfile, delimiter='\t')
-        for p in range(214, 239): # 136 288
+        for p in range(136, 288): # 136 288
             text_page = p - 2
             page:PageObject = pdf_reader.pages[p]
             raw:str = page.extract_text(extraction_mode="layout")
