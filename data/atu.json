@@ -41861,6 +41861,28 @@
    "N121.1.1"
   ],
   "literature": {
+  "Livonian": "Loorits  1926,  No.  934,  Setälä/Kyrölä  1953,  No.  75, Kecskeméti/Paunonen 1974", 
+  "Lithuanian": "Basanavičius/Aleksynas 1993f. II, No. 143, Kerbelytė 1999ff. II", 
+  "English": "Briggs 1970f. B II, 30", 
+  "Sardinian": "Cirese/Serafini 1975", 
+  "Serbian": "Eschker 1992, No. 77", 
+  "Polish": "Krzyżanowski 1962f. I, No. 412", 
+  "Jewish": "Gaster 1924, No. 150", 
+  "Gypsy": "Mode 1983ff. III, No. 166", 
+  "Cheremis/Mari": "Beke 1938, No. 19, Kecskeméti/Paunonen 1974", 
+  "Ghanaian": "Schott 1993f. I, No. 1856."
+  }
+ },
+ {
+  "atu": "934D1",
+  "title": "Outwitting Fate",
+  "description": "An only son goes into military service and wants to take vengeance on the officers who recruited him. An old man (God) shows in spirit a new-born child with a gun and uniform. Now the youth understands that God has determined everyone’s fate [N121.1.1].",
+  "motifs": [
+   "N121.3",
+   "K1811.0.2",
+   "K2371.2"
+  ],
+  "literature": {
    "Serbian": "Ðjorđjevič/Milošević-Ðjorđjevič 1988, Nos. 122–124",
    "Indian": "Thompson/Balys 1958, Nos. K1811.0.2, K2371.2, Thompson/Roberts 1960, No. 936",
    "Chinese": "Ting 1978, No. 934D2",

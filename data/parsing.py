@@ -525,6 +525,39 @@ def repairCitations():
     return fixed
 
 
+def createSingleCitation(atu:dict):
+    """ """
+    logger = f_logger()
+    ref_trads:dict = atu.get('literature')
+    atu_refs:dict[list] = {}
+    for t, r in ref_trads.items():
+        trads:list[str] = t.split(",")
+        for tr in trads:
+            trad = tr.strip()
+            if trad == "cf":
+                cf_refs:list[dict] = []
+                for c in r:
+                    cf_refs += cleanRefs(c, logger)
+                    atu_refs['cf'] = cf_refs
+            else:
+                atu_refs[trad] = cleanRefs(r, logger)
+    a = atu['atu']
+    citations:dict[list] = createCitations(a, atu_refs)
+    for k, v in atu_refs.items():
+        base = set([i['citation'] for i in v])
+        trad = citations.get(k)
+        if trad is None:
+            logger.warning("For ATU {}, there appear to be no citations for {}. Expected: {}".format(atu, k, base))
+        else:
+            comp = set(trad)
+            if not base ^ comp:
+                logger.info("Exactly correct entries for {} in ATU {}, nice!".format(k, atu))
+            elif base - comp:
+                logger.warning("Expected citation(s) {} to be created for ATU {} in {}, but they are not returned.".format(base - comp, atu, k))
+            elif comp - base:
+                logger.warning("Unexpected citation(s) {} were returned for {} in ATU {}.".format(comp - base, k, atu))
+    return logger.success("Completed all citations.")
+
 def assignColWidth(p:int)->int:
     """ """
     width = widths.get(p)
@@ -683,5 +716,5 @@ def parseSubjects2json():
         dump(subjects, f, indent=1, ensure_ascii=False)
     return file_name
 
-parseSubjects2tsv()
+# parseSubjects2tsv()
 # parseSubjects2json()
