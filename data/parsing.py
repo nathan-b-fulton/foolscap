@@ -672,15 +672,16 @@ def parseSubject(sub:str):
 def parseSubjects2tsv():
     """ """
     pdf_reader = PdfReader('data/ATU3.pdf')
-    with open('data/subjects.tsv', 'w', encoding="utf-8") as tsvfile:
+    with open('data/subjects2.tsv', 'w', encoding="utf-8") as tsvfile:
         subj_writer = writer(tsvfile, delimiter='\t')
-        for p in range(136, 288): # 136 288
+        for p in range(287, 288): # 136 288
             text_page = p - 2
             page:PageObject = pdf_reader.pages[p]
             raw:str = page.extract_text(extraction_mode="layout")
             tl:list[str] = raw.split("\n")[3:]
             for l in tl:
-                subj_writer.writerow(parseSubjectLine(l, assignColWidth(text_page), text_page))
+                subj_writer.writerow([l[:69],l[69:]])
+                # subj_writer.writerow(parseSubjectLine(l, assignColWidth(text_page), text_page))
             subj_writer.writerow(["END_PAGE", text_page])
 
 def parseSubjects2json():
@@ -717,4 +718,4 @@ def parseSubjects2json():
     return file_name
 
 # parseSubjects2tsv()
-# parseSubjects2json()
+parseSubjects2json()
