@@ -577,14 +577,11 @@ def parseSubjectLine(l:str, width, p):
     """ """
     cols:list[str] = []
     if '\t' in l:
-        # print("Tabbed line: {}".format(l))
         cols = ["", tidySubjectColLine(l.strip("\t"))]
     elif len(l) > width:
         if l[width - 1] == ' ' and l[width] != ' ':
-            # print("  Tidy line: {}".format(l))
             cols = [tidySubjectColLine(l[:width]), tidySubjectColLine(l[width:])]
         else:
-            # print(l)
             for i in range(len(l) - 1):
                 if i >= width and l[i] != ' ' and l[i - 1] == ' ':
                     cols = ["REVIEW {}:{}".format(p, i), tidySubjectColLine(l[:i]), tidySubjectColLine(l[i:])]
@@ -592,15 +589,15 @@ def parseSubjectLine(l:str, width, p):
                 elif i == len(l) - 2:
                     cols = ["REVIEW {}:{}".format(p, "EOL"), tidySubjectColLine(l), ""]
                     break
-    # dl1 = c1.find(".")
-    # if len(c1) - 1 > dl1 > -1 and c1[dl1 + 1] != ' ':      
-    # if c2.find('.') == 0:
     return cols
 
 
 def cleanSubject(dirty:str)->str:
     """ """
-    return ' '.join(dirty.strip().replace(" - ", "").replace("- ", "").split())
+    remove_strings = [" - ", "-  ", "- ", " -", "-"]
+    for s in remove_strings:
+        dirty = dirty.replace(s, '')
+    return " ".join(dirty.split()).strip()
 
 
 def parseEntries(key:str, raw:list[str]):
@@ -610,12 +607,13 @@ def parseEntries(key:str, raw:list[str]):
     working_sub:str = sub_key
     pending_sub:str = ""
     sub_atus:list[str] = []
-    sub_var = " {}. ".format(sub_key[0])
+    sub_char = sub_key[0]
+    sub_var = " {}. ".format(sub_char)
     for r in raw:
         atus = findall(r"[0-9]{1,4}[A-Z\*]*", r)
         match len(atus):
             case 0:
-                pending_sub = pending_sub + ' ' + r
+                pending_sub = pending_sub + r + ", "
             case 1:
                 atu = atus[0]
                 remainder = r.strip().replace(atu, '')
@@ -626,10 +624,13 @@ def parseEntries(key:str, raw:list[str]):
                         entries.append({cleanSubject(working_sub): sub_atus})
                     sub_atus = atus
                     working_sub = pending_sub + remainder
+                    pending_sub = ""
+                    if sub_char != "a":
+                        working_sub = working_sub.replace(" {} ".format(sub_char), " {}. ".format(sub_char))
                     if working_sub.find(sub_var) == -1:
-                        working_sub = sub_key + ' ' + remainder
+                        working_sub = sub_key + ' ' + working_sub
                     else:
-                        working_sub = remainder.replace(sub_var, " {} ".format(sub_key))
+                        working_sub = working_sub.replace(sub_var, " {} ".format(sub_key))
             case 2:
                 sub_atus.append(atus[0])
                 atu = atus[1]
@@ -641,10 +642,16 @@ def parseEntries(key:str, raw:list[str]):
                         entries.append({cleanSubject(working_sub): sub_atus})
                     sub_atus = [atu]
                     working_sub = pending_sub + remainder
+                    pending_sub = ""
+                    if sub_char != "a":
+                        working_sub = working_sub.replace(" {} ".format(sub_char), " {}. ".format(sub_char))
                     if working_sub.find(sub_var) == -1:
-                        working_sub = sub_key + ' ' + remainder
+                        working_sub = sub_key + ' ' + working_sub
                     else:
-                        working_sub = remainder.replace(sub_var, " {} ".format(sub_key))
+                        working_sub = working_sub.replace(sub_var, " {} ".format(sub_key))
+        if sub_key == "absurd":
+            print(pending_sub)
+            print(working_sub)
     if sub_atus:
         entries.append({cleanSubject(working_sub): sub_atus})
     return entries
@@ -674,14 +681,16 @@ def parseSubjects2tsv():
     pdf_reader = PdfReader('data/ATU3.pdf')
     with open('data/subjects2.tsv', 'w', encoding="utf-8") as tsvfile:
         subj_writer = writer(tsvfile, delimiter='\t')
-        for p in range(287, 288): # 136 288
+        for p in range(136, 288): # 136 288
             text_page = p - 2
             page:PageObject = pdf_reader.pages[p]
             raw:str = page.extract_text(extraction_mode="layout")
             tl:list[str] = raw.split("\n")[3:]
             for l in tl:
-                subj_writer.writerow([l[:69],l[69:]])
-                # subj_writer.writerow(parseSubjectLine(l, assignColWidth(text_page), text_page))
+                if p == 287:
+                    subj_writer.writerow([l[:69],l[69:]])
+                else:
+                    subj_writer.writerow(parseSubjectLine(l, assignColWidth(text_page), text_page))
             subj_writer.writerow(["END_PAGE", text_page])
 
 def parseSubjects2json():
@@ -693,25 +702,27 @@ def parseSubjects2json():
     with open('data/subjects.tsv', 'r', encoding="utf-8") as tsvfile:
         subj_reader = reader(tsvfile, delimiter='\t')
         for row in subj_reader:
-            if len(row) == 2:
-                c1 = row[0]
-                c2 = row[1]
-                if c1 == "END_PAGE":
-                    txt:str = col1 + ".\n" + col2
-                    protos = txt.split(".\n")
-                    for p in protos:
-                        proto = p.lstrip(".").lstrip()
-                        if len(proto) != 0:
-                            if proto[0].isupper():
-                                if prev != "":
-                                    key, val = parseSubject(prev)
-                                    subjects[key] = val
-                                prev = proto
-                            else:
-                                prev = prev + ' ' + proto
-                else:
-                    col1 = col1 + c1 + '\n'
-                    col2 = col2 + c2 + '\n'
+            # row = next(subj_reader)
+            c1 = row[0] if len(row) > 0 else ''
+            c2 = row[1] if len(row) > 1 else ''
+            if c1 == "END_PAGE":
+                txt:str = col1 + ".\n" + col2
+                # print(txt)
+                protos = txt.split(".\n")
+                for p in protos:
+                    proto = p.lstrip()
+                    if len(proto) != 0:
+                        if proto[0].isupper():
+                            if prev != "":
+                                key, val = parseSubject(prev)
+                                subjects[key] = val
+                            prev = proto
+                        else:
+                            prev = prev + ' ' + proto
+                col1 = col2 = ""
+            else:
+                col1 = col1 + c1 + '\n'
+                col2 = col2 + c2 + '\n'
     file_name:str = "data/subjects.json"
     with open(file_name, 'w', encoding="utf-8") as f:
         dump(subjects, f, indent=1, ensure_ascii=False)
