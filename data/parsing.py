@@ -594,7 +594,7 @@ def parseSubjectLine(l:str, width, p):
 
 def cleanSubject(dirty:str)->str:
     """ """
-    remove_strings = [" - ", "-  ", "- ", " -", "-"]
+    remove_strings = [" - ", "-  ", "- ", " –"]
     for s in remove_strings:
         dirty = dirty.replace(s, '')
     return " ".join(dirty.split()).strip()
@@ -649,9 +649,6 @@ def parseEntries(key:str, raw:list[str]):
                         working_sub = sub_key + ' ' + working_sub
                     else:
                         working_sub = working_sub.replace(sub_var, " {} ".format(sub_key))
-        if sub_key == "absurd":
-            print(pending_sub)
-            print(working_sub)
     if sub_atus:
         entries.append({cleanSubject(working_sub): sub_atus})
     return entries
