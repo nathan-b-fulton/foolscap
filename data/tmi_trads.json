@@ -1,0 +1,4210 @@
+{
+ "Jewish": {
+  "cardinality": 3482,
+  "sub_traditions": {}
+ },
+ "Mexican Indian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tarascan": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "African": {
+  "cardinality": 72,
+  "sub_traditions": {
+   "Togo": 2,
+   "Fang": 6,
+   "Kamerun": 1,
+   "Baluga": 1,
+   "Lamba": 1,
+   "Upoto": 2,
+   "Cameroon": 1,
+   "Basuto": 2,
+   "Senegambia": 1,
+   "Nigeria": 1,
+   "Ekoi": 5,
+   "Pahouini": 1,
+   "Zulu": 1,
+   "Jaunde": 1,
+   "Kaffir": 1,
+   "Yoruba": 1,
+   "Angola": 1,
+   "Bushman": 1,
+   "Luba": 2,
+   "Loango": 2,
+   "Congo": 1,
+   "Pangwe": 1,
+   "Benga": 1
+  }
+ },
+ "Loango": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Hindu": {
+  "cardinality": 317,
+  "sub_traditions": {}
+ },
+ "Buddhist myth": {
+  "cardinality": 554,
+  "sub_traditions": {}
+ },
+ "Icel": {
+  "cardinality": 376,
+  "sub_traditions": {}
+ },
+ "Irish myth": {
+  "cardinality": 7659,
+  "sub_traditions": {}
+ },
+ "Egyptian": {
+  "cardinality": 58,
+  "sub_traditions": {}
+ },
+ "Persian": {
+  "cardinality": 131,
+  "sub_traditions": {}
+ },
+ "South American Indian": {
+  "cardinality": 326,
+  "sub_traditions": {
+   "Paressi": 9,
+   "Lengua": 4,
+   "Guapori  River": 1,
+   "Chibcha": 4,
+   "Yuracare": 13,
+   "Chiriguano": 35,
+   "Huamachuco": 2,
+   "Tembi ": 1,
+   "Huarochiri": 1,
+   "Arua": 1,
+   "Toba": 66,
+   "Tehuelche": 1,
+   "Amuesha": 5,
+   "Tupinamba": 9,
+   "Bacairi": 8,
+   "Yurakare": 1,
+   "Eastern Brazil": 3,
+   "Amuesa": 2,
+   "Jivaro": 5,
+   "Yurakari": 1,
+   "Bakairi": 2,
+   "Ackawoi": 1,
+   "Tapirapi ": 1,
+   "Guarani": 6,
+   "Chaco": 7,
+   "Caingang": 9,
+   "Maya": 1,
+   "Guarann ": 2,
+   "Chamacoco": 10,
+   "Witoto": 5,
+   "Brazil": 9,
+   "Viracocha": 4,
+   "Terino": 1,
+   "Cashinawa": 20,
+   "Amyra": 1,
+   "Amazon": 3,
+   "Mocovn ": 1,
+   "Botocudo": 1,
+   "Mojo": 2,
+   "Warrau": 5,
+   "Cubeo": 2,
+   "Ipurina": 1,
+   "Guayaki": 2,
+   "Camacan": 1,
+   "Amyara": 1,
+   "Mataco": 5,
+   "Yuracari": 1,
+   "Mori ": 1,
+   "Aymara": 3,
+   "Mori": 2,
+   "Araucanian": 2,
+   "Gusinde": 1,
+   "Fueginos": 1,
+   "Guarann": 1,
+   "Tupi": 1,
+   "Tucuna": 5,
+   "Inca": 6,
+   "Tembi": 2,
+   "Cariri": 2,
+   "Tapirape": 1,
+   "Kaskiha": 1,
+   "Ashlushlay": 1,
+   "Guarayu": 2,
+   "Cubao": 1,
+   "Yagua": 3,
+   "Tropical Forest": 2,
+   "Amazon Tribes": 1,
+   "Jivaru": 1,
+   "Tapirapi": 1,
+   "Macovi": 1,
+   "Matoco": 1,
+   "Camacoco": 1,
+   "Tupenamba": 1
+  }
+ },
+ "": {
+  "cardinality": 31,
+  "sub_traditions": {}
+ },
+ "Paressi": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Oceanic": {
+  "cardinality": 28,
+  "sub_traditions": {
+   "Cove Is.": 1
+  }
+ },
+ "Hawaii": {
+  "cardinality": 563,
+  "sub_traditions": {}
+ },
+ "Chinese": {
+  "cardinality": 1398,
+  "sub_traditions": {
+   "Wa tribe": 1
+  }
+ },
+ "India": {
+  "cardinality": 9925,
+  "sub_traditions": {
+   "Kashmir": 1
+  }
+ },
+ "Hawaiian": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Greek": {
+  "cardinality": 919,
+  "sub_traditions": {
+   "Herodotus": 1
+  }
+ },
+ "Indian": {
+  "cardinality": 440,
+  "sub_traditions": {
+   "Hindu": 1,
+   "Chiriguano": 62,
+   "Chibcha": 4,
+   "Toba": 76,
+   "Inca": 11,
+   "Cora": 1,
+   "Fuegian": 4,
+   "Yuracare": 15,
+   "Tarahumare and Tepehuane": 1,
+   "Guarayu": 2,
+   "Tupinamba": 13,
+   "Paressi": 2,
+   "Amuesa": 2,
+   "Carib": 5,
+   "Calif.": 1,
+   "Guapori": 2,
+   "Cashinawa": 20,
+   "Zusi": 1,
+   "Sherente": 1,
+   "Guarani": 2,
+   "Tiatinagua": 3,
+   "Mataco": 9,
+   "Araucanman": 1,
+   "Chaco": 5,
+   "Warrau": 22,
+   "Tenetehara": 2,
+   "Amuesha": 4,
+   "Ceuici": 4,
+   "Brazil": 13,
+   "Jivaru": 1,
+   "Tapirape": 2,
+   "Maropa": 1,
+   "Pilcomayo River Tribes": 1,
+   "Tembe": 1,
+   "Cariri": 1,
+   "Quichi": 4,
+   "Maroja": 1,
+   "Carajb": 3,
+   "Argentina": 2,
+   "Yuricare": 1,
+   "Ceiuci": 1,
+   "Aztec": 3,
+   "Kwakiutl": 1,
+   "Eastern Brazil": 4,
+   "Kaigub": 2,
+   "Ackawoi": 2,
+   "Guapori River": 2,
+   "Gran Chaco": 1,
+   "Mundurucu": 1,
+   "Tereno": 1,
+   "Guarann": 1,
+   "Amazon": 2,
+   "Yurakare": 1,
+   "Bakairi": 3,
+   "Viracocha": 2,
+   "More": 2,
+   "Araucanian": 3,
+   "Tropical Forests": 1,
+   "Chincha": 3,
+   "Caraja": 1,
+   "Yunca": 2,
+   "Quiche": 3,
+   "Central Brazil": 2,
+   "Aymara": 1,
+   "Tembi": 1,
+   "Tehuelche": 1,
+   "Kaigang": 1,
+   "Tenibi": 1,
+   "Kaigua": 1,
+   "Tupenamba": 1,
+   "Tucuna": 2,
+   "Chamacoco": 1,
+   "Sherenti": 1,
+   "Tapirapi": 1,
+   "Yana": 1,
+   "Huamachuco": 1,
+   "Karib": 1,
+   "Antilles": 1,
+   "Bakuiri": 1
+  }
+ },
+ "Aztec": {
+  "cardinality": 34,
+  "sub_traditions": {}
+ },
+ "Japanese": {
+  "cardinality": 569,
+  "sub_traditions": {}
+ },
+ "Eskimo": {
+  "cardinality": 765,
+  "sub_traditions": {
+   "Kodiak": 34,
+   "Bering Strait": 42,
+   "Ungava": 13,
+   "Greenland": 429,
+   "Labrador": 23,
+   "Cumberland Sound": 50,
+   "Smith Sound": 13,
+   "Cape York": 12,
+   "Central": 15,
+   "East Greenland": 5,
+   "West Greenland": 1,
+   "West Hudson Bay": 25,
+   "Alaska": 3,
+   "Mackenzie Area": 58,
+   "E. Greenland": 1,
+   "Central Eskimo": 4,
+   "Aleut": 6,
+   "Koryak": 2,
+   "Mackenzie area": 2,
+   "W. Hudson Bay": 1
+  }
+ },
+ "Koryak": {
+  "cardinality": 39,
+  "sub_traditions": {}
+ },
+ "Buin": {
+  "cardinality": 10,
+  "sub_traditions": {}
+ },
+ "Chibcha": {
+  "cardinality": 6,
+  "sub_traditions": {
+   "with reference to other South American tribes": 1
+  }
+ },
+ "Lepers Is": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Inca": {
+  "cardinality": 8,
+  "sub_traditions": {}
+ },
+ "Africa": {
+  "cardinality": 1593,
+  "sub_traditions": {
+   "Luba": 26,
+   "Fang": 135,
+   "Bushongo": 11,
+   "Ekoi": 151,
+   "Kamerun": 2,
+   "Sudanese": 1,
+   "Bushonga": 2,
+   "Angola": 70,
+   "Loango": 9,
+   "Dahomey": 1,
+   "Congo": 28,
+   "Togo": 12,
+   "Konnoh": 4,
+   "Mkulwe": 1,
+   "Cameroon": 54,
+   "Baluba": 2,
+   "Tshi": 1,
+   "Benga": 67,
+   "Gold Coast": 48,
+   "Basuto": 97,
+   "Fjort": 48,
+   "Hottentot": 27,
+   "Sandeh": 2,
+   "Duala": 30,
+   "Wakweli": 32,
+   "Kweli": 2,
+   "Mpongwe": 24,
+   "Dinka": 1,
+   "Wute": 14,
+   "Tonga": 7,
+   "Fulah": 4,
+   "Zulu": 80,
+   "Chaga": 4,
+   "Kaffir": 88,
+   "Kordofan": 10,
+   "Ba Ronga": 8,
+   "Nyang": 6,
+   "Mbundu": 2,
+   "Ganda": 7,
+   "Swahili": 18,
+   "Upoto": 21,
+   "Baukon": 1,
+   "Pooloki": 1,
+   "tribes of Western Sudan": 1,
+   "Hausa": 29,
+   "Nao": 2,
+   "Vai": 31,
+   "Shangani": 6,
+   "Betsileo": 1,
+   "Madagascar": 7,
+   "Zanzibar": 8,
+   "Yoruba": 18,
+   "Lamba": 5,
+   "Swazi": 2,
+   "Pangwe": 6,
+   "Lamami": 1,
+   "Bushman": 14,
+   "Boloki": 2,
+   "Weute": 2,
+   "Wachaga": 15,
+   "Bulu": 10,
+   "Bondei": 2,
+   "Bakuba": 3,
+   "Pahouine": 1,
+   "Kpelle": 2,
+   "Mossi": 4,
+   "Dahomi": 2,
+   "Cold Coast": 1,
+   "Bantu": 3,
+   "Suto": 2,
+   "Cameroons": 3,
+   "Washaga": 2,
+   "Baholoholo": 4,
+   "Tim": 2,
+   "Bankon": 10,
+   "Ibo of Nigeria": 2,
+   "Quelimane": 2,
+   "Nago": 2,
+   "Thonga": 14,
+   "Tosa": 1,
+   "Wolof": 2,
+   "Bambara": 4,
+   "Dahome": 3,
+   "Timne": 1,
+   "Venda": 2,
+   "Nigeria": 3,
+   "Temne": 2,
+   "Pahouin": 1,
+   "Ronga": 3,
+   "Jaunde": 5,
+   "Bena Makuni": 1,
+   "Somali": 3,
+   "Ashanti": 2,
+   "Shangang": 1,
+   "Dzalamo": 6,
+   "Bechuana": 1,
+   "Mwimbe": 1,
+   "Ziba": 2,
+   "Konde": 2,
+   "Bushango": 1,
+   "Nyanja": 4,
+   "BaRonga": 1,
+   "Masai": 3,
+   "Yaunde": 1,
+   "Tanga": 1,
+   "Nama": 2,
+   "West Africa": 1,
+   "Zezuru": 1,
+   "Nuba": 2,
+   "Nubia": 1,
+   "Kiyansi": 1,
+   "Nyika": 1,
+   "Ndau": 1,
+   "Larusa": 4,
+   "Nubian": 2,
+   "Nupe": 1,
+   "Western Sudan": 2,
+   "Mambettu": 1,
+   "Bayaka": 1,
+   "Rundi": 1,
+   "Kenya": 1,
+   "Dschagga": 1,
+   "Rozwi": 2,
+   "Guinea Coast": 1,
+   "Bangola": 1
+  }
+ },
+ "Iroquois": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Finnish": {
+  "cardinality": 358,
+  "sub_traditions": {}
+ },
+ "Ekoi": {
+  "cardinality": 47,
+  "sub_traditions": {}
+ },
+ "Hottentot": {
+  "cardinality": 29,
+  "sub_traditions": {}
+ },
+ "Aymara": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Tahiti": {
+  "cardinality": 101,
+  "sub_traditions": {}
+ },
+ "North American Indian": {
+  "cardinality": 984,
+  "sub_traditions": {
+   "Plains Tribes": 1,
+   "Mohave": 1,
+   "Montagnais and Menominee": 1,
+   "Klikitat": 17,
+   "general": 3,
+   "Mono": 1,
+   "Dini": 2,
+   "Salinan": 1,
+   "Puerto Rico": 1,
+   "Apache": 1,
+   "Namba": 1,
+   "Carrier": 1,
+   "Seneca": 36,
+   "Tlingit": 4,
+   "Thompson River": 15,
+   "Kaska": 4,
+   "Joshua": 2,
+   "Biloxi": 2,
+   "Kathlamet": 2,
+   "Creek": 4,
+   "Canadian Dakota": 2,
+   "Tahltan": 5,
+   "Iroquois": 8,
+   "Zusi": 29,
+   "Menomini": 9,
+   "Wyandot": 4,
+   "Pawnee": 9,
+   "Micmac": 11,
+   "Jicarilla Apache": 2,
+   "Ojibwa": 11,
+   "California": 82,
+   "White Mountain Apache": 1,
+   "Cheyenne": 2,
+   "Plains Cree": 3,
+   "Quinault": 1,
+   "Shasta": 3,
+   "Thompson": 1,
+   "Crow": 3,
+   "Tsimshian": 5,
+   "Mohegan": 2,
+   "Maidu": 3,
+   "Passamaquoddy": 3,
+   "Haida": 3,
+   "Atsina": 1,
+   "Central Algonquin": 2,
+   "Cherokee": 4,
+   "Skaulitz": 2,
+   "Wichita": 1,
+   "Arikara": 3,
+   "Arapaho": 3,
+   "European borrowings": 1,
+   "Calif.": 6,
+   "Tillamook": 1,
+   "Bella Coola": 2,
+   "Blackfoot": 5,
+   "Teton": 5,
+   "Dakota": 1,
+   "Lillooet": 2,
+   "Yana": 2,
+   "Twana": 1,
+   "Southern Paiute": 1,
+   "Kato": 1,
+   "Fox": 2,
+   "Sioux": 1,
+   "Mandan": 2,
+   "Assiniboin": 1,
+   "Yukon": 1,
+   "Navaho": 7,
+   "Chuckchee": 1,
+   "Northern Paiute": 2,
+   "Quileute": 1,
+   "Ponka": 1,
+   "Chilcotin": 1,
+   "Kutenai": 1,
+   "Salishan": 1,
+   "Wasco": 1,
+   "Snohomish": 1,
+   "Shoshoni": 1,
+   "Zuni": 1,
+   "Penobscot": 1,
+   "Malecite": 3,
+   "Shuswap": 1,
+   "Hupa": 3,
+   "Flathead": 1,
+   "Pueblo": 1,
+   "Chickasaw": 1,
+   "Catawba": 1,
+   "Tepoztlan": 1,
+   "Mexico": 1,
+   "Maliseet": 2,
+   "San Carlos Apache": 1,
+   "Wampanoag": 1,
+   "Aztec": 2,
+   "Shoshonean": 1
+  }
+ },
+ "Sumatra": {
+  "cardinality": 7,
+  "sub_traditions": {}
+ },
+ "Tonga": {
+  "cardinality": 171,
+  "sub_traditions": {}
+ },
+ "Siberian": {
+  "cardinality": 101,
+  "sub_traditions": {}
+ },
+ "Lithuanian": {
+  "cardinality": 849,
+  "sub_traditions": {}
+ },
+ "Borneo": {
+  "cardinality": 11,
+  "sub_traditions": {}
+ },
+ "Melanesian": {
+  "cardinality": 12,
+  "sub_traditions": {}
+ },
+ "Mataco": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Estonian": {
+  "cardinality": 202,
+  "sub_traditions": {}
+ },
+ "Irish Myth": {
+  "cardinality": 9,
+  "sub_traditions": {}
+ },
+ "New Hebrides": {
+  "cardinality": 29,
+  "sub_traditions": {
+   "Banks Is.": 1
+  }
+ },
+ "Indonesian": {
+  "cardinality": 106,
+  "sub_traditions": {}
+ },
+ "Maori": {
+  "cardinality": 168,
+  "sub_traditions": {}
+ },
+ "Alexander North American Indian": {
+  "cardinality": 12,
+  "sub_traditions": {
+   "Guarani": 3,
+   "Chiriguano": 1,
+   "Aztec": 1,
+   "Chaco": 2,
+   "Amazon": 1,
+   "Toba": 1,
+   "Yuracare": 2
+  }
+ },
+ "Luba": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Armenian": {
+  "cardinality": 33,
+  "sub_traditions": {}
+ },
+ "Guarani": {
+  "cardinality": 14,
+  "sub_traditions": {}
+ },
+ "Indians": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Antioquians": 1
+  }
+ },
+ "Babylonian": {
+  "cardinality": 74,
+  "sub_traditions": {}
+ },
+ "Hittite": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Marquesas": {
+  "cardinality": 152,
+  "sub_traditions": {}
+ },
+ "Tuamotu": {
+  "cardinality": 176,
+  "sub_traditions": {}
+ },
+ "Polynesia": {
+  "cardinality": 13,
+  "sub_traditions": {}
+ },
+ "Easter Is": {
+  "cardinality": 20,
+  "sub_traditions": {}
+ },
+ "Minahassa": {
+  "cardinality": 2,
+  "sub_traditions": {
+   "Celebes": 2
+  }
+ },
+ "Norse": {
+  "cardinality": 84,
+  "sub_traditions": {}
+ },
+ "Germanic": {
+  "cardinality": 18,
+  "sub_traditions": {}
+ },
+ "f": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Slavic": {
+  "cardinality": 30,
+  "sub_traditions": {
+   "Elbe": 1,
+   "general": 3
+  }
+ },
+ "Fiji": {
+  "cardinality": 12,
+  "sub_traditions": {}
+ },
+ "Samoa": {
+  "cardinality": 40,
+  "sub_traditions": {}
+ },
+ "Mexican": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Assyrian": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Irish": {
+  "cardinality": 630,
+  "sub_traditions": {}
+ },
+ "Hivaoa": {
+  "cardinality": 6,
+  "sub_traditions": {
+   "Marquesas": 6
+  }
+ },
+ "Celtic": {
+  "cardinality": 10,
+  "sub_traditions": {
+   "general": 1
+  }
+ },
+ "Cheyenne": {
+  "cardinality": 7,
+  "sub_traditions": {}
+ },
+ "Babylonian and Egyptian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "and Lithuanian": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Huichol": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Pawnee": {
+  "cardinality": 15,
+  "sub_traditions": {}
+ },
+ "Fjort": {
+  "cardinality": 18,
+  "sub_traditions": {}
+ },
+ "Heimdall": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "New Zealand": {
+  "cardinality": 12,
+  "sub_traditions": {
+   "Maori": 1
+  }
+ },
+ "Icelandic": {
+  "cardinality": 2921,
+  "sub_traditions": {}
+ },
+ "Oahu": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Hawaii": 1
+  }
+ },
+ "Gilgamesch Epos VI": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Ishtar": 1
+  }
+ },
+ "Porapora": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Society Is.": 1
+  }
+ },
+ "and Rumanian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Prussian": {
+  "cardinality": 11,
+  "sub_traditions": {}
+ },
+ "Navaho": {
+  "cardinality": 8,
+  "sub_traditions": {}
+ },
+ "Nukuhiva": {
+  "cardinality": 2,
+  "sub_traditions": {
+   "Marquesas": 2
+  }
+ },
+ "Pora Pora": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Society Is.": 1
+  }
+ },
+ "Banks Is": {
+  "cardinality": 4,
+  "sub_traditions": {
+   "Fiji": 1
+  }
+ },
+ "Semitic": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Ugric": {
+  "cardinality": 18,
+  "sub_traditions": {}
+ },
+ "Nut": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Russian": {
+  "cardinality": 146,
+  "sub_traditions": {}
+ },
+ "Japan": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Marshall Is": {
+  "cardinality": 11,
+  "sub_traditions": {}
+ },
+ "Bushman": {
+  "cardinality": 19,
+  "sub_traditions": {}
+ },
+ "Parjanya": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "American Indian": {
+  "cardinality": 14,
+  "sub_traditions": {
+   "Paiute": 1,
+   "Cheyenne": 1,
+   "Seneca": 1,
+   "Central Brazil": 1,
+   "Creek": 1,
+   "Aztec": 1,
+   "European borrowings": 1
+  }
+ },
+ "Toba": {
+  "cardinality": 21,
+  "sub_traditions": {}
+ },
+ "Maya": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Iris": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Korean": {
+  "cardinality": 224,
+  "sub_traditions": {}
+ },
+ "Oceania": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Livonian": {
+  "cardinality": 115,
+  "sub_traditions": {}
+ },
+ "Chuvashan": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Haitian": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Istrian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Hopi": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Persian and Babylonian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Roman": {
+  "cardinality": 11,
+  "sub_traditions": {}
+ },
+ "Lappish": {
+  "cardinality": 78,
+  "sub_traditions": {}
+ },
+ "Cherokee": {
+  "cardinality": 15,
+  "sub_traditions": {}
+ },
+ "Athene": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Babylonia": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Dionysos": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Iranian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Manasi": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Gilbert Group": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Bakairi": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Huamachuco": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Chiriguano": {
+  "cardinality": 19,
+  "sub_traditions": {}
+ },
+ "Kaigua": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Philippine": {
+  "cardinality": 187,
+  "sub_traditions": {
+   "Tinguian": 112
+  }
+ },
+ "Carib": {
+  "cardinality": 13,
+  "sub_traditions": {}
+ },
+ "Old English": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Amazon tribes": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Araucanian": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Eastern Ecuador": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Tupinamba": {
+  "cardinality": 12,
+  "sub_traditions": {}
+ },
+ "Peru": {
+  "cardinality": 7,
+  "sub_traditions": {}
+ },
+ "Central Algonquian tribes": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Dakota": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Walapai": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Melanesia": {
+  "cardinality": 17,
+  "sub_traditions": {
+   "Ysabel": 2
+  }
+ },
+ "Micronesia": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Ojibwa": {
+  "cardinality": 24,
+  "sub_traditions": {}
+ },
+ "Tucuna": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Tucuan": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Swiss": {
+  "cardinality": 238,
+  "sub_traditions": {}
+ },
+ "Amuesha": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Western Mono": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Patagonia": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "California Indians": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Guarann": {
+  "cardinality": 7,
+  "sub_traditions": {}
+ },
+ "Welsh": {
+  "cardinality": 107,
+  "sub_traditions": {}
+ },
+ "Scot": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Danish": {
+  "cardinality": 153,
+  "sub_traditions": {}
+ },
+ "see": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Rhyn Das Jenseits": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Uganda": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Hebrew": {
+  "cardinality": 38,
+  "sub_traditions": {}
+ },
+ "Society Is": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Kabyle": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Madagascar": {
+  "cardinality": 16,
+  "sub_traditions": {
+   "Merina": 1,
+   "Imerina": 2,
+   "Marofotsy": 1,
+   "Tsimihety": 1,
+   "Antankarana": 2
+  }
+ },
+ "Nauru": {
+  "cardinality": 2,
+  "sub_traditions": {
+   "Pleasant Island": 1,
+   "Pleasant Is.": 1
+  }
+ },
+ "Alu": {
+  "cardinality": 32,
+  "sub_traditions": {}
+ },
+ "Marquesas Is": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Kachin": {
+  "cardinality": 4,
+  "sub_traditions": {
+   "North Burma": 2
+  }
+ },
+ "Mongolian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Etruscan": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Mohave": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "California": {
+  "cardinality": 20,
+  "sub_traditions": {}
+ },
+ "Esthonian": {
+  "cardinality": 32,
+  "sub_traditions": {}
+ },
+ "Witoto": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Chuckchee": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Mohammedan": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Lithuanian and Lettish": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Indonesian and Micronesian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "German": {
+  "cardinality": 557,
+  "sub_traditions": {}
+ },
+ "Breton": {
+  "cardinality": 488,
+  "sub_traditions": {}
+ },
+ "French Canadian": {
+  "cardinality": 254,
+  "sub_traditions": {}
+ },
+ "A": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Cape York": {
+  "cardinality": 9,
+  "sub_traditions": {}
+ },
+ "Greenland": {
+  "cardinality": 36,
+  "sub_traditions": {}
+ },
+ "Quichi": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Italian Novella": {
+  "cardinality": 1739,
+  "sub_traditions": {}
+ },
+ "Persian and Hindu": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Cumberland Sound": {
+  "cardinality": 51,
+  "sub_traditions": {}
+ },
+ "Bushongo": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Australian": {
+  "cardinality": 20,
+  "sub_traditions": {}
+ },
+ "Gold Coast": {
+  "cardinality": 40,
+  "sub_traditions": {}
+ },
+ "British New Guinea": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Guapori  River": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tunja": {
+  "cardinality": 2,
+  "sub_traditions": {
+   "Colombia": 2
+  }
+ },
+ "Crow": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Haiti": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Pelew Is": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Micronesia": 1
+  }
+ },
+ "Cook Group": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Gilbert Is": {
+  "cardinality": 4,
+  "sub_traditions": {
+   "Micronesia": 2
+  }
+ },
+ "Apapocuva": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Jivaro": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Amazon": {
+  "cardinality": 7,
+  "sub_traditions": {}
+ },
+ "Kaffir": {
+  "cardinality": 55,
+  "sub_traditions": {}
+ },
+ "Mocovi": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Polynesian": {
+  "cardinality": 12,
+  "sub_traditions": {
+   "Celebes": 1
+  }
+ },
+ "Fang": {
+  "cardinality": 35,
+  "sub_traditions": {}
+ },
+ "Dahomi": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Macobi": {
+  "cardinality": 2,
+  "sub_traditions": {
+   "Pampean": 1
+  }
+ },
+ "Arawak": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Lettish": {
+  "cardinality": 8,
+  "sub_traditions": {}
+ },
+ "Chamacoco": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Amuesa": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Mashachali": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tumupasa": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Slav": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Mocovn": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Manao": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Guayaki": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Vilela": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Eastern Brazil": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Lule": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Admiralty Is": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Cashinawa": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Warrau": {
+  "cardinality": 3,
+  "sub_traditions": {
+   "Carib tribe": 1
+  }
+ },
+ "Flemish": {
+  "cardinality": 81,
+  "sub_traditions": {}
+ },
+ "Kwakiutl": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Negro": {
+  "cardinality": 5,
+  "sub_traditions": {
+   "Georgia": 1
+  }
+ },
+ "Isthmian tribes": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Panama": 1
+  }
+ },
+ "North Carolina": {
+  "cardinality": 135,
+  "sub_traditions": {}
+ },
+ "S": {
+  "cardinality": 1194,
+  "sub_traditions": {
+   "Ozarks": 3,
+   "New York State": 2,
+   "S. Carolina": 1,
+   "N. Carolina": 1,
+   "Georgia": 1,
+   "lumbermen": 1,
+   "Maine and New Hampshire": 1
+  }
+ },
+ "Tembi": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Central Eskimo": {
+  "cardinality": 40,
+  "sub_traditions": {}
+ },
+ "German New Guinea": {
+  "cardinality": 8,
+  "sub_traditions": {}
+ },
+ "Baltic": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Yakuts": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Ipurina": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tahltan": {
+  "cardinality": 74,
+  "sub_traditions": {}
+ },
+ "Yuracari": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tapi rape": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Amyara": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Chaco": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Philippines": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Quileute": {
+  "cardinality": 8,
+  "sub_traditions": {}
+ },
+ "Sioux": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Blackfoot": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Cook Is": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Bulgarian": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Viracocha": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Botocudo": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Zulu": {
+  "cardinality": 37,
+  "sub_traditions": {}
+ },
+ "Ashluslay": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Ungava": {
+  "cardinality": 10,
+  "sub_traditions": {}
+ },
+ "Calif": {
+  "cardinality": 12,
+  "sub_traditions": {}
+ },
+ "Mixtec": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "New Britain": {
+  "cardinality": 12,
+  "sub_traditions": {}
+ },
+ "Yap": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tungus": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Kamchadale": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "San Carlos Apache": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Hare": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Apapocuvb": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Western Asia": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "general": 1
+  }
+ },
+ "Arapaho": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Cheremis": {
+  "cardinality": 245,
+  "sub_traditions": {}
+ },
+ "Nebraska": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Malecite": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Aurora": {
+  "cardinality": 2,
+  "sub_traditions": {
+   "New Hebrides": 2
+  }
+ },
+ "Papua": {
+  "cardinality": 43,
+  "sub_traditions": {}
+ },
+ "Micmac": {
+  "cardinality": 9,
+  "sub_traditions": {}
+ },
+ "French": {
+  "cardinality": 146,
+  "sub_traditions": {}
+ },
+ "Sudanese": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Hungarian": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Farau": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Norwegian": {
+  "cardinality": 72,
+  "sub_traditions": {}
+ },
+ "Yuchi": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Swedish": {
+  "cardinality": 231,
+  "sub_traditions": {}
+ },
+ "England": {
+  "cardinality": 630,
+  "sub_traditions": {}
+ },
+ "Jamaica Negro": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Wales": {
+  "cardinality": 152,
+  "sub_traditions": {}
+ },
+ "Ireland": {
+  "cardinality": 32,
+  "sub_traditions": {}
+ },
+ "Salishan": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Neckel Studien zu den germanischen Dichtungen vom Weltuntergang": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Namicuara": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Ellice Is": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Chibaya": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Bering Strait": {
+  "cardinality": 16,
+  "sub_traditions": {}
+ },
+ "Northwest Canada": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "polynesian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "panaq": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Yuracare": {
+  "cardinality": 8,
+  "sub_traditions": {
+   "West Brazil": 1
+  }
+ },
+ "Guapori River": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "American Negro": {
+  "cardinality": 88,
+  "sub_traditions": {
+   "Georgia": 70,
+   "Virginia": 2,
+   "Pennsylvania": 1
+  }
+ },
+ "Krawak": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Carajb": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Spanish Exempla": {
+  "cardinality": 858,
+  "sub_traditions": {}
+ },
+ "Pomo": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Wishosk": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Apache": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Zusi": {
+  "cardinality": 27,
+  "sub_traditions": {}
+ },
+ "Caribbean": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Cuan": 1
+  }
+ },
+ "Cubeo": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Andaman": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Lengua": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "etsaut": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "North Pacific Tribes": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Haida": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Mono": {
+  "cardinality": 9,
+  "sub_traditions": {}
+ },
+ "Shasta": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Pima": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Menomini": {
+  "cardinality": 10,
+  "sub_traditions": {}
+ },
+ "Central and South American Indian": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Cahita": 1
+  }
+ },
+ "Bororo": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "ch": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Micronesia": 1
+  }
+ },
+ "Carrier": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Chipewyan": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Coos": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Kathlamet": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Nootka": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Chimariko": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Cahita": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Bella": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Luiseso": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Chiricahua Apache": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Plains Cree": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Fox": {
+  "cardinality": 7,
+  "sub_traditions": {}
+ },
+ "Catawba": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Ackawoi": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Andaman Is": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Guarayu": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Brazil": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Tierra del Fuego": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Choroti": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Lettish and Lithuanian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Baining of New Britain": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Basuto": {
+  "cardinality": 55,
+  "sub_traditions": {}
+ },
+ "Ababua": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "New Guinea": {
+  "cardinality": 21,
+  "sub_traditions": {}
+ },
+ "Dutch": {
+  "cardinality": 28,
+  "sub_traditions": {}
+ },
+ "West Indian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Labrador": {
+  "cardinality": 21,
+  "sub_traditions": {}
+ },
+ "Peigan": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Omaha": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Kaska": {
+  "cardinality": 19,
+  "sub_traditions": {}
+ },
+ "East Greenland": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Liberia": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Liberian": {
+  "cardinality": 9,
+  "sub_traditions": {}
+ },
+ "Naskapi": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Yuma": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Alaska and Mackenzie River": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tahitan": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "West Caroline Is": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Maidu": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Samoan": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Igorot": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Luzon": 1
+  }
+ },
+ "Mbaya": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Hudson Bay": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Mackenzie River": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Eastern Indonesian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Arunta": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Cakchiquel": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Northern Australia": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Yagua": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Pampean": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Pijaos": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Colombia": 1
+  }
+ },
+ "Papuan": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "British New Guinea": 1
+  }
+ },
+ "Nias Is": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Sumatran": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "China": {
+  "cardinality": 10,
+  "sub_traditions": {}
+ },
+ "Muzo": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Colombia": 1
+  }
+ },
+ "Central American": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Formosa": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Island of Nieue": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Burmese": {
+  "cardinality": 9,
+  "sub_traditions": {}
+ },
+ "Sulka": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "New Britain": 1
+  }
+ },
+ "Central Caroline Is": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Plains Ojibwa": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Piegan": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Cameroons": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Shasta and Athapascan": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Congo": {
+  "cardinality": 22,
+  "sub_traditions": {}
+ },
+ "Micronesian": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Dangel Mythen vom Ursprung dies Todes bei den Indianern Nordamerikas": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Togo": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Sandeh": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tropical Forests": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Gaster": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Ila of Rhodesia": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Spanish": {
+  "cardinality": 685,
+  "sub_traditions": {}
+ },
+ "Seneca": {
+  "cardinality": 18,
+  "sub_traditions": {
+   "Indians": 1
+  }
+ },
+ "Venezuela": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Sinkyone": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Tropical Forest": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Massim": {
+  "cardinality": 2,
+  "sub_traditions": {
+   "British New Guinea": 2
+  }
+ },
+ "Isabel Is": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Cashiba": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tapirape": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tenetehara": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Eng": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Fauru": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Kodiak": {
+  "cardinality": 8,
+  "sub_traditions": {}
+ },
+ "Isabel Island": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Cook Island": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Kai of New Guinea": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Surinam": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Guapori R": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Greek myth": {
+  "cardinality": 11,
+  "sub_traditions": {}
+ },
+ "Kauai": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Babuka": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Easter Island": {
+  "cardinality": 48,
+  "sub_traditions": {}
+ },
+ "Bakuba": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Mangaia": {
+  "cardinality": 5,
+  "sub_traditions": {
+   "Cook Island": 2
+  }
+ },
+ "Beckwith myth": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Chitimacha": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Ashanti": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Cameroon": {
+  "cardinality": 18,
+  "sub_traditions": {}
+ },
+ "Herero": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Smith Sound": {
+  "cardinality": 23,
+  "sub_traditions": {}
+ },
+ "Creek": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Laguna and Zusi": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Carolina Negro": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Loucheux": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Animals": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Raratonga": {
+  "cardinality": 2,
+  "sub_traditions": {
+   "Cook Island": 1
+  }
+ },
+ "persian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "West Hudson Bay": {
+  "cardinality": 31,
+  "sub_traditions": {}
+ },
+ "Palestine": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Ila": {
+  "cardinality": 38,
+  "sub_traditions": {
+   "Rhodesia": 36
+  }
+ },
+ "Rarotonga": {
+  "cardinality": 5,
+  "sub_traditions": {
+   "Cook Island": 1
+  }
+ },
+ "Mackenzie Area": {
+  "cardinality": 26,
+  "sub_traditions": {}
+ },
+ "Masai": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Benga": {
+  "cardinality": 33,
+  "sub_traditions": {}
+ },
+ "ff": {
+  "cardinality": 7,
+  "sub_traditions": {}
+ },
+ "Miwok": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Karok": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Ibo": {
+  "cardinality": 17,
+  "sub_traditions": {
+   "Nigeria": 17
+  }
+ },
+ "Salinan": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "wolf": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "c": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "cross on back of ass": 1
+  }
+ },
+ "Scotland": {
+  "cardinality": 98,
+  "sub_traditions": {}
+ },
+ "Cyprus": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Mpongwe": {
+  "cardinality": 13,
+  "sub_traditions": {}
+ },
+ "water snake lacks poison": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Marshall Islands": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Circassian": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "raven becomes black": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "frog in place of nightingale": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "English": {
+  "cardinality": 430,
+  "sub_traditions": {}
+ },
+ "Boggs": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Arawak and Carib": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Angola": {
+  "cardinality": 28,
+  "sub_traditions": {}
+ },
+ "Yunca": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Peru": 1
+  }
+ },
+ "Achawoi": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Jamaica": {
+  "cardinality": 119,
+  "sub_traditions": {}
+ },
+ "Yoruba": {
+  "cardinality": 16,
+  "sub_traditions": {}
+ },
+ "Georgia": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Bulu": {
+  "cardinality": 7,
+  "sub_traditions": {}
+ },
+ "Chuh": {
+  "cardinality": 3,
+  "sub_traditions": {
+   "Indians of Guatemala": 1
+  }
+ },
+ "Choctaw": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Alaska": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Korea": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Virginia": {
+  "cardinality": 16,
+  "sub_traditions": {
+   "negro": 2
+  }
+ },
+ "Antigua": {
+  "cardinality": 3,
+  "sub_traditions": {
+   "British West Indies": 1
+  }
+ },
+ "colors": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Southern Ute": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Upper Thompson": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Thompson River": {
+  "cardinality": 7,
+  "sub_traditions": {}
+ },
+ "Tsimshian": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Central America": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Jamaica negro": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Wakweli": {
+  "cardinality": 13,
+  "sub_traditions": {}
+ },
+ "Wute": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "dusty corners": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Pueblo": {
+  "cardinality": 7,
+  "sub_traditions": {}
+ },
+ "Joshua": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "corpses": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "fish": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Canada": {
+  "cardinality": 21,
+  "sub_traditions": {}
+ },
+ "Zanzibar": {
+  "cardinality": 14,
+  "sub_traditions": {}
+ },
+ "wildcat": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Vai": {
+  "cardinality": 7,
+  "sub_traditions": {}
+ },
+ "Duala": {
+  "cardinality": 9,
+  "sub_traditions": {}
+ },
+ "Penobscot": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Nyang": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Carolina negro": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tumapasa": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Caingang": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Solomon Is": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "ibid": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "and the forelimbs and sometimes the head of a lion": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "red": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "regiment of green dragons": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Missouri French": {
+  "cardinality": 367,
+  "sub_traditions": {}
+ },
+ "Cloven hoofs": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Baughman Chinese": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Mediaeval Romance": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "flies over the mountain": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Greek Myth": {
+  "cardinality": 3,
+  "sub_traditions": {
+   "Jason": 1
+  }
+ },
+ "Oberwallis": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Italian": {
+  "cardinality": 248,
+  "sub_traditions": {}
+ },
+ "Odyssey": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "American Indian and Siberian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Czech": {
+  "cardinality": 8,
+  "sub_traditions": {}
+ },
+ "Hofvarpnir": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Gascon": {
+  "cardinality": 13,
+  "sub_traditions": {}
+ },
+ "Scotch": {
+  "cardinality": 98,
+  "sub_traditions": {}
+ },
+ "Arabian": {
+  "cardinality": 45,
+  "sub_traditions": {}
+ },
+ "English ballad": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Ibo of Nigeria": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Portuguese": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Maliseet": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Tibet": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Thonga": {
+  "cardinality": 12,
+  "sub_traditions": {}
+ },
+ "South Africa": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Diegueso": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Cape Verde Is": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Boberg Irish myth": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Scottish": {
+  "cardinality": 54,
+  "sub_traditions": {}
+ },
+ "Cross Fables": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Reynard the Fox": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "fox cycle": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Modern Greek": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Canadian": {
+  "cardinality": 11,
+  "sub_traditions": {}
+ },
+ "Moreno": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Upoto": {
+  "cardinality": 8,
+  "sub_traditions": {}
+ },
+ "classic fables": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Nigeria": {
+  "cardinality": 24,
+  "sub_traditions": {}
+ },
+ "Panchatantra": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "legend": {
+  "cardinality": 13,
+  "sub_traditions": {
+   "Irish": 10
+  }
+ },
+ "Saintyves": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Shuswap": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Indonesia": {
+  "cardinality": 251,
+  "sub_traditions": {
+   "Soemba": 1
+  }
+ },
+ "Rhaetian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Wendish": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Catalonian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Roumanian": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "United States": {
+  "cardinality": 3,
+  "sub_traditions": {
+   "Mormon": 1
+  }
+ },
+ "Kassonke": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Sicilian": {
+  "cardinality": 8,
+  "sub_traditions": {}
+ },
+ "Gonzenbach": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tale as a Reported Modern Event": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Malay": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Swahili": {
+  "cardinality": 9,
+  "sub_traditions": {}
+ },
+ "dove rescues ant": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Balys Africa": {
+  "cardinality": 2,
+  "sub_traditions": {
+   "Zanzibar": 1,
+   "Lamba": 1
+  }
+ },
+ "Bateman": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Cook Islands": {
+  "cardinality": 20,
+  "sub_traditions": {}
+ },
+ "deer": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Carriire India": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Cape Verde Islands": {
+  "cardinality": 70,
+  "sub_traditions": {}
+ },
+ "Fable": {
+  "cardinality": 10,
+  "sub_traditions": {}
+ },
+ "Jamaican": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "No": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "William of Palerne": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Chile": {
+  "cardinality": 7,
+  "sub_traditions": {}
+ },
+ "Southeastern Africa": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Balys Japanese": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Pacific Coast American Indian": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Micmac": 1
+  }
+ },
+ "Temne": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Balys": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Ba Ronga": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "horse": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "eagle": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Plummer cxliv": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "otter": 1
+  }
+ },
+ "dragon": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Roman myth": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Boloki": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Pangwe": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Team of sparrows": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "ravens": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Syre Gawene and the Carle of Carelyle": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "dog": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Neuman": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Dobu": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Jivaru": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Mono Alu": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "San Cristoval": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Solomon Islands": 1
+  }
+ },
+ "Siberian and North Pacific Coast Natives": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Chincha": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "peru": 1
+  }
+ },
+ "Argentina": {
+  "cardinality": 21,
+  "sub_traditions": {}
+ },
+ "Ladino": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "West Indies": {
+  "cardinality": 182,
+  "sub_traditions": {}
+ },
+ "s legend": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Persia": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Origin of place name": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Sherente": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Thetis": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Sir Launfal": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Kassai": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Congo": 1
+  }
+ },
+ "British": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "and Germans": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Samoyed": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Schurtz": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "H": 1
+  }
+ },
+ "Island": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Bougainville": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Wyandot": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Javanese": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Amazonian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Takelau": {
+  "cardinality": 2,
+  "sub_traditions": {
+   "Samoa": 1,
+   "New Zealand": 1
+  }
+ },
+ "Oceanian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Kikuyu": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Chatham Islands": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Beckwith Myth": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Lau Islands": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Bondei": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "b Icel": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Bella Coola": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "South African": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Ywain and Gawain": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tabu": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Calif Indian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Rhodesia": {
+  "cardinality": 37,
+  "sub_traditions": {}
+ },
+ "Chatham Island": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Easter": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Latin": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Chinese and Persian": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Italian novella": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "English Romance": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Tahitian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Snuqualmi and Snohomish": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Faroe islands": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Wissowa": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Mexico": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Klikitat": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Torres Straits": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Batak": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "East Africa": {
+  "cardinality": 7,
+  "sub_traditions": {}
+ },
+ "Arnason": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Powell and Magnusson tr.": 1
+  }
+ },
+ "Canadian Dakota": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Turkish": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Central Caroline Islands": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "general": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Egypt": {
+  "cardinality": 3,
+  "sub_traditions": {
+   "ancient": 1
+  }
+ },
+ "Bohemian": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Middle English Romance": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Choco": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Mashacaln": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Mundurucu": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Bechuana": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Northern Rhodesia": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Ikeda": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Ceiuci": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Arabic": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Cross": {
+  "cardinality": 8,
+  "sub_traditions": {}
+ },
+ "Scandinavian": {
+  "cardinality": 7,
+  "sub_traditions": {}
+ },
+ "France": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Hupa": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Rumanian": {
+  "cardinality": 37,
+  "sub_traditions": {}
+ },
+ "C": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Paraguay": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Norlind": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "European borrowings": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Georgia Negro": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Greek fable": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tirol": {
+  "cardinality": 11,
+  "sub_traditions": {}
+ },
+ "American": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Southern Paiute": {
+  "cardinality": 4,
+  "sub_traditions": {
+   "Maopa": 1
+  }
+ },
+ "modern": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Sulka of New Britain": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Skidi Pawnee": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Wichita": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Modoc": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Tlingit": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Takelma": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "s Island": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Quinault": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "IndoChinese": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Menominee": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Eastern Equador": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Fuegian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Potawatomi": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Note": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Chilcotin": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Mandan": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "and following numbers passim": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "South of Zambesi": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Netherlands": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Molucca": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Passamaquoddy": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Tinguian": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Arikara": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Hausa": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Halmahera": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "cf": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Angola": 1
+  }
+ },
+ "Eskimo Greenland": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Java": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "California Indian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Teheulche": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Patagonian": 1
+  }
+ },
+ "Martin Edsman Ignis Divinus": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "See references to following motifs": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Wachaga": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "European borrowing": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tehauno": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "incorruption des corps saints": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Ellice Island": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Wuchaga": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Missisagua": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Gros Ventre": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Arapano": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Georgian": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Hrulfssaga Gautrekssonar": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "ed. Indian": 1
+  }
+ },
+ "Arawakan Chanb": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Mewan": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Versammlung deutscher Philologen in Graz": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Yuki": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Osage": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Pennsylvania": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "New York": {
+  "cardinality": 31,
+  "sub_traditions": {}
+ },
+ "Corsican": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Carolina": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Holland": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Onondaga": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Kai": {
+  "cardinality": 2,
+  "sub_traditions": {
+   "German New Guinea": 2
+  }
+ },
+ "Pochulata": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Y": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Brunk Der wilde Jdger im Glauben des pommerschen Volkes": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Teton": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Solomon Islands": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Skandinavian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tod und Jenseitsvorstellungen in Irland": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Kirghiz": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Shipaya": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Caroline Is": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Australia": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "San Cristobal": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "aut": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Kei Island": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Caroline Islands": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Nieue Island": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Cree": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Celebes": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Society Islands": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "Cross Icelandic": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "and Wendish": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Fdroe": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Austrian": {
+  "cardinality": 9,
+  "sub_traditions": {}
+ },
+ "Cross Danish": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Slovenian": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Tapirapi": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Fairies and Elves": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "berlieferung": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Neuman North American Indian": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Quinault": 1
+  }
+ },
+ "Koryak and American Indian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Ponka": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Ostiak": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Neuman Arabian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Denmark": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Fartse": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Norway": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Sweden": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Hanover": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Pomerania": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Holstein": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Westphalia": {
+  "cardinality": 5,
+  "sub_traditions": {}
+ },
+ "Ditmarsch": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Central": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Buriat": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Turk": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Westphalian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Ignacius Donnelly Atlantis": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Buddhist": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "French and North American Indian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Honduras and Nicaragua": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Ibo Nigeria": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Filipino": {
+  "cardinality": 10,
+  "sub_traditions": {}
+ },
+ "Ibibo": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "West   Hudson Bay": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Yurok": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Anvik": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Hagstone": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "South Carolina Negro": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "A Graf The Story of the Devil": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Cross India": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "White Russian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Estonian and Latvian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Montaignais": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Siberia": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tukuna": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Luzon": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Tinguian": 1
+  }
+ },
+ "Rotuma": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "North Africa": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "New Mexican": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Chinook": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Eastern Cree": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Society Group": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Sahaptin": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Skykomish": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Achomawi": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Ponca": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Balys Eskimo": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Aleut": 1
+  }
+ },
+ "Beckwith": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Arab": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Kashmir": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Iraq": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Afhandlinger til Arthur Christensen": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Boberg Greek": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "for a similar situation in which Death appears": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Gombel Die Fabel vom Magen und den Gliedern": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Roumania": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Kamanga": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Shilluk": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tschi": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Indian replies": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Nebraska text": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Plattdeutsch": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Banks Islands": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Lepers Island": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Espinosa": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Russia": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "the same story with risque ending": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Suk": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Bahama": {
+  "cardinality": 13,
+  "sub_traditions": {}
+ },
+ "South Carolina": {
+  "cardinality": 12,
+  "sub_traditions": {}
+ },
+ "Florida": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Kalispel": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Jicarilla Apache": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Ainu": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Jaunde": {
+  "cardinality": 4,
+  "sub_traditions": {}
+ },
+ "South American Negro": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Louisiana Creole": {
+  "cardinality": 8,
+  "sub_traditions": {}
+ },
+ "Caucasian": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Nubian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Vandau": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Nyanja": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Bahamas": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "British West Indies": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Berber": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "New Mexican Spanish": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Bermuda": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Middle English": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Nago": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Malay Peninsula": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Nakami": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "s tale": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "See for these counsels": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Mexican Spanish": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Montagnais": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Bankon": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Telei": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Sobre los origines del cuento del museco de brea": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Magyar": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Alabama": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "New Mexico": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Louisiana": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "American Negro and American Indian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "South of Zambezi": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Kristoffer Nyrop Nej": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Chipaya": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Sequel": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "s Tale": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Hammond Chaucer": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Borgeld Vrouwenlist": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Bacairi": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "The Three Nephites": {
+  "cardinality": 3,
+  "sub_traditions": {}
+ },
+ "Bambula": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Bangala": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "English and Scottish": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "West Africa": {
+  "cardinality": 6,
+  "sub_traditions": {}
+ },
+ "Kwakiut": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Yana": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Carriire": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Hidatsa": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Ganda": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Nez Perci": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Gipsy": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Shivwits": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Guatamala Indian": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Quiche": 1
+  }
+ },
+ "Eitrem Opferritus und Voropfer": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "English romance": {
+  "cardinality": 24,
+  "sub_traditions": {}
+ },
+ "Bittner Die Faustsage im russischen Schrifttum": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Loomis": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Modern Icelandic": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Spain": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Minehassa": {
+  "cardinality": 1,
+  "sub_traditions": {
+   "Celebes": 1
+  }
+ },
+ "Texas": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Louisiana French": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Carriire Italian Novella": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Chevalere Assigne": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Malone": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Lamba": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Alo": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Batanga": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Literary treatment": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Buddhist Myth": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Graham": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "East Gothic": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Latin American": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "llenhoff Deutsche Alterthumskunde": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Tanga": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Palaung tribe": {
+  "cardinality": 2,
+  "sub_traditions": {}
+ },
+ "Lkusgen": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Rumania": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Old French": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Siberian and North Pacific Coast of America": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Chauvin discusses the following stories having this motif": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Siberian and North American Indian": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Aleut": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Gypsy": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Huarochiri": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Karib": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Malagasy": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Bahonga": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "guarani": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "India and China": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Quiche": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Boberg": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Genthe Die Jungfrau Maria": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Spanish American": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ },
+ "Malaya": {
+  "cardinality": 1,
+  "sub_traditions": {}
+ }
+}

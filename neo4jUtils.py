@@ -387,3 +387,81 @@ def fixCitations(fixes):
     graph.close()
     return summary.counters.properties_set
 
+
+def createAndLinkSubjects(main:str, subs:dict)->int:
+    """ """
+    muuid:str = str(getUUID())
+    graph = openGraph()
+    rels:int = 0
+    with graph.session(database="neo4j") as session:
+        session.run("CREATE (m:subject { title:$main, uuid: $muuid } )", 
+                    main=main, muuid=muuid)
+        for k, v in subs.items():
+            suuid = str(getUUID())
+            _, summary, _ = session.run("""
+                            MATCH (m:subject { uuid: $muuid } )
+                            CREATE (s:subject { title:$sub, uuid: $suuid })-[:parent {relationGloss: "variant of", inverseGloss:"has variant"}]->(m)
+                            WITH s, $atus as atus
+                            UNWIND atus AS atu
+                            MATCH (a:atu {atu:atu})
+                            CREATE (a)-[:subject {relationGloss: "involves subject", inverseGloss:"appears in type"}]->(s)
+                            """, muuid=muuid, suuid=suuid, sub=k, atus=v
+                            ).to_eager_result()
+            classified:int = summary.counters.relationships_created
+            rels += classified
+    graph.close()
+    return rels
+
+
+def createRemarks(remarks:dict):
+    """ """
+    graph = openGraph()
+    with graph.session(database="neo4j") as session:
+        _, summary, _ = session.run("""
+                        WITH $remarks as remarks
+                        UNWIND keys(remarks) AS atu
+                        MATCH (a:atu { atu: atu })
+                        SET a.remarks = remarks[atu]
+                        """, remarks=remarks
+                        ).to_eager_result()
+    graph.close()
+    return {'expected': len(remarks), 'created': summary.counters.properties_set}
+
+
+def linkCombos(combos:dict):
+    """ """
+    graph = openGraph()
+    with graph.session(database="neo4j") as session:
+        _, summary, _ = session.run("""
+                        WITH $combos as combos
+                        UNWIND keys(combos) AS atu0
+                        WITH atu0, combos
+                        UNWIND combos[atu0] AS atu1
+                        MATCH (s:atu { atu: atu0 })
+                        MATCH (t:atu { atu: atu1 })
+                        MERGE (s)-[:combo {relationGloss: "sometimes combined with", inverseGloss:"sometimes combined with"}]-(t)
+                        """, combos=combos
+                        ).to_eager_result()
+    graph.close()
+    return summary.counters.relationships_created
+
+
+def linkSubjects(source:str, targets:list[str]):
+    """ """
+    redundancies:dict = {}
+    graph = openGraph()
+    with graph.session(database="neo4j") as session:
+        matches, summary, _ = session.run("""
+                        WITH $source AS subj0, $targets AS targets
+                        UNWIND targets AS subj1
+                        MATCH (s:subject { title: subj0 })
+                        MATCH (t:subject { title: subj1 })
+                        MERGE (s)-[:see {relationGloss: "see also", inverseGloss:"see also"}]-(t)
+                        RETURN s.title AS source, t.title AS target
+                        """, source=source, targets=targets
+                        ).to_eager_result()
+    graph.close()
+    if matches:
+        for match in matches:
+            redundancies[match.get('target')] = match.get('source')
+    return summary.counters.relationships_created, redundancies

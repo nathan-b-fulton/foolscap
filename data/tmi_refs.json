@@ -1,0 +1,3177 @@
+{
+ "AA n.s.": {
+  "raw": "AA n.s. = American Anthropologist, new series. Washington, 1899 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "AA o.s.": {
+  "raw": "AA o.s. = American Anthropologist, old series. 11 vols. Washington, 1888—1898.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Aarne": {
+  "raw": "Aarne, Antti. Vergleichende Märchenforschungen (MSFO XXV). Helsingfors, 1907.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Africa": {
+  "raw": "Africa. London, 1928 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Alarcon": {
+  "raw": "Alarcon, J. de Canedo, and Ricardo Pittini. El Chaco Paraguayo y sus tribos. Turin, 1924.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Alexander N. Am.": {
+  "raw": "Alexander N. Am. = Alexander, H. B. North American Mythology (The Mythology of all Races X). Boston, 1916.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Alexander Lat. Am.": {
+  "raw": "Alexander Lat. Am. = Latin American Mythology (The Mythology of all Races XI). Boston, 1920.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Alphabet": {
+  "raw": "Alphabet = Banks, M. M. An Alphabet of Tales, an English 15th century translation of the Alphabetum Narrationum of Etienne de Besançon (EETS Nos. 126, 127). 2 vols. London, 1904—05.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Ananikian": {
+  "raw": "Ananikian, Mardiros H. Armenian Mythology (The Mythology of all Races VII). Boston, 1925.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Anderson": {
+  "raw": "Anderson, W. Nordasiatische Flutsagen (Acta et Commentationes Universitatis Dorpatensis B IV iii [1923]).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Andree": {
+  "raw": "Andree, R. Die Flutsagen. Braunschweig, 1891.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Andree R.": {
+  "raw": "Andree, R. Ethnographische Parallelen und Vergleiche. Stuttgart, 1878.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Andree R. Neue": {
+  "raw": "Andree, R. Neue Folge, Leipzig, 1889.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Andrejev": {
+  "raw": "Andrejev, A. N. Ukazatel' Skazočnik Sjuzhetov po Systeme Aarne (Gosud. russ. geogr. obščestvo, otd. etnogr. skazočnaya komissiya). Leningrad, 1929.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Anesaki": {
+  "raw": "Anesaki, Masaharu. Japanese Mythology (The Mythology of all Races VIII). Boston, 1928.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Anssaga": {
+  "raw": "Anssaga Bogsveigis (FAS II 324 ff.).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Arfert": {
+  "raw": "Arfert, P. Das Motiv von der unterschobenen Braut. Rostock, 1897.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Argonautica": {
+  "raw": "Argonautica of Apollonius Rhodius (ed. G. W. Mooney). London, 1912.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Arnason": {
+  "raw": "Arnason, Jón. Íslenzkar þjoðsögur og æfintyri. 2 vols. Leipzig, 1862—64.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Arv": {
+  "raw": "Arv. (Tidskrift for Nordisk Folkminnesforskning). Uppsala, 1944 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "ASB": {
+  "raw": "ASB = Altnordische Saga-Bibliothek (ed. G. Cederschiöld and E. Mogk). 18 vols. Halle a. S., 1892—1929.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Asbjørnson": {
+  "raw": "Asbjørnson, P. Chr. and Moe, J. Norske Folkeeventyr. 3d edition. Kristiania, 1896.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Asmundarsaga": {
+  "raw": "Asmundarsaga Kappabana (FAS II 460 ff.).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Auning": {
+  "raw": "Auning, R. Ueber den lettischen Drachenmythus (Magazin der lettischlitterärischen Gesellschaft XIX 1—128). Mitau, 1891.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Azov": {
+  "raw": "Azov, R. F. and D. C. Phillott. \"Some Arab Folktales from Hazramut.\" Journal and Proceedings, Asiatic Society of Bengal (n. s.), II, 399—439; III, 645—680.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Babrius": {
+  "raw": "Babrius = Babrii Fabulae Aesopeae (ed. O. Crusius). Lipsiae, 1897.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Baldus": {
+  "raw": "Baldus, Herbert. Ensaios de Etnologia Brasileira. São Paulo, 1937.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Balys": {
+  "raw": "Balys, Jonas. Ghosts and Men, Lithuanian Folk Legends about the Dead (Sub-title: A Treasury of Lithuanian Folklore I). Bloomington, Indiana, 1951.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Balys Jonas.": {
+  "raw": "Balys, Jonas. Lithuanian Historical Legends. Chicago, 1949.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Balys Jonas. Motif-Index": {
+  "raw": "Balys, Jonas. Motif-Index of Lithuanian Narrative Folklore. Tautosakos Darbai Vol. II, Publication of the Lithuanian Folklore Archives. Kaunas, 1936.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Balys Jonas. Lithuanian": {
+  "raw": "Balys, Jonas. Lithuanian Folk Legends. Publication of the Lithuanian Folklore Archives I. Kaunas, 1940.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Balzac": {
+  "raw": "Balzac, Honoré de. Contes drolatiques. Paris (many editions).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "BAM": {
+  "raw": "BAM = Bulletin of the American Museum of Natural History (New York).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Baring-Gould": {
+  "raw": "Baring-Gould, S. Curious Myths of the Middle Ages. 2 vols. London, 1868.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Barker": {
+  "raw": "Barker, W. H. and Sinclair, C. West African Folk-tales. London, 1917.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Barrett": {
+  "raw": "Barrett, W. E. H. A'Kikuyu Fairy Tales (Man XII, XIII).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Barroso": {
+  "raw": "Barroso, Gustavo. Mythes, Contes et Legendes des Indiens: Folklore Bresilien. Paris, 1930.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Barto": {
+  "raw": "Barto, Philip Stephan. Tannhäuser and the Mountain of Venus. New York, 1916.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Basden": {
+  "raw": "Basden, G. T. Among the Ibos of Nigeria. London, 1921.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Basile": {
+  "raw": "Basile, G. The Pentamerone (trans. and edited by Benedetto Croce and N. M. Penzer). 2 vols. London, 1932.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "Baskerville": {
+  "raw": "Baskerville, Rosetta Gage. King of the Snakes and other Folklore: Stories from Uganda. London, 1922.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Basset": {
+  "raw": "Basset, René. Contes populaires d'Afrique. Paris, 1903.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Basset René.": {
+  "raw": "Basset, René. Mille et un contes, récits et légendes arabes. 3 vols. Paris, 1925—27.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Bateman": {
+  "raw": "Bateman, G. W. Zanzibar Tales. Chicago, 1901.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Baughman": {
+  "raw": "Baughman, Ernest Warren. A Comparative Study of the Folktales of England and North America. (Indiana University dissertation.) Ann Arbor, Michigan. Microfilm Service. 1954.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "BBAE": {
+  "raw": "BBAE = Bulletin of the Bureau of American Ethnology.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Beal": {
+  "raw": "Beal = Bealoideas: Journal of the Folklore of Ireland Society.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Beauvois": {
+  "raw": "Beauvois, E. L'autre vie dans la mythologie scandinave (Reprint from Muséon). Paris, 1883.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Bebel": {
+  "raw": "Bebel. See Wesselski.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Beckwith": {
+  "raw": "Beckwith, Martha. Hawaiian Mythology. New Haven, 1940.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Bédier": {
+  "raw": "Bédier, Joseph. Les Fabliaux. 2d edition. Paris, 1893.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Bender": {
+  "raw": "Bender, C. J. Die Volksdichtung der Wakweli. ZsES Beiheft IV (1922), 38 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Benedict": {
+  "raw": "Benedict, Ruth. Zuñi Mythology. 2 vols. New York, 1935. (All references are to Volume II.)\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Béranger-Feraud": {
+  "raw": "Béranger-Feraud, L. J. B. Recueil de Contes Populaires de Sénégambie. Paris, 1879.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Biblioteca": {
+  "raw": "Biblioteca Africana (D. A. Drexel ed.) Innsbruck, 1924—31.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "bin": {
+  "raw": "bin Gorion, M. J. Der Born Judas: Legenden, Märchen und Erzählungen. 6 vols. Leipzig, 1918 ff. (Vols. 1—4 cited are second edition, 5 and 6 are first edition).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Bladé": {
+  "raw": "Bladé, J. F. Contes populaires de Gascogne (Les Littératures Populaires, Nos. 19, 20, 21). 3 vols. Paris, 1886.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Bleek": {
+  "raw": "Bleek, W. H. I. Reynard the Fox in South Africa or Hottentot Fables and Tales. London, 1864.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Bleek W.": {
+  "raw": "Bleek, W. H. I., and Lloyd, L. C. Specimens of Bushman Folklore. London, 1911.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Blinkenberg": {
+  "raw": "Blinkenberg, Chr. The Thunder Weapon in Religion and Folklore. Cambridge, 1911.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Bloomfield": {
+  "raw": "Bloomfield, Maurice, Studies in Honor of. New Haven, 1920.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "BMB": {
+  "raw": "BMB = Bishop Museum Bulletin.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Boas": {
+  "raw": "Boas, Franz. Indianische Sagen von der Nord-Pacifischen Küste Amerikas. Berlin, 1895.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Boberg": {
+  "raw": "Boberg, Inger M. Motif-Index of Early Icelandic Literature (Biblioteca Arnamagnæana). København 1956.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "Bødker": {
+  "raw": "Bødker, Laurits. Christen Nielssen, De Gamle Vijses Exempler oc Hoffsprock. København, 1951, 1953.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Boekenoogen": {
+  "raw": "Boekenoogen, G. J. Een Schone ende Miraculeuse historie van den Ridder Metter Swane. Leiden, 1931.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Boje": {
+  "raw": "Boje, Christian. Uber den altfranzosischen roman von Beuve de Hamtone (Beiheft zur Zeitschrift für Romanische Philologie XIX). Halle a. S., 1909.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Bolte": {
+  "raw": "Bolte, J. Jakob Freys Gartengesellschaft (Bibliothek des Literarischen Vereins in Stuttgart, No. 209). Tübingen, 1896.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Bolte J.": {
+  "raw": "Bolte, J. *Martin Montanus Schwankbücher (Bibliothek des Literarischen Vereins in Stuttgart, No. 217). Tübingen, 1899.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Valentin": {
+  "raw": "Valentin Schumanns Nachtbüchlein (Bibliothek des Literarischen Vereins in Stuttgart, No. 197). Tübingen, 1893.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Bolte J. *Georg": {
+  "raw": "Bolte, J. *Georg Wickrams Werke (Bibliothek des Literarischen Vereins in Stuttgart, Nos. 222, 223, 229, 230, 232, 236, 237, 241). 8 vols. Tübingen, 1901—08.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Bolte J. See": {
+  "raw": "Bolte, J. See BP.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Bolte J. See Fischer.": {
+  "raw": "Bolte, J. See Fischer.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Bolte J. See Pauli.": {
+  "raw": "Bolte, J. See Pauli.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Bósasaga": {
+  "raw": "Bósasaga (ed. O. L. Jiriczek). Strassburg, 1893.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Bourhill": {
+  "raw": "Bourhill, E. J. and Drake, J. B. Fairy Tales from South Africa. London, 1908.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Bouveignes": {
+  "raw": "Bouveignes, Olivier de. Contes d'Afrique. Paris, 1927.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "BP": {
+  "raw": "BP = Bolte, J. and Polívka, G. Anmerkungen zu den Kinder- und Hausmärchen der Brüder Grimm. 5 vols. Leipzig, 1913—31.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Broderius": {
+  "raw": "Broderius, John R. The Giant in Germanic Tradition (University of Chicago dissertation). Chicago, 1933.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Brown": {
+  "raw": "Brown, A. C. L. Iwain: a Study in the Origins of Arthurian Romance (Harvard Studies and Notes in Philology and Literature VIII). Boston, 1903.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Brown Collection": {
+  "raw": "Brown Collection = The Frank C. Brown Collection of North Carolina Folklore. 5 vols. Durham, N. C, 1952—.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Bryan": {
+  "raw": "Bryan, William F. and Dempster, Germaine. Sources and Analogues of Chaucer's Canterbury Tales. Chicago, 1941.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Bugge": {
+  "raw": "Bugge, Sophus. Norróne Skrifter af Sagnhistorisk Indhold. Christiania, 1864.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Burton": {
+  "raw": "Burton, R. F. Arabian Nights: The Book of the Thousand Nights and a Night. London, 1894. (SI, SII, etc. refers to Supplementary Volumes).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Book": {
+  "raw": "Book of the Sword. London, 1884.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Büttner": {
+  "raw": "Büttner, C. G. Lieder und Geschichten der Suaheli. Berlin, 1894.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Caldwell": {
+  "raw": "Caldwell, J. R. Egar and Grime. Cambridge (Mass.), 1933.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Callaway": {
+  "raw": "Callaway, H. Nursery Tales, Traditions, and Histories of the Zulus. Vol. I. Natal and London, 1868.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Campbell": {
+  "raw": "Campbell, J. F. Popular Tales of the West Highlands. 4 vols. 2d edition. London, 1890—93.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Campbell K.": {
+  "raw": "Campbell, K. The Seven Sages of Rome. Boston, 1907.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Campbell-McKay": {
+  "raw": "Campbell-McKay = John G. McKay, More West Highland Tales, transcribed and translated from the original Gaelic manuscript of John Francis Campbell. Edinburgh and London, 1940.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Cappelle": {
+  "raw": "Cappelle, H. van. Mythen en Sagen uit West Indië. Zutphen, 1926.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Cardim": {
+  "raw": "Cardim, Fernão. Tratado da terra e gente do Brasil. Rio de Janeiro, 1925.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Carnoy": {
+  "raw": "Carnoy, Albert J. Iranian Mythology (The Mythology of all Races VI). Boston, 1917.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Carrière": {
+  "raw": "Carrière = J. M. Carrière, Tales from the French Folk-Lore of Missouri. Evanston and Chicago, 1937.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Carrington": {
+  "raw": "Carrington, Hereward and Fodor, Nandor. Haunted People: Story of the Poltergeist down the Centuries. New York, 1951.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Casati": {
+  "raw": "Casati, Gaetano. Ten Years in Equatoria and the Return with Emin Pasha (London, New York, 1891).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Catalogus": {
+  "raw": "Catalogus = Catalogus van Folklore in de Koninklijke Bibliotheek. 3 vols. The Hague, 1919—22.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "CColl": {
+  "raw": "CColl = Colorado College Publications, Language Series.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Les": {
+  "raw": "Les Cent Nouvelles Nouvelles. 2 vols. (ed. Pierre Champion). Paris, 1928.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Chantepie": {
+  "raw": "Chantepie de la Saussaye. See Saussaye.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Charpentier": {
+  "raw": "Charpentier, Jarl. Kleine Beiträge zur indoiranischen Mythologie (Uppsala Universitets Arsskrift). Uppsala, 1911.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Chatelain": {
+  "raw": "Chatelain, Heli. Folk-Tales of Angola (MAFLS I). Boston and New York, 1894.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Chauvin": {
+  "raw": "Chauvin, Victor. Bibliographie des ouvrages arabes. 12 vols. Liège, 1892—1922.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Chavannes": {
+  "raw": "Chavannes, Edouard. Cinq cent contes et apologues extraits du Tripitaka chinois. 4 vols. Paris, 1910—34.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Child": {
+  "raw": "Child, Francis James. The English and Scottish Popular Ballads. 5 vols in 10. Boston, 1882—98.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Childers": {
+  "raw": "Childers, J. W. Motif-Index of the Cuentos of Juan Timoneda. Bloomington, Ind., 1947.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "Christensen": {
+  "raw": "Christensen, Arthur. Dumme Folk (DF No. 50). København 1941.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Christensen Arthur.": {
+  "raw": "Christensen, Arthur. Molboernes vise Gerninger (DF No. 47). København, 1939.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Christiansen": {
+  "raw": "Christiansen, R. Th. Norske Eventyr (Norske Folkeminder II). Kristiania, 1921.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "CI": {
+  "raw": "CI = Publications of the Carnegie Institution of Washington.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Clark": {
+  "raw": "Clark, Mrs. K. M. Maori Tales and Legends. London, 1896.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Clodd": {
+  "raw": "Clodd, Edward. Tom-Tit-Tot. London, 1898.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Clouston": {
+  "raw": "Clouston, W. A. The Book of Noodles. London, 1888.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Clouston W.": {
+  "raw": "Clouston, W. A. A Group of Eastern Romances and Stories. Glasgow, 1889.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Clouston W. A.": {
+  "raw": "Clouston, W. A. *Popular Tales and Fictions. 2 vols. Edinburgh, London, 1887.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "CNAE": {
+  "raw": "CNAE = Contributions to North American Ethnology. Washington, 1877—93.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Codrington": {
+  "raw": "Codrington, R. H. The Melanesians: studies in their Anthropology and Folklore. Oxford, 1891.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Cole": {
+  "raw": "Cole, Fay Cooper. Traditions of the Tinguian. FM XIV. Chicago, 1915.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Conzemius": {
+  "raw": "Conzemius, E. Ethnographical survey of the Miskito and Sumu Indians of Honduras and Nicaragua. BBAE CVI, 1932.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Cook": {
+  "raw": "Cook, A. B. Zeus: a study in ancient religion. 3 vols. Cambridge, 1914 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Corpus": {
+  "raw": "Corpus Poeticum Boreale (edited by G. Vigfússon and F. Y. Powell). 2 vols. Oxford, 1883.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Cosquin": {
+  "raw": "Cosquin, E. Contes populaires de Lorraine. 2 vols. Paris, 1887.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Cosquin E.": {
+  "raw": "Cosquin, E. Etudes folkloriques. Paris, 1922.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Cosquin E. Les": {
+  "raw": "Cosquin, E. Les contes indiens et l'occident. Paris, 1922.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Coster-Wijsman": {
+  "raw": "Coster-Wijsman, L. N. Uilespiegel-Verhalen in Indonesië. Santpoort, 1929.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Cowell": {
+  "raw": "Cowell, E. B. and others. The Jātaka or Stories of the Buddha's Former Births. 6 vols, and index. Cambridge, 1895—1913.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Cox": {
+  "raw": "Cox, Marian R. Cinderella (PFLS XXXI). London, 1893.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Coyajee": {
+  "raw": "Coyajee, J. C. Some Shahnameh Legends and their Chinese Parallels. JPASB XXIV (1928).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Crane": {
+  "raw": "Crane, T. F. Liber de Miraculis Sanctae Dei Genetricis Mariae. Ithaca (N.Y.) and London, 1926.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Crane T.": {
+  "raw": "Crane, T. F. The Exempla of Jacques de Vitry (PFLS XXVI). London, 1890.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Crawley": {
+  "raw": "Crawley, Ernest. The Mystic Rose. London, 1902.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Cross": {
+  "raw": "Cross = Tom Peete Cross. Motif-Index of Early Irish Literature. Bloomington, Indiana, 1952.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "CU": {
+  "raw": "CU = Columbia University Contributions to Anthropology.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Curtin": {
+  "raw": "Curtin, Jeremiah. Seneca Indian Myths. Boston, 1923.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Cushing": {
+  "raw": "Cushing, Frank H. Zuñi Folk Tales. New York and London, 1901.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Dania": {
+  "raw": "Dania. 10 vols. København, 1890—1903.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Danske": {
+  "raw": "Danske Studier. København, 1904 ff.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Davenport": {
+  "raw": "Davenport, William. Marshallese Folklore Types (JAFL LXVI 219—237).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Dawkins": {
+  "raw": "Dawkins, Richard M. Forty-five Stories from the Dodekanese. Cambridge (England), 1950.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Dawkins Richard": {
+  "raw": "Dawkins, Richard M. Modern Greek Folktales. Oxford, 1953.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Day": {
+  "raw": "Day, Lal Behary. Folk-Tales of Bengal. London, 1912.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "De": {
+  "raw": "De Cock, Alfons. Studien en Essays over oude Volksvertelsels. Antwerp, 1919.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "De Cock,": {
+  "raw": "De Cock, Alfons. Volkssage, Volksgeloof en Volksgebruik. Antwerp, 1918.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "De Cock, Alfons.": {
+  "raw": "De Cock, Alfons. Volksgeneeskunde in Vlaanderen. Gent, 1891.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "De la": {
+  "raw": "De la Saussaye. See Saussaye.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Dennett": {
+  "raw": "Dennett, R. E. The Folk-lore of the Fjort (French Congo) (PFLS XLI). London, 1898.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Desparmet": {
+  "raw": "Desparmet, J. Contes populaires sur les ogres, recueillis à Blida. 2 vols. Paris, 1909—10.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Deutschbein": {
+  "raw": "Deutschbein, M. Studien zur Sagengeschichte Englands. Göthen, 1906.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "De Vries,": {
+  "raw": "De Vries, Jan. \"De Sage van het ingemetselde Kind\". Nederlandsch Tijdschrift voor Volkskunde XXXII (1927) 1—13.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "De Vries, Jan.": {
+  "raw": "De Vries, Jan. Studiën over Faerösche Balladen. Haarlem, 1915.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "De Vries, Jan. Volksverhalen": {
+  "raw": "De Vries, Jan. Volksverhalen uit Oost Indië. 2 vols. Leiden, 1925, 1928.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "De Vries's list": {
+  "raw": "De Vries's list = De Vries, Jan. \"Typen-Register der Indonesische Fabels en Sprookjes\" (Volksverhalen uit Oost-Indië II 398 ff.) DF = Danmarks Folkeminder. København, 1908— *Dh — Dähnhardt, Oskar. Natursagen. 4 vols. Leipzig, 1909—12.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Dickson": {
+  "raw": "Dickson, Arthur. Valentine and Orson, a study in late Medieval Romance. New York, 1929.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Dieterich": {
+  "raw": "Dieterich, Albrecht. Mutter Erde: ein Versuch über Volksreligion. 2d ed. Berlin, 1913.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Dixon": {
+  "raw": "Dixon, Roland B. Oceanic Mythology (The Mythology of all Races IX). Boston, 1916.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Dobie": {
+  "raw": "Dobie, J. Frank. Coronado's Children. Dallas (Texas), 1930.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Dunlop-Liebrecht": {
+  "raw": "Dunlop-Liebrecht = Dunlop, J. Geschichte der Prosadichtungen (tr. and revised by F. Liebrecht). Berlin, 1851.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Dunlop-Wilson": {
+  "raw": "Dunlop-Wilson = Dunlop, J. History of Prose Fiction. New edition revised by H. Wilson. 2 vols. London, 1888.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Durkheim": {
+  "raw": "Durkheim, Émile. Les formes élémentaires de la vie religieuse. Paris, 1912.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "EETS": {
+  "raw": "EETS = Early English Text Society Publications. London, 1864 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Ebding": {
+  "raw": "Ebding, F. \"Duala Märchen\" (ZsES XVIII, 142—47).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Eberhard": {
+  "raw": "Eberhard, Wolfram. Chinese Fairy Tales and Folk Tales. London, 1937.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Eberhard Wolfram.": {
+  "raw": "Eberhard, Wolfram. Typen chinesischer Volksmarchen (FFC CCXX, 1937).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Eberhard Wolfram": {
+  "raw": "Eberhard, Wolfram and Boratav, Pertev. Typen türkischen Volksmärchen. Weisbaden, 1953.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Egils": {
+  "raw": "Egils saga einhenda ok Ásmundar Berserkjabana (in Lagerholm, Drei Lygisögur, Halle, 1927 pp. 1 ff.).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Ehrenreich": {
+  "raw": "Ehrenreich, Paul. Die Mythen und Legenden der südamerikanischen Urvolker. Berlin, 1905.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Einstein": {
+  "raw": "Einstein, C. Afrikanische Legenden. Berlin, 1925.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Eisler": {
+  "raw": "Eisler, R. Weltenmantel und Himmelszelt. 2 vols. München, 1910.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Ellis (Yoruba)": {
+  "raw": "Ellis (Yoruba) = Ellis, A. B. The Yoruba-speaking Peoples of the Slave Coast of West Africa. London, 1894.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Ellis (Vai)": {
+  "raw": "Ellis (Vai) = Ellis, G. W. Negro Culture in West Africa. New York, 1914.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Ellis": {
+  "raw": "Ellis, T. P. and Lloyd, J. The Mabinogion. 2 vols. Oxford, 1929.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Emeneau": {
+  "raw": "Emeneau, M. B. Kota Texts. 4 vols. Berkeley and Los Angeles, 1944—46.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "Encyc. Rel. Ethics": {
+  "raw": "Encyc. Rel. Ethics = Hastings, J. Encyclopaedia of Religion and Ethics. 12 vols. New York, 1908—22.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Engert": {
+  "raw": "Engert, Rolf. Die Sage vom Fliegenden Holländer (Meereskunde, Bd. XV, 7, Heft 173). Berlin, 1927.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Equilbecq": {
+  "raw": "Equilbecq, F. V. Contes indigènes de l'Ouest Africain Français. 3 vols. Paris, 1913—16.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Erminy": {
+  "raw": "Erminy Arismendi, Santos. Huellas Folkloricas. Caracas, 1954.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Espinosa": {
+  "raw": "Espinosa, Aurelio M. Cuentos populares españoles. 3 vols. 2d edition. Madrid, 1946—47.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Espinosa Aurelio": {
+  "raw": "Espinosa, Aurelio M., Jr. Cuentos populares de Castilla y Leon. (In press.) *Eyrbyggja saga (ed. H. Gering). ASB VI. Halle, 1897.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "FAS": {
+  "raw": "FAS = Rafn, C. C. Fornaldar Sögur Norðrlanda. 3 vols. København, 1829—30.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Fb": {
+  "raw": "Fb = Feilberg, H. F. Bidrag til en Ordbog over jyske Almuesmål. 4 vols. København, 1886—1914.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Feilberg": {
+  "raw": "Feilberg, H. F. Nissens Historie (DF No. 18). København, 1919.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Feilberg H.": {
+  "raw": "Feilberg, H. F. Jul. 2 vols. København, 1904.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Feilberg H. F.": {
+  "raw": "Feilberg, H. F. Festskrift til (Svenska Landsmål ock svenskt Folkliv). Stockholm, 1911.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Ferguson": {
+  "raw": "Ferguson, John C. Chinese Mythology (Mythology of all Races VIII). Boston, 1928.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "FFC": {
+  "raw": "FFC = FF Communications, published by the Folklore Fellows. Helsinki, 1907 ff.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Field": {
+  "raw": "Field, John E. The Myth of the Pent Cuckoo. London, 1913.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Fischer": {
+  "raw": "Fischer, H. and Bolte, J. Die Reise der Söhne Giaffers (Bibliothek des Litterarischen Vereins in Stuttgart No. 208). Tübingen, 1895.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "FL =Folklore. London, 1890 ff.\n": {
+  "raw": "FL =Folklore. London, 1890 ff.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Flateyarbók": {
+  "raw": "Flateyarbók (ed. Vigfússon and Unger). 3 vols. Christiania, 1860—68.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "FLJ": {
+  "raw": "FLJ = Folklore Journal. 8 vols. London, 1883—89.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Flowers": {
+  "raw": "Flowers, Helen L. A Classification of the Folktales of the West Indies by Types and Motifs. (Indiana University Ph. D. thesis, 1952.) Microfilm Service, Ann Arbor, Michigan, 1953.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "FLR": {
+  "raw": "FLR = Folklore Record. 5 vols. London, 1878—82.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "FM": {
+  "raw": "FM = Publications of the Field Columbian Museum, Anthropological Series, Chicago, 1895 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "FMS": {
+  "raw": "FMS = Fornmannasögur Norðrlanda. 12 vols. København, 1925—37.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "FochF": {
+  "raw": "FochF = Folkminnen och Folktankar. Lund.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Folklore": {
+  "raw": "Folklore Studies (The Catholic University of Peking). 6 vols. Peiping, 1942—47.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Fox": {
+  "raw": "Fox, William S. Greek and Roman Mythology (Mythology of all Races I). Boston, 1916.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Frazer": {
+  "raw": "Frazer, J. G. Apollodorus: the Library (Loeb Classical Library). London and New York, 1921.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Frazer J.": {
+  "raw": "Frazer, J. G. The Belief in Immortality and the Worship of the Dead. 2 vols. London, 1913.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Frazer J. G.": {
+  "raw": "Frazer, J. G. The Fasti of Ovid. 5 vols. London, 1929.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Frazer J. G. Folklore": {
+  "raw": "Frazer, J. G. Folklore in the Old Testament. 3 vols. London, 1918.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Frazer J. G. The": {
+  "raw": "Frazer, J. G. The Golden Bough. 3d edition. 12 vols. London, 1907—15.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Frazer J. G. Myths": {
+  "raw": "Frazer, J. G. Myths of the Origin of Fire. London, 1930.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Frazer J. G. Pousanias's": {
+  "raw": "Frazer, J. G. Pousanias's Description of Greece. 6 vols. London, 1898.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Frey": {
+  "raw": "Frey. See Bolte.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Frobenius": {
+  "raw": "Frobenius, Leo. Atlantis: Volksdichtung und Volksmärchen Afrikas. 12 vols. Jena, 1921—28.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Frobenius Leo.": {
+  "raw": "Frobenius, Leo. Erlebte Erdteile. Frankfurt a. M., 1925 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Frobenius Leo": {
+  "raw": "Frobenius, Leo and Fox, Douglas C. African Genesis. New York, 1937.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "FSS": {
+  "raw": "FSS = Fornaldarsögur Suðrlanda (ed. G. Cederschiöld). København, 1901.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Gantenbein": {
+  "raw": "Gantenbein, B. Sprichwörter und Fabeln der Kamerun-Neger (Mitteilungen der ostschweizerischen Geograph-Commerciellen Gesellschaft II). St. Gallen, 1909.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Gaster": {
+  "raw": "Gaster, Moses. Beiträge zur vergleichenden Sagen- und Märchenkunde (Gruz' Monatschrift fur Geschichte und Wissenschaft des Judentums, XXIX, XXX). Bukarest, 1880, 1881. (Separate reprint, 1882; also included in Studies and Texts in Folklore, cited below).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Gaster Moses.": {
+  "raw": "Gaster, Moses. The Exempla of the Rabbis. London, Leipzig, 1924.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Gaster Moses. Studies": {
+  "raw": "Gaster, Moses. Studies and Texts in Folklore, Magic, Medieval Romance, Hebrew Apocrypha and Samaritan Archaeology. 3 vols. London, 1925—28.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Gaster Theodor": {
+  "raw": "Gaster, Theodor H. The Oldest Stories in the World. New York, 1952.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "Gaster Theodor H.": {
+  "raw": "Gaster, Theodor H. Thespis. New York, 1950.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "Gautreks": {
+  "raw": "Gautreks Saga (ed. W. Ranisch, Palaestra XI). 1900.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Gayton": {
+  "raw": "Gayton, A. H. and Newman, Stanley S. Yokuts and Western Mono Myths. Berkeley (Calif.), 1940.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Gerould": {
+  "raw": "Gerould, Gordon H. The Grateful Dead (PFLS LX). London, 1908.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Gifford": {
+  "raw": "Gifford, E. W. Tongan Myths and Tales. BMB VIII. Honolulu 1924.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Giles": {
+  "raw": "Giles, Herbert A. Strange Stories from a Chinese Studio. New York, 1927.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Gilgamisch": {
+  "raw": "Gilgamisch = Ungrad, A. and Gressman, H. Das Gilgamesch-Epos. Göttingen, 1911.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Golther": {
+  "raw": "Golther, Wolfgang. Zur deutschen Sage und Dichtung. Leipzig, 1911.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Göngu": {
+  "raw": "Göngu Hrólfs saga (FAS III 235 ff.).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Gonzenbach": {
+  "raw": "Gonzenbach, Laura. Sicilianische Märchen. 2 vols. Leipzig, 1870.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Graf": {
+  "raw": "Graf, Arturo. Miti, Leggende e Superstizioni del Medio Evo. 2 vols. Torino, 1892—93.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Graham (Chinese)": {
+  "raw": "Graham (Chinese) = Graham, David Crockett. Songs and Stories of the Ch'uan Miao (Smithsonian Miscellaneous Publications CXXIII No. 1). Washington, D. C, 1954.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "Gray": {
+  "raw": "Gray, Louis H. Baltic Mythology (Mythology of All Races III). Boston, 1918.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Grenfell": {
+  "raw": "Grenfell = Johnson, Sir Harry. George Grenfell and the Congo, II. London, 1908.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Grettis": {
+  "raw": "Grettis saga (ed. R. C. Boer). ASB VIII. Halle, 1900.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Grímssaga": {
+  "raw": "Grímssaga Loðinkinna (FAS II 143 ff.).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Grinnell": {
+  "raw": "Grinnell, G. B. Pawnee Hero Stories and Folk-Tales. New York, 1889.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Grote": {
+  "raw": "Grote, George. History of Greece. 3 vols. London, 1888.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Grundtvig": {
+  "raw": "Grundtvig, S. Danmarks gamle Folkeviser. 8 vols. København, 1853—.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Grunwald": {
+  "raw": "Grunwald, M. \"Spaniolic-Jewish Folktales and Their Motifs\", Edoth II (1947), pp. 225—243 (in Hebrew).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "GSCan": {
+  "raw": "GSCan = Publications of the Geological Survey of Canada, Anthropological Series.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Gull-þóris": {
+  "raw": "Gull-þóris Saga (ed. Kr. Kaalund). København, 1898.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Gunnlaugs": {
+  "raw": "Gunnlaugs saga Ormstunga (ed. E. Mogk). Altnordische Texte I, 1886.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Günter": {
+  "raw": "Günter, H. Die christliche Legende des Abendlandes. Heidelberg, 1910.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Güntert": {
+  "raw": "Güntert, H. Der arische Weltkönig und Heiland. Halle, 1923.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Güntert H.": {
+  "raw": "Güntert, H. Kalypso. Halle, 1919.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Gutmann": {
+  "raw": "Gutmann, Bruno. Volksbuch der Wadschagga. Leipzig, 1914.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hackman": {
+  "raw": "Hackman, O. Die Polyphemsage in der Volksüberlieferung. Helsingfors, 1904.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Haddon": {
+  "raw": "Haddon, A. C. Reports of the Cambridge Anthropological Expedition to Torres Straits. 6 vols. Cambridge (Eng.), 1901—35.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hagen": {
+  "raw": "Hagen, Friedrich Heinrich von der. Gesammtabenteuer. 3 vols. Stuttgart and Tübingen, 1850.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Hálfdanar": {
+  "raw": "Hálfdanar saga Brönufóstra (FAS III 559 ff.).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hálfdanar saga": {
+  "raw": "Hálfdanar saga Eysteinssonar (ed. F. R. Schröder). Halle, 1917.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hálfs": {
+  "raw": "Hálfs saga ok Hálfsrekka (ed. A. Le Roy Andrews). Halle, 1909.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Halm": {
+  "raw": "Halm, K. von. Aisōpeiōn Mythōn Synagōgē. Lipsiae, 1852.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Halpert": {
+  "raw": "Halpert, Herbert N. Folktales and Legends from the New Jersey Pines. (Indiana University Ph. D. thesis). Typewritten ms. Indiana University Library. Bloomington, Ind., 1947.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "Handbook": {
+  "raw": "Handbook of South American Indians (ed. Julian H. Steward). BBAE CXLIII. 6 vols.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Washington": {
+  "raw": "Washington, D. C, 1946—50.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Handy": {
+  "raw": "Handy, E. S. C. Marquesan Legends. BMB LXIX. Honolulu 1930.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Harris": {
+  "raw": "Harris, J. R. Boanerges. Cambridge (Eng.), 1913.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Harris J.": {
+  "raw": "Harris, J. R. The Cult of the Heavenly Twins. Cambridge, 1906.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Harris J. R.": {
+  "raw": "Harris, J. R. Picus who is also Zeus. Cambridge, 1916.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Harris Joel": {
+  "raw": "Harris, Joel C. *Uncle Remus: his Songs and Sayings. New York, 1880.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Harris Joel C.": {
+  "raw": "Harris, Joel C. Uncle Remus and his Friends. Boston, 1892.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Harris Joel C. Nights": {
+  "raw": "Harris, Joel C. Nights with Uncle Remus. Boston, 1883.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Hartland": {
+  "raw": "Hartland, E. S. The Legend of Perseus. 3 vols. London, 1894 ff.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Hartland E.": {
+  "raw": "Hartland, E. S. Primitive Paternity. 2 vols. London, 1909.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Hartland E. S.": {
+  "raw": "Hartland, E. S. The Science of Fairy Tales. London, 1891.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Hatt": {
+  "raw": "Hatt, Gudmund. *Asiatic Influences in American Folklore. København, 1949.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hatt Gudmund.": {
+  "raw": "Hatt, Gudmund. The Corn Mother in America and Indonesia. (Anthropos XLVI [1951] pp.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "853—914.) *Hdwb. d. Abergl.": {
+  "raw": "853—914.) *Hdwb. d. Abergl. = Bächtold-Stäubli, H. and others. Handwörterbuch des deutschen Aberglaubens. 10 vols. Berlin, 1927 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hdwb. d. Märch.": {
+  "raw": "Hdwb. d. Märch. = Mackensen, L. and others. Handwörterbuch des deutschen Märchens. Berlin, 1931 ff.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Heepe": {
+  "raw": "Heepe, M. Jaunde-Texte. Hamburg, 1919.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Heiðreks": {
+  "raw": "Heiðreks saga. See Hervararsaga ok Heiðreks konungs.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Held": {
+  "raw": "Held, T. v. Märchen und Sagen der africanischen Neger. Jena, 1904.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Heptameron": {
+  "raw": "Heptameron. See Marguerite de Navarre.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Herbert": {
+  "raw": "Herbert, J. A. Catalogue of Romances in the Department of Manuscripts in the British Museum. London, 1910. (Vol. 3 only; for vols. 1 and 2 see Ward, H. L. D.)\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Herrmann": {
+  "raw": "Herrmann, Paul. Erläuterungen zu den ersten neun Büchern der dänischen Geschichte des Saxo Grammaticus. 2 vols. Leipzig, 1901, 1922.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Herrmann Paul.": {
+  "raw": "Herrmann, Paul. Nordische Mythologie. Leipzig, 1903.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hertel": {
+  "raw": "Hertel, A. Verzauberte Oertlichkeiten. Hannover, 1908.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hertz": {
+  "raw": "Hertz, Wilhelm. Aus Dichtung und Saga (ed. K. Vollmöller). Stuttgart and Berlin, 1907.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Hertz Wilhelm.": {
+  "raw": "Hertz, Wilhelm. Gesammelte Abhandlungen (ed. F. v. d. Leyen). Stuttgart and Berlin 1905.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Hertz Wilhelm. Parzival.": {
+  "raw": "Hertz, Wilhelm. Parzival. 2d ed. Stuttgart and Berlin, 1914.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hertz Wilhelm. Spielmannsbuch.": {
+  "raw": "Hertz, Wilhelm. Spielmannsbuch. Stuttgart, 1886.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hertz Wilhelm. Tristan": {
+  "raw": "Hertz, Wilhelm. Tristan und Isolde. Stuttgart, 1877.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hervararsaga": {
+  "raw": "Hervararsaga ok Heiðreks Konungs (ed. J. Helgason). København, 1924.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hervieux": {
+  "raw": "Hervieux, L. Les fabulistes latins. 2d ed. 2 vols. Paris, 1893—4 . Hibbard, Laura A.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hervieux L.": {
+  "raw": "Hervieux, L. Mediaeval Romance in England. New York, 1924.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "HF": {
+  "raw": "HF = Hoosier Folklore. Indianapolis, Ind., 1946 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hjálmterssaga": {
+  "raw": "Hjálmterssaga ok Ölvis (FAS III 453 ff.).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hock": {
+  "raw": "Hock, Stefan. Die Vampyrsagen und ihre Verwertung in der deutschen Literatur. Berlin, 1900.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Holm": {
+  "raw": "Holm, G. Sagn og Fortællinger fra Angmagsalik (Meddelelser om Grønland X 237 ff.).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Holmberg": {
+  "raw": "Holmberg, Uno. Der Baum des Lebens (Annales Academiae Scientiarum Fennicae XVI. B). Helsinki, 1922—3.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Holmberg Uno.": {
+  "raw": "Holmberg, Uno. Finno-Ugric Mythology (The Mythology of all Races IV). Boston, 1927.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Holmberg Uno. Gudstrons": {
+  "raw": "Holmberg, Uno. Gudstrons uppkomst. Uppsala, 1917.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Holmberg Uno. Siberian": {
+  "raw": "Holmberg, Uno. Siberian Mythology (The Mythology of all Races IV). Boston 1927.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Holmström": {
+  "raw": "Holmström, Helge. Studier över svanjungfrumotivet. Malmö, 1919.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Howey": {
+  "raw": "Howey, M. O. The Horse in Magic and Myth. London, 1923.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Hrßolfs": {
+  "raw": "Hrßolfs Saga Kraka (ed. Finnur Jonsson). København, 1904.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Hromundarsaga": {
+  "raw": "Hromundarsaga Greipssonar (FAS II 363 ff.).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Huber": {
+  "raw": "Huber, P. Michael. Die Wanderlegende von den Siebenschläfern. Leipzig, 1910.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Huet": {
+  "raw": "Huet, G. Les contes populaires. Paris, 1923.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Hultkrantz": {
+  "raw": "Hultkrantz, Åke. Conceptions of the Soul Among North American Indians. Stockholm, 1953.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Irwin": {
+  "raw": "Irwin, Cecilia Pauze. Summaries of the Stories of Béroalde de Verville's La Moyen de Parvenir. Unpublished M. A. thesis, University of South Carolina, 1953.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Ittman": {
+  "raw": "Ittman, J. Einiges aus Bankon-Literatur (ZsES XVII).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Ittman J.": {
+  "raw": "Ittman, J. Nyang-Märchen (ZsES XVII).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Jacobs": {
+  "raw": "Jacobs, Joseph. Book of Wonder Voyages. London, 1896.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Jacobs Joseph.": {
+  "raw": "Jacobs, Joseph. The Fables of Aesop. New York, 1894.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Jacobs Joseph. Celtic": {
+  "raw": "Jacobs, Joseph. Celtic Fairy Tales. London, 1892.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Jacobs Joseph. More": {
+  "raw": "Jacobs, Joseph. More Celtic Fairy Tales. London, 1894.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Jacobs Joseph. English": {
+  "raw": "Jacobs, Joseph. English Fairy Tales. London, 1890.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Jacobs Joseph. More English": {
+  "raw": "Jacobs, Joseph. More English Fairy Tales. London, 1895.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Jacobs' list": {
+  "raw": "Jacobs' list = Jacobs, Joseph. \"List of Folk-Tale Incidents common to European Folk-Tales\" in Papers and Transactions of the International Folk-lore Congress, 1891. London, 1892.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Jacottet": {
+  "raw": "Jacottet, E. The Treasury of Basuto Lore. London, 1908.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "JAFL": {
+  "raw": "JAFL = Journal of American Folk-Lore. Boston, etc., 1888 ff.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "JAI": {
+  "raw": "JAI = Journal of the Royal Anthropological Institute of Great Britain and Ireland. London, 1871 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "JAOS": {
+  "raw": "JAOS = Journal of the American Oriental Society. Boston, etc., 1849 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Jansen": {
+  "raw": "Jansen, William Hugh. Abraham \"Oregon\" Smith: pioneer, folk hero, and tale-teller. (Indiana University Ph. D. thesis.) Typewritten MS. Indiana University Library. Bloomington (Ind.), 1949.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "JAS": {
+  "raw": "JAS = Journal of the African Society. 34 vols. London, 1862—1900.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Jātaka": {
+  "raw": "Jātaka. See Cowell.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "JE": {
+  "raw": "JE = Publications of the Jesup North Pacific Expedition. New York, etc., 1898 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Jegerlehner": {
+  "raw": "Jegerlehner, Johannes. Sagen und Märchen aus dem Oberwallis. Basel, 1909.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Jenness": {
+  "raw": "Jenness, Diamond. Notes and Traditions from Northern Alaska (Report of the Canadian Arctic Expedition, Southern Party, 1913—16, XIII). Ottawa, 1924.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Jensen": {
+  "raw": "Jensen, P. Das Gilgamesch-Epos in der Weltliteratur. Strassburg, 1906.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Jijena": {
+  "raw": "Jijena Sanchez, Rafael. El Perro Negro. Buenos Aires, 1952.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Johnson": {
+  "raw": "Johnson, Sir Harry. George Grenfell and the Congo, Vol. II. London, 1908.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Jones": {
+  "raw": "Jones, Louis C. Spooks of the Valley: ghost stories for boys and girls. Boston, 1948.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "JPASB": {
+  "raw": "JPASB = Journal and Proceedings of the Asiatic Society of Bengal.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "JSFO": {
+  "raw": "JSFO = Journal de la Société Finno-ougrienne. Helsingfors, 1886 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Junod": {
+  "raw": "Junod, H. A. The Life of a South African Tribe, Vol. II. Neuchatel, 1913.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Kalevala": {
+  "raw": "Kalevala, the land of heroes (W. F. Kirby, tr.). London, 1907.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Kålund": {
+  "raw": "Kålund, K. Kirialax Saga. København, 1917.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Keightley": {
+  "raw": "Keightley, Thomas. Fairy Mythology. London, 1847.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Keith": {
+  "raw": "Keith, A. B. Indian Mythology (The Mythology of all Races VI). Boston, 1917.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Keller": {
+  "raw": "Keller, John Esten. Motif-Index of Mediaeval Spanish Exempla. Knoxville (Tenn.), 1949.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "Kennedy": {
+  "raw": "Kennedy, P. Legendary Fictions of the Irish Celts. London, 1866.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Ker": {
+  "raw": "Ker, Anna. Papuan Fairy Tales. London, 1910.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Ketilssaga": {
+  "raw": "Ketilssaga Haengs (FAS II 109 ff.).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Kidd": {
+  "raw": "Kidd, D. Savage Childhood: a Study of Kaffir Children. London, 1906.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Kittredge": {
+  "raw": "Kittredge, G. L. Arthur and Gorlagon (Harvard Studies and Notes in Philology and Literature VIII). Boston, 1903.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Kittredge G.": {
+  "raw": "Kittredge, G. L. A Study of Gawain and the Green Knight. Cambridge (Mass.), 1916.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Kittredge G. L.": {
+  "raw": "Kittredge, G. L. Witchcraft in Old and New England. Cambridge (Mass.), 1929.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Klapper": {
+  "raw": "Klapper, Joseph. Erzählungen des Mittelalters. Breslau, 1914.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Knowles": {
+  "raw": "Knowles, J. H. Folk-Tales of Kashmir. London, 1893.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Köhler": {
+  "raw": "Köhler, Reinhold. Aufsätze über Märchen und Volkslieder (ed. J. Bolte and E.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Schmidt)": {
+  "raw": "Schmidt). Berlin, 1894.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Köhler-Bolte": {
+  "raw": "Köhler-Bolte = Köhler, R. Kleinere Schriften (ed. J. Bolte). 3 vols. Weimar, 1898—1900.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Kölbing": {
+  "raw": "Kölbing, E. Riddarsögur. København, 1872.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Krappe": {
+  "raw": "Krappe, A. H. Les Sources du Libro de Exemplos, Bulletin Hispanique, XXXIX, pp. 5—54.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Krappe A.": {
+  "raw": "Krappe, A. H. Balor with the Evil Eye: Studies in Celtic and French Literature. New York, 1927.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Krappe A. H.": {
+  "raw": "Krappe, A. H. Études de mythologie et de folklore germaniques. Paris, 1928.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Krappe A. H. The": {
+  "raw": "Krappe, A. H. The Science of Folk-Lore. London, 1930.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Kristensen": {
+  "raw": "Kristensen, Evald Tang. Danske Sagn. 2d ed. 6 vols. København, 1928—36.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Krohn": {
+  "raw": "Krohn, Kaarle. Bär (wolf) und Fuchs (JSFO VI). Helsingfors, 1886.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Krohn Kaarle.": {
+  "raw": "Krohn, Kaarle. Der gefangene Unhold (Finnische-Ugrische Forschungen VII 129—84). Helsingfors, 1908.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Krohn Kaarle. Mann": {
+  "raw": "Krohn, Kaarle. Mann und Fuchs. Helsingfors. 1891.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Krug": {
+  "raw": "Krug, Adolph N. Bulu Tales from Kamerun, West Africa (JAFL XXV).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Kruyt": {
+  "raw": "Kruyt, A. C. Het Animisme in den Indischen Archipel. The Hague, 1906.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Lagerholm": {
+  "raw": "Lagerholm, Å. Drei Lygisogur (ASB XVII). København, 1927.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Laistner": {
+  "raw": "Laistner, Ludwig. Das Rätsel der Sphinx. 2 vols. Berlin, 1889.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Landau": {
+  "raw": "Landau, M. Die Quellen des Dekameron. 2d ed. Stuttgart, 1884.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Landtman": {
+  "raw": "Landtman, G. The Folk-Tales of the Kiwai Papuans (Acta Societatis Scientiarum Fennicae XLVII). Helsingfors, 1917.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Lang": {
+  "raw": "Lang, Andrew. The Delectable Tale of the Marriage of Cupid and Psyche, done into English by William Adlington. London, 1886.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Lang Andrew.": {
+  "raw": "Lang, Andrew. Myth, Ritual and Religion. 2 vols. London, 1887.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Langdon": {
+  "raw": "Langdon, S. H. Semitic Mythology (The Mythology of all Races V). Boston, 1931.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Largeau": {
+  "raw": "Largeau, V. Elements de Grammaire et Dictionnaire Français-Pahouin. Paris, 1901.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Laserstein": {
+  "raw": "Laserstein, Käte. Der Griseldisstoff in der Weltliteratur (Forschungen zur neueren Literaturgeschichte LVIII). Weimar, 1926.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Latchman": {
+  "raw": "Latchman, Ricardo E. Las creencias religiosas de los antiguos peruanos. Santiago de Chile, 1929.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Lawrence": {
+  "raw": "Lawrence, R. M. The Magic of the Horseshoe. London and Boston, 1898.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Le": {
+  "raw": "Le Braz, A. La Légende de la Mort chez les Bretons armoricains. 2 vols. Paris, 1902.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Lederbogen": {
+  "raw": "Lederbogen, Wilhelm. Kameruner Märchen. Berlin, 1901.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Lederbogen Wilhelm.": {
+  "raw": "Lederbogen, Wilhelm. Duala Marchen (Mittheilungen des Seminars für Orientalische Sprachen, VI, Dritte Abteilung). Berlin, 1903.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Lederbogen Wilhelm. Duala": {
+  "raw": "Lederbogen, Wilhelm. Duala Fables. JAS IV (1904—05).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Lee": {
+  "raw": "Lee, A. C. The Decameron, its Sources and Analogues. London, 1909.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Leland": {
+  "raw": "Leland, Charles Godfrey. The Algonquin Legends of New England. Boston, 1884.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Leskien": {
+  "raw": "Leskien = Leskien, A. and Brugmann, K. Litauische Volkslieder und Märchen. Strassburg, 1882.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Leyden": {
+  "raw": "Leyden, F. von der. Das Märchen, 3d ed. Leipzig, 1925.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Leyden F.": {
+  "raw": "Leyden, F. von der. Das Märchen in den Göttersagen der Edda. Berlin, 1899.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Leyden F. von": {
+  "raw": "Leyden, F. von der. Der gefesselte Unhold (Prager deutsche Studien, Heft 8, Sonderabzug, 1—29). Prag, 1908.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Liebrecht": {
+  "raw": "Liebrecht, Felix. Zur Volkskunde. Heilbronn, 1879.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Liljeblad": {
+  "raw": "Liljeblad, Sven. Die Tobiasgeschichte und andere Märchen mit toten Helfern. Lund, 1927.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Liungman": {
+  "raw": "Liungman, W. En traditionsstudie över sagan om Prinsessan i Jordkulan. Göteborg, 1925.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Liungman W.": {
+  "raw": "Liungman, W. Två Folkminnesundersökningar. Göteborg, 1925.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Liungman W. Sveriges": {
+  "raw": "Liungman, W. Sveriges Samtliga Folksagor. 3 vols. Djursholm (Sweden), 1950—52.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Lloyd": {
+  "raw": "Lloyd, John W. Aw-aw-tam Indian Nights. Westerfield, N. J., 1911.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Loomis": {
+  "raw": "Loomis, C. Grant. White Magic: an Introduction to the Folklore of Christian Legend. Cambridge (Mass.), 1948.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Loomis R.": {
+  "raw": "Loomis, R. S. Celtic Myth and Arthurian Romance. New York, 1927.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Loorits": {
+  "raw": "Loorits, Oskar. Grundzüge des estnischen Volksglaubens, Vol. I. Lund, 1949.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Lorentzen": {
+  "raw": "Lorentzen, Th. Die Sage vom Rodensteiner. Heidelberg, 1903.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Löwis": {
+  "raw": "Löwis, A. von, of Menar. Die Brünhildsage in Russland (Palaestra No. 142). Leipzig, 1923.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Luomala": {
+  "raw": "Luomala, Katherine. Maui-of-a-Thousand-Tricks. BMB CXCVIII. Honolulu, 1949.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Luzel": {
+  "raw": "Luzel, F. M. Contes populaires de Basse-Bretagne. 3 vols. Paris, 1887.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "MacCulloch": {
+  "raw": "MacCulloch, J. A. Celtic Mythology (The Mythology of all Races III). Boston, 1918.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "MacCulloch J.": {
+  "raw": "MacCulloch, J. A. The Childhood of Fiction. London, 1905.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "MacCulloch J. A.": {
+  "raw": "MacCulloch, J. A. Eddic Mythology (The Mythology of all Races II). Boston, 1930.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "MacDougall": {
+  "raw": "MacDougall, James, and Calder, George. Folk Tales and Fairy Lore in Gaelic and English. Edinburgh, 1910.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Máchal": {
+  "raw": "Máchal, J. Slavic Mythology (The Mythology of all Races III). Boston, 1918.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "MacKay": {
+  "raw": "MacKay, D. E. The Double Invitation in the Legend of Don Juan. Stanford University, 1943.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "McKay": {
+  "raw": "McKay, J. G. More West Highland Tales. Edinburgh and London, 1940.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "MAFLS": {
+  "raw": "MAFLS = Memoirs of the American Folk-Lore Society.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Malalasekera": {
+  "raw": "Malalasekera, George Peiris. Dictionary of Pali Proper Names. 2 vols. London, 1937.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Malory": {
+  "raw": "Malory, Sir Thomas. Morte D'Arthur (many editions).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Mannhart": {
+  "raw": "Mannhart, W. Wald und Feldkulte. 2 vols. 2d ed. Berlin, 1904—05.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Mansfeld": {
+  "raw": "Mansfeld, Alfred. Urwald-Dokumente: Vier Jahre unter den Crossflussnegern Kameruns. Berlin, 1908.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Marie-Ursule": {
+  "raw": "Marie-Ursule, Soeur. Civilisation traditionelle des Lavalois. (Les Archives de Folklore V—VI). Quebec, 1951.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Marguerite": {
+  "raw": "Marguerite de Navarre. Heptameron. 3 vols. (ed. Díllage, Paris, 1879). (Analysis by Sarah C. Pinkney, University of South Carolina).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Meinhof": {
+  "raw": "Meinhof, Carl. Afrikanische Märchen. Jena, 1921.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Meinhof Elli.": {
+  "raw": "Meinhof, Elli. Märchen aus Kamerun. Strassburg, 1889.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Mélusine": {
+  "raw": "Mélusine. 10 vols. Paris, 1878—1901.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Mensa Philosophica": {
+  "raw": "Mensa Philosophica = T. F. Dunn. The Facetiae of the Mensa Philosophica (Washington University Studies, new series, Lang. and Lit. No. 5). St. Louis, 1934.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Métraux": {
+  "raw": "Métraux, Alfred. Ethnology of Easter Island. BMB CLX. Honolulu, 1940.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Métraux Alfred.": {
+  "raw": "Métraux, Alfred. Mitos y Cuentos de los Indios Chiriguano. RMLP XXXIII (1932), pp. 119—84.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Métraux Alfred. Myths": {
+  "raw": "Métraux, Alfred. Myths of the Toba and Pilaga Indians of the Gran Chaco (MAFLS XL, 1946).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Métraux Alfred. Myths and": {
+  "raw": "Métraux, Alfred. Myths and Tales of the Matako Indians. Göteborg, 1939.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Meyer": {
+  "raw": "Meyer, Elard H. Germanische Mythologie. Berlin, 1891.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Meyer Elard": {
+  "raw": "Meyer, Elard H. Mythologie der Germanen. Strassburg, 1903.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Meyer Johann": {
+  "raw": "Meyer, Johann J. Hindu Tales. London, 1909.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Meyer Kuno.": {
+  "raw": "Meyer, Kuno. The Voyage of Bran, son of Febal to the Land of the Living (with an essay upon the Irish Vision of the Happy Otherworld and the Celtic doctrine of Rebirth by Alfred Nutt). 2 vols. London, 1895, 1897.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Meyer Richard": {
+  "raw": "Meyer, Richard M. Altgermanische Religiongeschichte. Leipzig, 1910.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Milligan": {
+  "raw": "Milligan, Robert H. The Fetish Folk of West Africa. Chicago, 1912.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Milligan Robert": {
+  "raw": "Milligan, Robert H. The Jungle Folk of Africa. New York, 1908.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Mischlich": {
+  "raw": "Mischlich, A. Neue Märchen aus Afrika. Leipzig, 1929.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Mitford": {
+  "raw": "Mitford, A. B. F. Tales of Old Japan. 3d edition. London, 1876.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "MLN": {
+  "raw": "MLN = Modern Language Notes. Baltimore, 1886 ff.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Moe": {
+  "raw": "Moe, Moltke. Samlede Skrifter. 4 vols. Oslo, 1925 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Mogk Festschrift": {
+  "raw": "Mogk Festschrift = Festschrift Eugen Mogk zum 70. Geburtstag. Halle, 1924.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Monteil": {
+  "raw": "Monteil, C. Contes Soudanais. Paris, 1905.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Moreno": {
+  "raw": "Moreno Enriquez, Maria de los Angeles. Motivos de narracion tradicionales en los libros de Esdras. (Anuario de la Sociedad Folklorica de Mexico VI 7—45.) Mexico, 1947.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "MSFO": {
+  "raw": "MSFO = Mémoires de la Société Finno-ougrienne, Helsingfors.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "MPh": {
+  "raw": "MPh = Modern Philology. Chicago, 1903 ff.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Much": {
+  "raw": "Much, R. Der germanische Himmelsgott (Abhandlungen zur germanischen Philologie: Festgabe fur Richard Heinzel, pp. 189 ff.) Halle, 1898.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "MWF": {
+  "raw": "MWF = Midwest Folklore. Bloomington 1951 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Müller": {
+  "raw": "Müller, P. Beitrag zur Kenntnis der Tem-Sprache (Nord-Togo). (Mitteilungen des Seminars für orientalische Sprachen zu Berlin, VIII.)\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Müller W.": {
+  "raw": "Müller, W. Max. Egyptian Mythology (The Mythology of all Races XII). Boston, 1918.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Nassau": {
+  "raw": "Nassau, R. H. Where Animals Talk: West African Folklore Tales. London, 1914.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Naumann": {
+  "raw": "Naumann, Hans. Primitive Gemeinschaftskultur. Jena, 1921.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Neilson": {
+  "raw": "Neilson, William A. The Origins and Sources of the Court of Love. Cambridge (Mass.), 1899.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Nekes": {
+  "raw": "Nekes, Hermann. Lehrbuch der Jaunde-Sprache. Berlin, 1911.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Neuman": {
+  "raw": "Neuman, Dov. Motif-index to the Talmudic-Midrashic Literature. (Indiana University Ph. D. thesis). Microfilm Service, Ann Arbor, Michigan, 1954.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "Norlind": {
+  "raw": "Norlind, Tobias. Skattsägner, en studie i jämförande folkminnesforskning. Lund, 1918.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Nornagests": {
+  "raw": "Nornagests þáttr: in Bugge, S. Norroene Skrifter af sagnhistorisk Indhold, pp. 47 ff. Christiania, 1864.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Nouvelles": {
+  "raw": "Nouvelles récréations et joyeaux devis (in Oeuvres françoises de Bonaventure des Périers). Vol. II. Paris, 1856.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Nouvelles de": {
+  "raw": "Nouvelles de Sens (ed. E. Langlois). Paris, 1908. (Analysis by F. C. Perry, University of South Carolina).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Nordenskiöld": {
+  "raw": "Nordenskiöld, Erland. Indianerleben, El Gran Chaco (Südamerika). Leipzig, 1912.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Nutt": {
+  "raw": "Nutt, Alfred. See Meyer, Kuno.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "NYFQ": {
+  "raw": "NYFQ = New York Folklore Quarterly.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Nyrop": {
+  "raw": "Nyrop, Kristoffer. Navnets Magt. København, 1887.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Oberg": {
+  "raw": "Oberg, Kalervo. Indian Tribes of Northern Mato Grosso, Brazil (Smithsonian Institution, Institute of Social Anthropology, XV). Washington, 1953.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Oesterley": {
+  "raw": "Oesterley, H. Gesta Romanorum. Berlin, 1872.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Ohrt": {
+  "raw": "Ohrt, F. Danmarks Trylleformler (FF Publications, Northern Series III). København, 1917.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Ohrt F.": {
+  "raw": "Ohrt, F. Trylleord fremmede og danske (DF XXV). København, 1922.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Olrik": {
+  "raw": "Olrik, Axel. Ragnarök: die Sagen vom Weltuntergang (trans. W. Ranisch). Berlin, 1922.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Örvar-Odds": {
+  "raw": "Örvar-Odds Saga (ed. R. C. Boer). Leiden, 1888.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "O'Suilleabhain": {
+  "raw": "O'Suilleabhain, S. Scealta Craibhtheacha. Dublin, 1952.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "PaAm": {
+  "raw": "PaAm = Anthropological Papers of the American Museum of Natural History.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "PAES": {
+  "raw": "PAES = Publications of the American Ethnological Society.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Panchatantra": {
+  "raw": "Panchatantra (tr. A. Ryder). Chicago, 1925.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Panzer": {
+  "raw": "Panzer, F. Beowulf (Studien zur germanischen Sagengeschichte I). Miinchen, 1910.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Panzer F.": {
+  "raw": "Panzer, F. Hilde-Gudrun. Halle a. S., 1901.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Panzer F. Sigfrid.": {
+  "raw": "Panzer, F. Sigfrid. (Studien zur germanischen Sagengeschichte II). München, 1910.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Paris": {
+  "raw": "Paris, G. Légendes du moyen âge. Paris, 1904.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Parker": {
+  "raw": "Parker, Mrs. K. L. Australian Legendary Tales. London, 1896.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Parkinson": {
+  "raw": "Parkinson, John. Yoruba Folklore. (JAS VIII [1908] p. 165 ff.).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Patch": {
+  "raw": "Patch, H. R. *The Goddess Fortuna in Mediaeval Literature. Cambridge (Mass.), 1927.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Patch H.": {
+  "raw": "Patch, H. R. *The Other World According to Descriptions in Medieval Literature. Cambridge (Mass.), 1950.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Paton": {
+  "raw": "Paton, Lucy A. Studies in the Fairy Mythology of Arthurian Romance (Radcliffe College Monographs No. 13). Cambridge (Mass.), 1903.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Pattetta": {
+  "raw": "Pattetta, F. Le Ordalie. Torino, 1890.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Pauli": {
+  "raw": "Pauli = Johannes Pauli. Schimpf und Ernst (ed. Johannes Bolte). 2 vols. Berlin, 1924.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Pauly-Wissowa": {
+  "raw": "Pauly-Wissowa = Pauly's Real-Encyclopädie der classischen Altertumswissenschaft herausgegeben von G. Wissowa. Stuttgart, 1893 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Pease": {
+  "raw": "Pease, Arthur Stanley. M. Tulli Ciceronis De Divinatione. (University of Illinois Studies in Language and Literature, VI Nos. 2, 3; VIII Nos. 3, 4). Urbana (Ill.), 1920—23.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Pechuël-Loesche": {
+  "raw": "Pechuël-Loesche, E. Volkskunde von Loango. Stuttgart, 1907.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Penzer": {
+  "raw": "Penzer, N. M. The Ocean of Story: being C. H. Tawney's translation [53] of Somadeva's Kathā Sarit Sāgara. 10 vols. London, 1923 ff. See also Tawney.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Penzer N.": {
+  "raw": "Penzer, N. M. Poison-Damsels and other essays in Folklore and Anthropology. London, 1952.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Pétitot": {
+  "raw": "Pétitot, Émile. Traditions indiennes du Canada nord-ouest. Paris, 1886.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "PFLS": {
+  "raw": "PFLS = Publications of the Folklore Society (English).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Phaedrus": {
+  "raw": "Phaedrus = Phaedri Fabulae Aesopiae (ed. J. P. Postgate). Oxford, 1920.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Pierre Faifeu": {
+  "raw": "Pierre Faifeu = Charles de Bourdigné, Le Légende de Maistre Pierre Faifeu. Paris, 1880.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Pino": {
+  "raw": "Pino Saavedra, Y. Tres Versiones Chilenas de la Princesa Mona o Rana. (Homenaje a Fritz Kruger, Tomo I, pp. 399—407). Mendoza (Argentina), 1952.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Plenzat": {
+  "raw": "Plenzat, Karl. Die ost- und westpreussischen Märchen und Schwänke nach Typen geordnet (Veröffentlichungen des volkskundlichen Archivs der pädagogischen Akademie Elbing I). Konigsberg, 1927.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Plischke": {
+  "raw": "Plischke, Hans. Die Sage vom Wilden Heere im deutschen Volke (Leipzig dissertation). Eilenburg, 1914.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Plummer": {
+  "raw": "Plummer, Charles. Vitae Sanctorum Hiberniae. 2 vols. Oxford, 1910.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "PMLA": {
+  "raw": "PMLA = Publications of the Modern Language Association of America.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Potter": {
+  "raw": "Potter, Murray Anthony. Sohrab and Rustem. London, 1902.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Radloff": {
+  "raw": "Radloff, Wilhelm. Die Sprachen der türkischen Stämme Süd-Siberiens. St. Petersburg, 1866—85.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Ragnarssaga": {
+  "raw": "Ragnarssaga Loðbrókar. See Volsungasaga.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Rank": {
+  "raw": "Rank, Otto. Das Inzest-Motiv in Dichtung und Sage. 2d ed. Wien, 1912.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Rank Otto.": {
+  "raw": "Rank, Otto. Der Mythus von der Geburt des Helden. Leipzig and Wien, 1912.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Rank Otto. Psychoanalytische": {
+  "raw": "Rank, Otto. Psychoanalytische Beiträge zur Mythenforschung. Leipzig and Wien, 1919.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Ranke": {
+  "raw": "Ranke, F. Der Erlöser in der Wiege. München, 1912.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Rasmussen": {
+  "raw": "Rasmussen, Knud. Myter og Sagn fra Grønland. 3 vols. København, 1921—25.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Rattray (Hausa)": {
+  "raw": "Rattray (Hausa) = Rattray, R. Sutherland. Hausa Folk-Lore Customs, Proverbs, etc. 2 vols. Oxford, 1913.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Rattray (Ashanti)": {
+  "raw": "Rattray (Ashanti) = Rattray, R. Sutherland. Akan-Ashanti Folk Tales. Oxford, 1930.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "RBAE": {
+  "raw": "RBAE = Annual Report of the Bureau of American Ethnology.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "RCHG": {
+  "raw": "RCHG = Revista Chilena de Historia y Geografia. Santiago de Chile.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Reinhard": {
+  "raw": "Reinhard, John R. The Survival of Geis in Mediaeval Romance. Halle a. S., 1933.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Renel": {
+  "raw": "Renel, Charles. Contes de Madagascar. Paris, 1910, 1930.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Rink": {
+  "raw": "Rink, Henry. Tales and Traditions of the Eskimo. Edinburgh, 1875.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Rittershaus": {
+  "raw": "Rittershaus, Adeline. Die neuisländischen Volksmärchen. Halle, 1902.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "RMLP": {
+  "raw": "RMLP = Revista del Museo de la Plata (Argentina).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Roberts": {
+  "raw": "Roberts, Warren E. Aarne-Thompson Type 480 in World Tradition. (Indiana University Ph. D. thesis) Microfilm Service, Ann Arbor, Michigan, 1954.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Róheim": {
+  "raw": "Róheim, Géza. Animism, Magic, and the Divine King. London, 1930.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Róheim Géza.": {
+  "raw": "Róheim, Géza. Drachen und Drachenkämpfer. Berlin, 1912.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Róheim Géza. Spiegelzauber.": {
+  "raw": "Róheim, Géza. Spiegelzauber. Leipzig and Wien, 1919.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Romanic": {
+  "raw": "Romanic Review. New York, 1910 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Roscher": {
+  "raw": "Roscher, W. H. Ausführliches Lexikon der griechischen und römischen Mythologie. Leipzig, 1884 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Rosen": {
+  "raw": "Rosen, G. Tuti-Nameh, das Papageienbuch. Leipzig, 1858.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Rosén": {
+  "raw": "Rosén, Helge. Om Själavandringstro i Nordisk Folkföreställning (Folkminnen och Folktankar V p. 89 ff.).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Rosenhuber": {
+  "raw": "Rosenhuber, P. Simon. Märchen, Fabeln, Rätsel, und Sprichwörter der Kamerun-Neger. Limburg, 1926.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Rotunda": {
+  "raw": "Rotunda, D. P. Motif-Index of the Italian Novella. Bloomington, Indiana, 1942.\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "RTP": {
+  "raw": "RTP = Revue des Traditions Populaires. 32 vols. Paris, 1886—1917.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Ruhlemann": {
+  "raw": "Ruhlemann, Martin. Etymologie des Wortes Harlequin und verwandter Wörter (Halle dissertation). Halle a. S., 1912.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Saga": {
+  "raw": "Saga och Sed (Kgl. Gustav Adolfs Akademiens Årsbok). Uppsala, 1932 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Sagan": {
+  "raw": "Sagan af Illuga Griðarfóstra (FAS III 648 ff.).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Saintyves": {
+  "raw": "Saintyves, P. Les Contes de Perrault et les recits parallèles. Paris, 1923.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Saintyves P.": {
+  "raw": "Saintyves, P. Essais de folklore biblique. Paris, 1922.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Saintyves P. Les": {
+  "raw": "Saintyves, P. Les Saints Successeurs des dieux. Paris, 1907.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Saussaye": {
+  "raw": "Saussaye, P. D. Chantepie de la. The Religion of the Teutons (trans. B. J. Vos). Boston, 1902.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Scala Celi": {
+  "raw": "Scala Celi = Johannes Gobii junior. Scala Celi. Lübeck, 1476.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Schlenker": {
+  "raw": "Schlenker, C. F. A Collection of Temne Traditions, Fables and Proverbs. London, 1861.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Schoolcraft": {
+  "raw": "Schoolcraft, H. R. The Myth of Hiawatha. Philadelphia and London, 1856.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Schoolcraft H.": {
+  "raw": "Schoolcraft, H. R. Algic Researches. New York, 1839.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Schweda": {
+  "raw": "Schweda, Valentin. Die Sagen vom Wilden Jäger und vom Schlafenden Heer in der Provinz Posen (Greifswald dissertation). Gnesen, 1915.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Scott": {
+  "raw": "Scott, J. G. Indo-Chinese Mythology (The Mythology of all Races XII). Boston, 1918.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Scott Robert": {
+  "raw": "Scott, Robert D. The Thumb of Knowledge. New York, 1930.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Sébillot": {
+  "raw": "Sébillot, P. Le Folk-lore de France. 4 vols. Paris, 1904—07.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Sébillot, P. Les incidents des contes populaires de la Haute-Bretagne. Vannes, 1892 (= RTP VII 411 ff, 515 ff.).\n": {
+  "raw": "Sébillot, P. Les incidents des contes populaires de la Haute-Bretagne. Vannes, 1892 (= RTP VII 411 ff, 515 ff.).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Seligmann": {
+  "raw": "Seligmann, S. Die magischen Heil- und Schutzmittel aus der unbelebten Natur. Stuttgart, 1927.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Sharp-Karpeles": {
+  "raw": "Sharp-Karpeles = Sharp, Cecil and Karpeles, Maud. English Folk Songs from the Southern Appalachians. 2 vols. London, 1932.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Showerman": {
+  "raw": "Showerman, Grant. The Great Mother of the Gods. Madison (Wisconsin), 1901.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Sieber": {
+  "raw": "Sieber, J. Märchen und Fabeln der Wute (ZsES XII 53 ff., 162 ff.).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Sieber J.": {
+  "raw": "Sieber, J. Märchen der Kweli in Kamerun (Mitteilungen des Seminars für Orientalische Sprachen zu Berlin, Dritte Abteilung: Afrikanische Studien, XXXV). Berlin, 1932.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Siecke": {
+  "raw": "Siecke, E. Drachenkampfe. Leipzig, 1907.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Siecke E.": {
+  "raw": "Siecke, E. Der Vegetationsgott. 2 vols. Leipzig, 1914.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Siuts": {
+  "raw": "Siuts, Hans. Jenseitsmotive im deutschen Volksmärchen (Teutonia XIX). Leipzig, 1911.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Skjöldunga": {
+  "raw": "Skjöldunga saga. See A. Olrik in Aarbøger for nordisk Oldkyndighed og Historie, II Række, IX (1894), 109.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Smith": {
+  "raw": "Smith, E. W. and Dale, A. The Ila-speaking People of Northern Rhodesia, vol. 2. London, 1920.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Smith G.": {
+  "raw": "Smith, G. Elliott. The Evolution of the Dragon. London, 1919.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Smith W.": {
+  "raw": "Smith, W. Robertson. Lectures on the Religion of the Semites. 3d ed. London, 1927.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Snorra": {
+  "raw": "Snorra Edda (in A. G. Brodeur, The Prose Edda, New York, 1916).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Solheim Register": {
+  "raw": "Solheim Register = Solheim, Svale. Register til Norsk Folkeminnelags skrifter Nr. 1—49 (Norsk Folkeminnelag No. 50). Oslo, 1943.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Sörla": {
+  "raw": "Sörla saga Sterka (FAS III 408 ff.).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Spargo": {
+  "raw": "Spargo, John Webster. Virgil the Necromancer. Cambridge (Mass.), 1934.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Sparnaay": {
+  "raw": "Sparnaay, H. Verschmelzung legendarischer und weltlicher Motive in der Poesie des Mittelalters. Groningen, 1922.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Spence": {
+  "raw": "Spence, Lewis. Myths and Legends of Babylonia and Assyria. London, 1916.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Stanley": {
+  "raw": "Stanley, H. M. My Dark Companions and their Strange Stories. London, 1893.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Stapleton": {
+  "raw": "Stapleton, W. H. Comparative Handbook of Congo Languages. Yakusa, Stanley Falls, 1903.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Starck": {
+  "raw": "Starck, Taylor. Der Alraun, ein Beitrag zur Pflanzensagenkunde. Baltimore, 1917.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Steere": {
+  "raw": "Steere, E. Swahili Tales as told by the Natives of Zanzibar. London, 1922.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Stigand": {
+  "raw": "Stigand, C. H. and Mrs. Black Tales for White Children. London and New York, 1914.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Stimson": {
+  "raw": "Stimson, J. F. MS. of Tuamotuan Myths. Unpublished. Peabody Museum, Salem, Mass.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Sturlaugs": {
+  "raw": "Sturlaugs saga Starfsama (FAS III 592 ff.).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Swanton": {
+  "raw": "Swanton, J. R. Myths and Tales of the Southeastern Indians (BBAE LXXXVIII [1929]).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Sydow": {
+  "raw": "Sydow, C. W. von. Två Spinnsagor. Lund, 1909.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Sigurds": {
+  "raw": "Sigurds strid med Fåvne (Lund Universitets Årsskrift. n. f. Avd. I, Bd. 14, no. 16). Lund, 1918.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Talbot": {
+  "raw": "Talbot, P. A. In the Shadow of the Bush. New York and London, 1912.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Tawney": {
+  "raw": "Tawney, C. H. Kathā Sarit Sāgara, Ocean of the Streams of Story. 2 vols. Calcutta, 1880—84. See also Penzer.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Tegethoff": {
+  "raw": "Tegethoff, Ernst. Studien zum Märchentypus von Amor und Psyche. Bonn und Leipzig, 1922.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Tessman": {
+  "raw": "Tessman, Gunter. Ajongs Erzählungen: Marchen der Fangneger. Berlin, 1921.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Tessman Gunter.": {
+  "raw": "Tessman, Gunter. Die Pangwe. Berlin, 1912.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Thalbitzer": {
+  "raw": "Thalbitzer, William. A Phonetic Study of the Eskimo Language. Copenhagen, 1904.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Theal": {
+  "raw": "Theal, G. M. Kaffir Folk-lore. London, 1886.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Theal G.": {
+  "raw": "Theal, G. M. The Yellow and Dark-skinned People of Africa South of the Zambesi. London, 1910.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Thien": {
+  "raw": "Thien, J. Uebereinstimmende und verwandte Motive in den deutschen Spielmannsepen im Anschluss an König Rother. Hamburg, 1882.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Thomas": {
+  "raw": "Thomas, Northcote W. Anthropological Report on the Ibo-Speaking Peoples of Nigeria. 2 vols. London, 1913—14.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Thompson-Balys": {
+  "raw": "Thompson-Balys = Thompson, Stith and Balys, Jonas. Motif and Type Index of the Oral Tales of India. Bloomington (Ind.). (In press).\n",
+  "examined": false,
+  "motif_numbers_only": true
+ },
+ "Thompson": {
+  "raw": "Thompson, Stith. European Tales among the North American Indians (CColl II). Colorado Springs, 1919.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Thompson Stith.": {
+  "raw": "Thompson, Stith. Tales of the North American Indians. Cambridge (Mass.), 1929.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Thompson Stith. The": {
+  "raw": "Thompson, Stith. The Folktale. New York, 1946.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Thompson Stith. The Star-Husband": {
+  "raw": "Thompson, Stith. The Star-Husband Tale (Studia Septentrionalia IV). Oslo, 1952.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "þiðriks": {
+  "raw": "þiðriks saga (ed. H. Bertelsen). 2 vols. København, 1905—11.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "þorsteinssaga": {
+  "raw": "þorsteinssaga Víkingssonar (FAS II 381 ff.).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "þorsteins": {
+  "raw": "þorsteins þáttr uxafóts (Islendinga þættir).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Thurneysen": {
+  "raw": "Thurneysen, Rudolf. Die irische Helden- und Konigsage bis zum siebzehnten Jahrhundert. Halle, 1921.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Tobler": {
+  "raw": "Tobler, Otto. Die Epiphanie der Seele in deutscher Volkssage. Kiel, 1911.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Toldo": {
+  "raw": "Toldo, Peter. Leben und Wunder der Heiligen im Mittelalter (Studien zur vergleichenden Literaturgeschichte I 320, 345; II 87, 304, 329; IV 49; V 337; VI 289; VIII 18; IX 451).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Torday": {
+  "raw": "Torday, E. On the Trail of the Bushongo. London, 1925.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Torday E.": {
+  "raw": "Torday, E. Notes ethnographiques sur les .... Bakuba. Bruxelles, 1911.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Travélé": {
+  "raw": "Travélé, Moussa. Proverbs et contes Bambara. Paris, 1923.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Trilles": {
+  "raw": "Trilles, R. G. Proverbes, légendes et contes fang (Bulletin de la Société Neuchâteloise de Géographie XVI [1905]).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Tupper": {
+  "raw": "Tupper, F. and Ogle, M. B. Master Walter Map's Book De Nugis Curialium (Courtiers' Trifles). New York, 1924.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Tuti-Nameh": {
+  "raw": "Tuti-Nameh. See Rosen.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Type": {
+  "raw": "Type = Aarne, A. and Thompson, Stith. The Types of the Folk-Tale (FFC 74).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Helsinki": {
+  "raw": "Helsinki, 1928.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "UCal": {
+  "raw": "UCal = University of California Publications in American Archaeology and Ethnology.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "U Cal Anth Rec.": {
+  "raw": "U Cal Anth Rec. = University of California Anthropological Records.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "U Pa": {
+  "raw": "U Pa = University of Pennsylvania, The University Museum Anthropological Publications.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Urquell": {
+  "raw": "Urquell, Am. 6 vols. Lunden, 1890—96.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Urquell Der.": {
+  "raw": "Urquell, Der. 2 vols. Leiden and Hamburg, 1898—99.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Usener": {
+  "raw": "Usener, Hermann. Kleine Schriften. 4 vols. Leipzig and Berlin, 1912—14.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "U Wash": {
+  "raw": "U Wash = University of Washington Publications in Anthropology.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Valcarcel": {
+  "raw": "Valcarcel, Luis E. El Diluvio (El Aillu, Rev. Peruana de Antr. Etn. Fl. y Linguistica Hist., I. Cusco, Peru).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Van": {
+  "raw": "Van Wing, J. Folklore Kiyansi: Congo Belge (Bibliotheca Africana, IV [1930—31]).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Völsunga": {
+  "raw": "Völsunga saga ok Ragnarssaga Loðbrókar (ed. M. Olsen). København, 1906—08.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Von": {
+  "raw": "Von der Hagen. See Hagen.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Von der": {
+  "raw": "Von der Leyen. See Leyen.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Von Löwis": {
+  "raw": "Von Löwis of Menar. See Löwis.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Voorhoeve": {
+  "raw": "Voorhoeve, Petrus. Overzicht van de Volksverhalen der Bataks. Vlissingen, 1927.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Voretzsch": {
+  "raw": "Voretzsch, Carl. Einführung in das Studium der altfranzösischen Literatur. 2d ed. Halle a. S., 1913.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Vries": {
+  "raw": "Vries, de. See De Vries.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Wagener": {
+  "raw": "Wagener, A. J. Afrikanische Parallele zur biblischen Urgeschichte. Bonn, 1927.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Ward": {
+  "raw": "Ward, H. L. D. Catalogue of Romances in the Department of Manuscripts in the British Museum. London, 1883, 1893. (Vols. 1 and 2 only; for vol. 3 see Herbert, J. A.)\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Warnke": {
+  "raw": "Warnke, Karl. Die Quellen des Esope der Marie de France. Halle, 1900.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Weeks": {
+  "raw": "Weeks, John H. Among Congo Cannibals. London, 1913.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Weeks John": {
+  "raw": "Weeks, John H. Jungle Life and Jungle Stories. London, 1923.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Weeks John H.": {
+  "raw": "Weeks, John H. Anthropological Notes on the Bangola of the Upper Congo River (JAI XXXIX, 1909).\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Weeks John H. Congo": {
+  "raw": "Weeks, John H. Congo Life and Folklore. 2 parts. London, 1911.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Wehrhan": {
+  "raw": "Wehrhan, Karl. Die Sage. Leipzig, 1908.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Weicker": {
+  "raw": "Weicker, G. Der Seelenvogel in der alten Literatur und Kunst. Leipzig, 1902.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Wells": {
+  "raw": "Wells, John Edwin. A Manual of Writings in Middle English. New Haven, 1916.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Werner": {
+  "raw": "Werner, Alice. African Mythology (The Mythology of all Races VII). Boston, 1925.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Werner E.": {
+  "raw": "Werner, E. T. C. Myths and Legends of China. London, 1922.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Wesselski": {
+  "raw": "Wesselski, Albert. Die Schwänke und Schnurren des Pfarrers Arlotto. 2 vols. Berlin. 1910.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Wesselski Albert.": {
+  "raw": "Wesselski, Albert. Heinrich Bebels Schwänke. 2 vols. München, 1907.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Wesselski Albert. Erlesenes": {
+  "raw": "Wesselski, Albert. Erlesenes (Gesellschaft deutscher Bücherfreunde in Bohmen VIII). Prag, 1928.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Wesselski Albert. Die": {
+  "raw": "Wesselski, Albert. Die Begebenheiten der beiden Gonnella. Weimar, 1920.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Wesselski Albert. Der": {
+  "raw": "Wesselski, Albert. Der Hodscha Nasreddin. 2 vols. Weimar, 1911.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Wesselski Albert. Märchen": {
+  "raw": "Wesselski, Albert. Märchen des Mittelalters. Berlin, 1925.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Wesselski Albert. Mönchslatein.": {
+  "raw": "Wesselski, Albert. Mönchslatein. Leipzig, 1909.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Wesselski Albert. Die Novellen": {
+  "raw": "Wesselski, Albert. Die Novellen Girolamo Morlinis. München, n. d.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Wesselski Albert. Versuch": {
+  "raw": "Wesselski, Albert. Versuch einer Theorie des Märchens. Reichenberg i. B., 1931.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Wessman": {
+  "raw": "Wessman, V. E. V. Förteckning över Sägentyperna (Finlands Svenska Folkdiktning II). Helsingfors, 1931.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "WF": {
+  "raw": "WF = Western Folklore (continuation of California Folklore Quarterly). Berkeley (Cal.), 1942 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Wheeler": {
+  "raw": "Wheeler, Gerald Camden. Mono-Alu Folklore. London, 1926. Tales referred to by number.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Wilken": {
+  "raw": "Wilken, G. A. Verspreide Geschriften. 4 vols. The Hague, 1912.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Willans": {
+  "raw": "Willans, R. H. K. The Konnoh People (African Society Journal VIII [1908—09]).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Williams": {
+  "raw": "Williams, C. A. Oriental Affinities of the Legend of the Hairy Anchorite. Urbana (Ill.), 1925.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Wimberly": {
+  "raw": "Wimberly, L. C. Folklore in the English and Scottish Ballads. Chicago, 1928.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Winger": {
+  "raw": "Winger, Bjorn. A Classification of Motifs in Eskimo Folk-Literature. (Unpublished M. A. thesis. Indiana University Library).\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Winter": {
+  "raw": "Winter, Leo. Die deutsche Schatzsage. Wattenscheid, 1925.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Wolf": {
+  "raw": "Wolf, W. Der Mond im deutschen Volksglauben. Buhl (Baden). 1929.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Woodson": {
+  "raw": "Woodson, Carter Godwin. African Myths. Washington, D. C, 1928.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Wünsche": {
+  "raw": "Wünsche, A. Die Sagen vom Lebensbaum und Lebenswasser, altorientalische Mythen. Leipzig, 1905.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Wünsche A.": {
+  "raw": "Wünsche, A. Der Sagenkreis vom geprellten Teufel. Leipzig and Wien, 1905.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Ynglinga": {
+  "raw": "Ynglinga saga (ed. C. Säve). Uppsala, 1854.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Yngvarssaga": {
+  "raw": "Yngvarssaga vidförla (ed. E. Olson). København, 1912.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Zachariae": {
+  "raw": "Zachariae, Theodor. Kleine Schriften. Bonn and Leipzig, 1920.\n",
+  "examined": true,
+  "motif_numbers_only": false
+ },
+ "Zingerle": {
+  "raw": "Zingerle, I. V. Sagen aus Tirol. 2d ed. Innsbruck, 1891.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Zong": {
+  "raw": "Zong in-Sob. Folk Tales from Korea. London, 1952.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "ZsES": {
+  "raw": "ZsES = Zeitschrift fur Eingeborenen-Sprachen.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "ZsKS": {
+  "raw": "ZsKS = Zeitschrift fur Kolonialsprachen. Berlin, 1913 ff.\n",
+  "examined": false,
+  "motif_numbers_only": false
+ },
+ "Zs.f.Vksk.": {
+  "raw": "Zs.f.Vksk. = Zeitschrift des Vereins für Volkskunde. 38 vols. Berlin, 1891—1928. Continued as Zeitschrift für Volkskunde. Berlin, 1929 ff",
+  "examined": true,
+  "motif_numbers_only": false
+ }
+}

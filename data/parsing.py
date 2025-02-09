@@ -1,11 +1,11 @@
 from pypdf import PdfReader, PageObject
 from json import dump, load
 from csv import reader, writer
-from re import match, findall, Match
+from re import match, search, findall, Match
 from datetime import datetime as time
 from alive_progress import alive_bar
 from uuid import uuid4 as getUUID
-from neo4jUtils import createATUClass, classifyTraditions, createCitations, fixCitations
+from neo4jUtils import createATUClass, classifyTraditions, createCitations, fixCitations, createAndLinkSubjects, createRemarks, linkCombos, linkSubjects
 from log import f_logger
 from supporting import widths
 
@@ -602,8 +602,9 @@ def cleanSubject(dirty:str)->str:
 
 def parseEntries(key:str, raw:list[str]):
     """ """
-    entries:list[dict] = []
-    sub_key:str = key.lower()
+    propers = ["Abu", "Andrew", "Christ", "Christopher", "Jesus", "Joseph", "Nicholas", "Peter", "Santa"]
+    entries:dict = {}
+    sub_key:str = key if key in propers else key.lower()
     working_sub:str = sub_key
     pending_sub:str = ""
     sub_atus:list[str] = []
@@ -621,7 +622,7 @@ def parseEntries(key:str, raw:list[str]):
                     sub_atus.append(atu)
                 else:
                     if sub_atus:
-                        entries.append({cleanSubject(working_sub): sub_atus})
+                        entries[cleanSubject(working_sub)] = sub_atus
                     sub_atus = atus
                     working_sub = pending_sub + remainder
                     pending_sub = ""
@@ -639,7 +640,7 @@ def parseEntries(key:str, raw:list[str]):
                     sub_atus.append(atu)
                 else:
                     if sub_atus:
-                        entries.append({cleanSubject(working_sub): sub_atus})
+                        entries[cleanSubject(working_sub)] = sub_atus
                     sub_atus = [atu]
                     working_sub = pending_sub + remainder
                     pending_sub = ""
@@ -650,7 +651,7 @@ def parseEntries(key:str, raw:list[str]):
                     else:
                         working_sub = working_sub.replace(sub_var, " {} ".format(sub_key))
     if sub_atus:
-        entries.append({cleanSubject(working_sub): sub_atus})
+        entries[cleanSubject(working_sub)] = sub_atus
     return entries
                 
 
@@ -658,15 +659,15 @@ def parseSubject(sub:str):
     """ """
     val:dict = {}
     L1:list[str] = sub.split(". –")
-    L2_A = L1[0].replace('\n', ' ').split(',')
+    L2_A = L1[0].replace('\xad\n', '').replace('\xad', '').replace('\n', ' ').replace("  ", " ").split(',')
     vanguard = L2_A[0].split()
     key:str = vanguard[0].strip('.')
     L2_B = [' '.join(vanguard[1:])] + L2_A[1:]
     for i in L1[1:]:
-        L2_C = i.replace('\n', ' ').split(',')
+        L2_C = i.replace('\xad\n', '').replace('\xad', '').replace('\n', ' ').replace("  ", " ").split(',')
         if L2_C[0][1:9] == "See also":
             cfs = [L2_C[0][10:]] + L2_C[1:]
-            val['cfs'] = [cf.replace("and", '').strip() for cf in cfs]
+            val['cfs'] = [cf.replace(" and ", " ").strip() for cf in cfs]
         else:
             L2_B.extend(L2_C)
     val['entries'] = parseEntries(key, L2_B)
@@ -725,5 +726,209 @@ def parseSubjects2json():
         dump(subjects, f, indent=1, ensure_ascii=False)
     return file_name
 
-# parseSubjects2tsv()
-parseSubjects2json()
+
+def createNeo4jSubjects()->dict:
+    """ """
+    rels = 0
+    with open('data/subjects.json',"r",encoding='utf-8') as f:
+        subjects = load(f)
+        with alive_bar(len(subjects)) as bar:
+            for k, v in subjects.items():
+                new_rels = createAndLinkSubjects(k, v['entries'])
+                rels += new_rels
+                bar()
+    return rels
+
+
+def extractRemarks()->dict:
+    """ """
+    remarks:dict = {}
+    with open('data/atu.json',"r",encoding='utf-8') as f:
+        atus = iter(load(f))
+        for a in atus:
+            atu = a['atu']
+            r = a.get('remarks')
+            if r:
+                remarks[atu] = r
+    counts = createRemarks(remarks)
+    return counts
+
+
+def extractCombos()->dict:
+    """ """
+    combos:dict = {}
+    count: int = 0
+    with open('data/atu.json',"r",encoding='utf-8') as f:
+        atus = iter(load(f))
+        for a in atus:
+            atu = a['atu']
+            c = a.get('combos')
+            if c:
+                combos[atu] = c
+                count += len(c)
+    actualCount:int = linkCombos(combos)
+    return {'expected': count, 'created': actualCount}
+
+
+def findSubjectCfErrors()->dict:
+    """ """
+    all_errors:list = []
+    with open('data/subjects.json',"r",encoding='utf-8') as f:
+        subjects:dict = dict(load(f))
+        ks:list = subjects.keys()
+        for k in ks:
+            cfs = subjects[k].get('cfs')
+            if cfs:
+                errors = []
+                for cf in cfs:
+                    if cf not in ks:
+                        errors.append(cf)
+                if errors:
+                    all_errors.append({k:errors})
+    return all_errors
+
+
+def extractSubjectCfs()->dict:
+    """ """
+    logger = f_logger()
+    cfs:dict = {}
+    count: int = 0
+    actual_count:int = 0
+    with open('data/subjects.json',"r",encoding='utf-8') as f:
+        subjects:dict = dict(load(f))
+        ks:list = subjects.keys()
+        for k in ks:
+            cfs = subjects[k].get('cfs')
+            if cfs:
+                att = len(cfs)
+                count += att
+                successes, redundancies = linkSubjects(k, cfs)
+                actual_count += successes
+                if att != successes + len(redundancies):
+                    logger.warning("""{} relationships were expected, {} were created for {}. 
+                                   Expected targets were {}. Redundancies ({}) do not seem to account for this.""".format(
+                                       att, successes, k, cfs, redundancies))
+    return {'expected': count, 'created': actual_count}
+
+
+def parseTMIparen(tmi_paren:str)->list[str]:
+    """ """
+    facet:str = ''
+    content:list[str] = tmi_paren[1:-1].split(', ')
+    if content[0].lower()[0:4] == 'cf. ':
+        content[0] = content[0][4:]
+        content = [c.strip('+.') for c in content]
+        facet = 'cf.'
+    elif search(r"[0-9]", tmi_paren):
+        content = [', '.join(content)]
+        facet = 'literature'
+    else:
+        facet = 'sub_traditions'
+    return content, facet
+
+
+
+def parseRefKey(ref_key:str)->dict:
+    """ """
+    pre:str = ref_key.lstrip(' .)').rstrip(':')
+    groups = search(r"([ .A-Za-z]+)(\([ .A-Za-z]+\))?", pre)
+    root = ""
+    subs = []
+    if groups:
+        r = groups.group(1).strip().rstrip('.')
+        r_split = r.split('.')
+        r_index = 0 if len(r_split) == 1 else -1
+        root = r_split[r_index].strip()
+        pre_subs = groups.group(2)
+        if pre_subs:
+            subs = pre_subs[1:-1].split(', ')
+    return root, subs
+
+
+
+def mergeTrad(trad:dict, subs:list)->dict:
+    """ """
+    trad['cardinality'] += 1
+    for s in subs:
+        counts:dict = trad['sub_traditions']
+        if counts.get(s):
+            counts[s] += 1
+        else:
+            counts[s] = 1
+    return trad
+
+def collectMotifReferenceElements():
+    """ """
+    traditions:dict = {}
+    citations:dict = {}
+    with open('data/tmi.json',"r",encoding='utf-8') as f:
+        motifs = iter(load(f))
+        for m in motifs:
+            # m = next(motifs)
+            refs:str = m['references']
+            roots = findall(r"[ .A-Za-z()]+:", refs)
+            for r in roots:
+                root, subs = parseRefKey(r)
+                trad = traditions.get(root)
+                trad = trad if trad else {'cardinality':0, 'sub_traditions': {}}
+                traditions[root] = mergeTrad(trad, subs)
+    #             cite_list = findall(r"[:].[;]", refs)
+    #             key_cites = ref_key_dict.get('literature')
+    #             if key_cites:
+    #                 cite_list += key_cites
+    #             for c in cite_list:
+    #                 ref = c.strip()
+    #                 if citations.get(ref):
+    #                     citations[ref] += 1
+    #                 else:
+    #                     citations[ref] = 1
+    # file_name0:str = "data/tmi_cites.json"
+    # with open(file_name0, 'w', encoding="utf-8") as f:
+    #     dump(citations, f, indent=1, ensure_ascii=False)
+    file_name1:str = "data/tmi_trads.json"
+    with open(file_name1, 'w', encoding="utf-8") as f:
+        dump(traditions, f, indent=1, ensure_ascii=False)
+    return file_name1
+    
+
+def refID(raw:str, known_keys:list[str]):
+    """ """
+    spl = raw.split()
+    base = spl[0].strip(',.')
+    i = 1
+    while base in known_keys:
+        base = base + ' ' + spl[i]
+        i += 1
+    return base
+
+
+def buildTMIrefs():
+    """ """
+    refs:dict = {}
+    id_str = ""
+    with open('data/motifs_refs.txt',"r",encoding='utf-8') as f:
+        # raw = iter(f)
+        for r in f:
+            special = None
+            if r[0] in ['*', '☉']:
+                special = 'examined' if r[0] == '*' else 'motif_numbers_only'
+                r = r[1:]
+            if r.find('=') != -1:
+                id_str = r.split(' = ')[0]
+            else:
+                id_str = refID(r, refs.keys())
+            ref = { 'raw': r,  'examined': False, 'motif_numbers_only': False}
+            if special:
+                ref[special] = True
+            refs[id_str] = ref
+    file_name1:str = "data/tmi_refs.json"
+    with open(file_name1, 'w', encoding="utf-8") as f:
+        dump(refs, f, indent=1, ensure_ascii=False)
+    return file_name1
+
+            
+buildTMIrefs()
+# collectMotifReferenceElements()
+# print(createNeo4jSubjects())
+# parseSubjects2json()
+# print(extractSubjectCfs())
